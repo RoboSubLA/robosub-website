@@ -8,16 +8,39 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  height: 50rem;
+  /* background-color:; */
+}
+
+.heroTitle {
+  font-size: large;
+  font-size: 10rem;
+}
+
+.heroSubTitle {
+  font-size: 2rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#heroButton {
+  font-size: 2rem;
+  margin: .5rem;
+  color: inherit;
+  border-color: inherit;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
-}
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  .heroTitle {
+    font-size: 2rem;
+  }
 }
