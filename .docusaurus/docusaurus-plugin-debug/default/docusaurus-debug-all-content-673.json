@@ -674,6 +674,30 @@
     "default": [
       {
         "type": "jsx",
+        "permalink": "/events",
+        "source": "@site/src/pages/events.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/events",
+        "source": "@site/src/pages/events.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/fleet",
+        "source": "@site/src/pages/fleet.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/fleet",
+        "source": "@site/src/pages/fleet.md",
+        "title": "My Markdown page",
+        "description": "This is a Markdown page",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
       },
@@ -686,6 +710,41 @@
         "frontMatter": {
           "title": "Markdown page example"
         }
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources",
+        "source": "@site/src/pages/resources.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources",
+        "source": "@site/src/pages/resources.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/sponsors",
+        "source": "@site/src/pages/sponsors.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/sponsors",
+        "source": "@site/src/pages/sponsors.md",
+        "title": "My Markdown page",
+        "description": "This is a Markdown page",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/team",
+        "source": "@site/src/pages/team.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/team",
+        "source": "@site/src/pages/team.md",
+        "frontMatter": {}
       }
     ]
   },

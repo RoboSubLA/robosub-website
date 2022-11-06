@@ -179,12 +179,82 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcomed-9-f-ffb"
   },
+  "/events-fa9": {
+    "__comp": "__comp---site-src-pages-events-js-801-66d",
+    "__context": {
+      "plugin": "plugin---markdown-page-275-a50"
+    },
+    "config": "config---5-e-9-4f3"
+  },
+  "/events-aa1": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-275-a50"
+    },
+    "content": "content---events-290-6e7"
+  },
+  "/fleet-233": {
+    "__comp": "__comp---site-src-pages-fleet-js-961-96b",
+    "__context": {
+      "plugin": "plugin---markdown-page-275-a50"
+    },
+    "config": "config---5-e-9-4f3"
+  },
+  "/fleet-060": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-275-a50"
+    },
+    "content": "content---fleet-60-e-35a"
+  },
   "/markdown-page-68f": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
       "plugin": "plugin---markdown-page-275-a50"
     },
     "content": "content---markdown-page-393-028"
+  },
+  "/resources-c52": {
+    "__comp": "__comp---site-src-pages-resources-jscfe-486",
+    "__context": {
+      "plugin": "plugin---markdown-page-275-a50"
+    },
+    "config": "config---5-e-9-4f3"
+  },
+  "/resources-cf7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-275-a50"
+    },
+    "content": "content---resourcesa-19-eef"
+  },
+  "/sponsors-41a": {
+    "__comp": "__comp---site-src-pages-sponsors-js-571-a8b",
+    "__context": {
+      "plugin": "plugin---markdown-page-275-a50"
+    },
+    "config": "config---5-e-9-4f3"
+  },
+  "/sponsors-bc5": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-275-a50"
+    },
+    "content": "content---sponsorsb-63-ad8"
+  },
+  "/team-0e1": {
+    "__comp": "__comp---site-src-pages-team-js-859-9b3",
+    "__context": {
+      "plugin": "plugin---markdown-page-275-a50"
+    },
+    "config": "config---5-e-9-4f3"
+  },
+  "/team-fa7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-275-a50"
+    },
+    "content": "content---team-634-649"
   },
   "/docs-473": {
     "__comp": "__comp---theme-doc-page-1-be-9be",

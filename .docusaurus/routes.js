@@ -93,8 +93,58 @@ export default [
     exact: true
   },
   {
+    path: '/events',
+    component: ComponentCreator('/events', 'fa9'),
+    exact: true
+  },
+  {
+    path: '/events',
+    component: ComponentCreator('/events', 'aa1'),
+    exact: true
+  },
+  {
+    path: '/fleet',
+    component: ComponentCreator('/fleet', '233'),
+    exact: true
+  },
+  {
+    path: '/fleet',
+    component: ComponentCreator('/fleet', '060'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '68f'),
+    exact: true
+  },
+  {
+    path: '/resources',
+    component: ComponentCreator('/resources', 'c52'),
+    exact: true
+  },
+  {
+    path: '/resources',
+    component: ComponentCreator('/resources', 'cf7'),
+    exact: true
+  },
+  {
+    path: '/sponsors',
+    component: ComponentCreator('/sponsors', '41a'),
+    exact: true
+  },
+  {
+    path: '/sponsors',
+    component: ComponentCreator('/sponsors', 'bc5'),
+    exact: true
+  },
+  {
+    path: '/team',
+    component: ComponentCreator('/team', '0e1'),
+    exact: true
+  },
+  {
+    path: '/team',
+    component: ComponentCreator('/team', 'fa7'),
     exact: true
   },
   {

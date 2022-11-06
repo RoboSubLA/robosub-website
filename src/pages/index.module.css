@@ -9,7 +9,6 @@
   position: relative;
   overflow: hidden;
   height: 50rem;
-  /* background-color:; */
 }
 
 .heroTitle {
@@ -29,7 +28,7 @@
 }
 
 #heroButton {
-  font-size: 2rem;
+  font-size: 1.2rem;
   margin: .5rem;
   color: inherit;
   border-color: inherit;
@@ -41,6 +40,17 @@
   }
 
   .heroTitle {
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+
+  .heroSubTitle {
+    font-size: 1rem;
+  }
+
+  #heroButton {
+    font-size: 1rem;
+    margin: .25rem;
+    color: inherit;
+    border-color: inherit;
   }
 }

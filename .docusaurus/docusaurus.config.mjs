@@ -44,20 +44,34 @@ export default {
       "title": "AUV",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/submarine-black-filled.svg"
+        "src": "img/submarine_black_filled.svg"
       },
       "style": "primary",
       "items": [
         {
-          "type": "doc",
-          "docId": "intro",
-          "position": "left",
-          "label": "Tutorial"
+          "to": "/fleet",
+          "label": "The Fleet",
+          "position": "right"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
+          "to": "/sponsors",
+          "label": "Sponsors",
+          "position": "right"
+        },
+        {
+          "to": "/team",
+          "label": "Team",
+          "position": "right"
+        },
+        {
+          "to": "/resources",
+          "label": "Resources",
+          "position": "right"
+        },
+        {
+          "to": "/events",
+          "label": "Events",
+          "position": "right"
         },
         {
           "href": "https://github.com/facebook/docusaurus",
