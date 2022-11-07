@@ -41,10 +41,10 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "AUV",
+      "title": "CSULA-ROBOSUB",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/submarine_black_filled.svg"
+        "src": "img/robosubla_logo_trans.png"
       },
       "style": "primary",
       "items": [
@@ -75,56 +75,16 @@ export default {
         },
         {
           "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
+          "label": "Discord",
           "position": "right"
         }
       ],
       "hideOnScroll": false
     },
     "footer": {
-      "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "style": "light",
+      "links": [],
+      "copyright": "Copyright © 2022 Robosub LA Built with Docusaurus."
     },
     "prism": {
       "theme": {

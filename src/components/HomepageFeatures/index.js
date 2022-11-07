@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/who_are_we.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We are Aren
       </>
     ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/what_we_do.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        We do Aren
       </>
     ),
   },
@@ -28,8 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/submarine_black_filled.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The fundamental goal of the RoboSub competition is for an Autonomous Underwater Vehicle (AUV) to demonstrate its autonomy by completing underwater tasks, with a new theme each year
       </>
     ),
   },

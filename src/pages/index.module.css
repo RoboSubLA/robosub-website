@@ -21,7 +21,7 @@
 }
 
 .buttons {
-  margin-top: 2rem;
+  margin: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,6 +32,11 @@
   margin: .5rem;
   color: inherit;
   border-color: inherit;
+  border-width: .3rem;
+}
+
+#heroButton:hover {
+  color: rgb(253, 208, 75);
 }
 
 @media screen and (max-width: 996px) {
