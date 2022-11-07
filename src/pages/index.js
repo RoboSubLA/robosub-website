@@ -10,24 +10,24 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero hero--background', styles.heroBanner)}>
       <div className="container">
       <AnimatedBackground/>
         <Box
           component="img"
           sx={{
-            maxHeight: { xs: 200, md: 400 },
-            maxWidth: { xs: 200, md: 400 },
+            maxHeight: { xs: 200, md: 350 },
+            maxWidth: { xs: 200, md: 350 },
           }}
           alt="RobosubLa Logo"
-          src={require("../../static/img/robosubla_logo_trans.png").default}
+          src={require("../../static/img/RoboSubLogo.png").default}
         />
         <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
         <p className={styles.heroSubTitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Button id={styles.heroButton} size='large' variant='outlined' href='/docs/intro'>WATCH TRAILER</Button>
           <Button id={styles.heroButton} size='large' variant='outlined' href='/docs/intro'>SIGN UP</Button>
-          <Button id={styles.heroButton} size='large' variant='outlined' href='/docs/intro'>GET STARTED</Button> 
+          <Button id={styles.heroButton} size='large' variant='outlined' href='/resources'>GET STARTED</Button> 
         </div>
       </div>
     </header>

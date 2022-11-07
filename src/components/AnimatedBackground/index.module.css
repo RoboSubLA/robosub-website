@@ -13,7 +13,7 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgb(253, 208, 75);
+    background: var(--ifm-color-primary-accent);
     animation: animate 25s linear infinite;
     bottom: -150px;
     

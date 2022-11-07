@@ -44,7 +44,7 @@ export default {
       "title": "CSULA-ROBOSUB",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/robosubla_logo_trans.png"
+        "src": "img/robosubla_logo_basic.png"
       },
       "style": "primary",
       "items": [

@@ -4,16 +4,19 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 3rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  height: 50rem;
+  height: 100vh;
+  background-image: linear-gradient(var(--ifm-color-primary),var(--ifm-color-primary-darkest));
+  color: var(--ifm-color-text);
+
 }
 
 .heroTitle {
-  font-size: large;
   font-size: 10rem;
+  margin: 0%;
 }
 
 .heroSubTitle {
@@ -21,7 +24,7 @@
 }
 
 .buttons {
-  margin: 4rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
