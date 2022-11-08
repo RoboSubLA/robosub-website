@@ -10,7 +10,7 @@
   --ifm-color-text: black;
   
   /* accent color */
-  --ifm-color-primary-accent: #fdd04b;
+  --ifm-color-primary-accent: #fcc92f;
   
   --ifm-color-primary: #14b3fd;
   --ifm-color-primary-darker: #0089df;
@@ -40,4 +40,26 @@
   --ifm-color-primary-lightest: #006aff;
   
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+/* Global styling of Navbar */
+.navItems {
+  color: var(--ifm-color-text);
+}
+
+.navItems:hover {
+  color: var(--ifm-color-primary-accent);
+}
+
+.navbar{
+  color: var(--ifm-color-primary-accent);
+}
+
+.navbar__title {
+  color: var(--ifm-color-text);
+}
+
+.navbar__title:hover {
+  color: var(--ifm-color-primary-accent);
 }

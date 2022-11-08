@@ -51,32 +51,38 @@ export default {
         {
           "to": "/fleet",
           "label": "The Fleet",
-          "position": "right"
+          "position": "right",
+          "className": "navItems"
         },
         {
           "to": "/sponsors",
           "label": "Sponsors",
-          "position": "right"
+          "position": "right",
+          "className": "navItems"
         },
         {
           "to": "/team",
           "label": "Team",
-          "position": "right"
+          "position": "right",
+          "className": "navItems"
         },
         {
           "to": "/resources",
           "label": "Resources",
-          "position": "right"
+          "position": "right",
+          "className": "navItems"
         },
         {
           "to": "/events",
           "label": "Events",
-          "position": "right"
+          "position": "right",
+          "className": "navItems"
         },
         {
           "href": "https://github.com/facebook/docusaurus",
           "label": "Discord",
-          "position": "right"
+          "position": "right",
+          "className": "navItems"
         }
       ],
       "hideOnScroll": false

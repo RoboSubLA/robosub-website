@@ -39,7 +39,7 @@
 }
 
 #heroButton:hover {
-  color: rgb(253, 208, 75);
+  color: var(--ifm-color-primary-accent)
 }
 
 @media screen and (max-width: 996px) {
