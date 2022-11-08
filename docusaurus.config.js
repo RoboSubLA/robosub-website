@@ -58,7 +58,6 @@ const config = {
     ({
       navbar: {
         title: 'CSULA-ROBOSUB',
-        className: 'navTitle',
         logo: {
           alt: 'My Site Logo',
           src: 'img/robosubla_logo_basic.png',
