@@ -1,7 +1,8 @@
-# Website
+<div align="center">
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<img src="/static/img/splashscreen.png" alt="RobosubLogo" width="100%"/>
 
+# Getting Started
 ### Local Development
 
 ```
@@ -18,18 +19,37 @@ $ npm run build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
+### System Requirements
 
-Using SSH:
+:bulb: Before you begin, make sure you have the following installed:
 
-```
-$ USE_SSH=true npm deploy
-```
+- [Node.js v16 or above](https://nodejs.org/en/download/)
+- [React](https://reactjs.org/)
+- [Docusaurus](https://docusaurus.io/)
+- [Material UI](https://mui.com/)
+- [VScode](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/)
 
-Not using SSH:
+# Contributing
 
-```
-$ GIT_USER=<Your GitHub username> npm deploy
-```
+Steps to contribute....
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+# Contributors ✨
+
+Thanks goes to these wonderful people ([:hugs:](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://amplication.com/"><img src="https://avatars.githubusercontent.com/u/26438045?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gonzo</b></sub></a><br /><a href="https://github.com/RoboSubCSULA/robosub-website/commits?author=gonzo-32" title="Code">💻</a></td>
+
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
