@@ -26,7 +26,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  plugins: ['docusaurus-plugin-sass'],
   presets: [
     [
       'classic',
@@ -91,6 +91,12 @@ const config = {
           {
             to: '/events',
             label: 'Events',
+            position: 'right',
+            className: 'navItems',
+          },
+          {
+            to: '/timeline',
+            label: 'Timeline',
             position: 'right',
             className: 'navItems',
           },

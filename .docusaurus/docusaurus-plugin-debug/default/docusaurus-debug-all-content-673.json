@@ -745,11 +745,17 @@
         "permalink": "/team",
         "source": "@site/src/pages/team.md",
         "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/timeline/",
+        "source": "@site/src/pages/timeline/index.js"
       }
     ]
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
+  "docusaurus-plugin-sass": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

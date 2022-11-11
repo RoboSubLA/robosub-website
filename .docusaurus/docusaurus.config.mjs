@@ -21,6 +21,9 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "plugins": [
+    "docusaurus-plugin-sass"
+  ],
   "presets": [
     [
       "classic",
@@ -75,6 +78,12 @@ export default {
         {
           "to": "/events",
           "label": "Events",
+          "position": "right",
+          "className": "navItems"
+        },
+        {
+          "to": "/timeline",
+          "label": "Timeline",
           "position": "right",
           "className": "navItems"
         },
@@ -320,7 +329,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],
