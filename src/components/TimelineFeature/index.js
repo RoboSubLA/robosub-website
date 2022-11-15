@@ -6,7 +6,6 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-
 import ComputerIcon from '@mui/icons-material/Computer';
 import ConstructionIcon from '@mui/icons-material/Construction';
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
@@ -26,7 +25,6 @@ const EventTypeEnum = {
 };
 
 const generateIcon = (type) => {
- 
   switch(type){
     case EventTypeEnum.Important:
       return(<TimelineDot color='warning'><PriorityHighIcon/></TimelineDot>);
@@ -48,11 +46,10 @@ const generateIcon = (type) => {
 }    
 
 const GenerateTimelineItems = () => {
-  console.log('Logging timeline.json ==>> ', json)
 
   return json['2022-2023'].map((event)=> {
     const date = new Date(event.date)
-    console.log('logging date =>>>>>> ', date.toDateString())
+
     return(
     <TimelineItem>
       
@@ -62,7 +59,7 @@ const GenerateTimelineItems = () => {
           variant="body2"
           color="text.secondary"
         >
-          { date.toDateString() }
+          <p className={styles.eventDate}>{ date.toDateString() } </p>
         </TimelineOppositeContent>
       
         <TimelineSeparator>
@@ -74,8 +71,8 @@ const GenerateTimelineItems = () => {
         </TimelineSeparator>
         
         <TimelineContent className={styles.timelineContent}>
-          <h2>{ event.title }</h2>
-          <p>{ event.description }</p>
+          <h2 className={styles.eventTitle}>{ event.title }</h2>
+          <p className={styles.eventDescription}>{ event.description }</p>
         </TimelineContent>
       
       </TimelineItem>
@@ -86,8 +83,11 @@ const GenerateTimelineItems = () => {
 
 export default function TimeLine() {
   return (
-    <Timeline position="alternate">
-      <GenerateTimelineItems/>
-    </Timeline>
+    <div className={styles.timeline} >
+      <Timeline position="alternate">
+        <GenerateTimelineItems/>
+      </Timeline>
+    </div>
+    
   );
 }

@@ -7,8 +7,11 @@ import TimelineFeature from '../../components/TimelineFeature';
 import styles from './styles.module.css';
 
 export default function Timeline() {
-  const DAYS_TILL_COMPETITION_IN_MS = 23223223323;
+  const COMPETITION_DATE = new Date('2023-07-27')
+   
   const NOW_IN_MS = new Date().getTime();
+
+  const DAYS_TILL_COMPETITION_IN_MS = COMPETITION_DATE - NOW_IN_MS ;
 
   const dateTimeAfterDaysTillComp = NOW_IN_MS + DAYS_TILL_COMPETITION_IN_MS;
 
@@ -17,8 +20,6 @@ export default function Timeline() {
       <div className={styles.heroBanner}>
         <h1 className={styles.heroTitle}>RoboSub Competition</h1>
         <CountdownTimer targetDate={dateTimeAfterDaysTillComp} />
-      </div>
-      <div className={styles.timeline}>
         <TimelineFeature/>
       </div>
     </Layout>
