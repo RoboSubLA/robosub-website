@@ -4,7 +4,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-    height: 25vh;
+    height: 40vh;
     background-image: linear-gradient(var(--ifm-color-primary),var(--ifm-color-primary-darkest));
     color: var(--ifm-color-text);
 }
@@ -14,3 +14,31 @@
     margin: 0%;
 }
 
+.timeline {
+  background-color: var(--ifm-color-primary);
+  height: 60vh;
+  width: 100%;
+  overflow: auto;
+  float: left;
+  /* position: relative; */
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+    
+  .heroTitle {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .heroBanner {
+    padding: 1rem;
+  }
+    
+  .heroTitle {
+    font-size: 2rem;
+  }
+}

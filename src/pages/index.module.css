@@ -2,6 +2,9 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+ * {
+  font-family: var(--ifm-heading-font-family);
+ }
 
 .heroBanner {
   padding: 3rem 0;
@@ -21,6 +24,7 @@
 
 .heroSubTitle {
   font-size: 2rem;
+  /* font-family: var(--ifm-heading-font-family); */
 }
 
 .buttons {
@@ -31,6 +35,7 @@
 }
 
 #heroButton {
+  font-family: var(--ifm-heading-font-family);
   font-size: 1.2rem;
   margin: .5rem;
   color: inherit;
@@ -56,7 +61,7 @@
   }
 
   #heroButton {
-    font-size: 1rem;
+    font-size: .7rem;
     margin: .25rem;
     color: inherit;
     border-color: inherit;

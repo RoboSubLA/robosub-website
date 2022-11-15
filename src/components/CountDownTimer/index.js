@@ -1,6 +1,8 @@
 import React from 'react';
 import DateTimeDisplay from './DateTimeDisplay';
 import { useCountdown } from '../../hooks/useCountDown';
+import { Card, CardContent } from '@mui/material';
+
 import styles from './styles.module.css';
 
 const ExpiredNotice = () => {
@@ -16,18 +18,17 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
     <div className={styles.showCounter}>
       <a
-        href=""
         target="_blank"
         rel="noopener noreferrer"
         className={styles.countdownLink}
       >
         <DateTimeDisplay value={days} type={'Days'} isDanger={days <= 3} />
-        <p></p>
-        <DateTimeDisplay value={hours} type={':'} isDanger={false} />
-        <p></p>
-        <DateTimeDisplay value={minutes} type={':'} isDanger={false} />
-        <p></p>
-        <DateTimeDisplay value={seconds} type={'s'} isDanger={false} />
+        {/* <p></p> */}
+        <DateTimeDisplay value={hours} type={'Hours'} isDanger={false} />
+        {/* <p></p> */}
+        <DateTimeDisplay value={minutes} type={'Mins'} isDanger={false} />
+        {/* <p></p> */}
+        <DateTimeDisplay value={seconds} type={'Secs'} isDanger={false} />
       </a>
     </div>
   );

@@ -226,6 +226,15 @@ $color2: #fcc92f;
     }
 }
 
+@media screen and (max-width: 996px) {  
+    .heroTitle {
+      font-size: 2rem;
+    }
+    .sea .submarineWrapper {
+        display: none;
+    }
+}
+
 
 @keyframes spin { 
     100% { 
@@ -251,7 +260,6 @@ $color2: #fcc92f;
         background-size: 100% 20px;
     }
 }
-
 
 @keyframes diving {
     0% {
