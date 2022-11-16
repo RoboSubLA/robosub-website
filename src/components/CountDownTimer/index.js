@@ -8,8 +8,8 @@ import styles from './styles.module.css';
 const ExpiredNotice = () => {
   return (
     <div className={styles.expiredNotice}>
-      <span>Expired!!!</span>
-      <p>Please select a future date and time.</p>
+      <span>Happening NOW!!!</span>
+      <p>Wish Us GoodLuck!!</p>
     </div>
   );
 };
