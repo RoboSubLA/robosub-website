@@ -128,13 +128,8 @@ export default [
     exact: true
   },
   {
-    path: '/sponsors',
-    component: ComponentCreator('/sponsors', '41a'),
-    exact: true
-  },
-  {
-    path: '/sponsors',
-    component: ComponentCreator('/sponsors', 'bc5'),
+    path: '/sponsors/',
+    component: ComponentCreator('/sponsors/', '3c5'),
     exact: true
   },
   {
