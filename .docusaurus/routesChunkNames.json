@@ -228,19 +228,12 @@
     },
     "content": "content---resourcesa-19-eef"
   },
-  "/sponsors-41a": {
-    "__comp": "__comp---site-src-pages-sponsors-js-571-a8b",
+  "/sponsors/-3c5": {
+    "__comp": "__comp---site-src-pages-sponsors-index-js-8-a-7-25f",
     "__context": {
       "plugin": "plugin---events-275-4dd"
     },
     "config": "config---events-5-e-9-da1"
-  },
-  "/sponsors-bc5": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---events-275-4dd"
-    },
-    "content": "content---sponsorsb-63-ad8"
   },
   "/team-0e1": {
     "__comp": "__comp---site-src-pages-team-js-859-9b3",
