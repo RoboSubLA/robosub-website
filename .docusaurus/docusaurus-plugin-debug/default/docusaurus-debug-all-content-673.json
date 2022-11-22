@@ -724,19 +724,6 @@
       },
       {
         "type": "jsx",
-        "permalink": "/sponsors",
-        "source": "@site/src/pages/sponsors.js"
-      },
-      {
-        "type": "mdx",
-        "permalink": "/sponsors",
-        "source": "@site/src/pages/sponsors.md",
-        "title": "My Markdown page",
-        "description": "This is a Markdown page",
-        "frontMatter": {}
-      },
-      {
-        "type": "jsx",
         "permalink": "/team",
         "source": "@site/src/pages/team.js"
       },
@@ -750,7 +737,12 @@
         "type": "jsx",
         "permalink": "/timeline/",
         "source": "@site/src/pages/timeline/index.js"
-      }
+      },
+      {
+        "type": "jsx",
+        "permalink": "/sponsors/",
+        "source": "@site/src/pages/sponsors/index.js"
+       },
     ]
   },
   "docusaurus-plugin-debug": {},
