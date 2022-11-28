@@ -2,34 +2,21 @@
     "2022-2023": [
         {
             "type": "general",
-            "title": "General Update",
-            "description": "This is a general update",
-            "date": "2022-11-14T06:40:04.517Z"
+            "title": "General Meeting (Date-Focused)",
+            "description": "Brief Recap on General Meeting",
+            "date": "2022-11-19T06:40:04.517Z"
         },
         {
             "type": "important",
-            "title": "Important Update",
+            "title": "Important Update/Milestone?",
             "description": "This is a important update",
-            "date": "2022-11-14T07:40:04.517Z"
-        },
-        {
-            "type": "me",
-            "title": "Frame&Hull Team Update",
-            "description": "Frame has began to be assembled",
-            "date": "2022-11-14T07:40:04.517Z"
-        }
-        ,
-        {
-            "type": "cs",
-            "title": "Computer Vision Update",
-            "description": "Computer Vision started training their Algorithm",
             "date": "2022-11-14T07:40:04.517Z"
         }
         ,
         {
             "type": "ee",
-            "title": "Power distribution Update",
-            "description": "Electice team competed pcb board",
+            "title": "Electronics Update (Subteam-Focused)",
+            "description": "Electronics team competed pcb board",
             "date": "2022-11-14T07:40:04.517Z"
         },
         {
@@ -40,7 +27,7 @@
         },
         {
             "type": "me",
-            "title": "Frame&Hull Team Update",
+            "title": "Frame & Hull Team Update",
             "description": "Frame has began to be assembled",
             "date": "2022-11-14T07:40:04.517Z"
         }
@@ -49,65 +36,6 @@
             "type": "cs",
             "title": "Computer Vision Update",
             "description": "Computer Vision started training their Algorithm",
-            "date": "2022-11-14T07:40:04.517Z"
-        }
-        ,
-        {
-            "type": "ee",
-            "title": "Power distribution Update",
-            "description": "Electice team competed pcb board",
-            "date": "2022-11-14T07:40:04.517Z"
-        },
-        {
-            "type": "important",
-            "title": "Important Update",
-            "description": "This is a important update",
-            "date": "2022-11-14T07:40:04.517Z"
-        },
-        {
-            "type": "me",
-            "title": "Frame&Hull Team Update",
-            "description": "Frame has began to be assembled",
-            "date": "2022-11-14T07:40:04.517Z"
-        }
-        ,
-        {
-            "type": "cs",
-            "title": "Computer Vision Update",
-            "description": "Computer Vision started training their Algorithm",
-            "date": "2022-11-14T07:40:04.517Z"
-        }
-        ,
-        {
-            "type": "ee",
-            "title": "Power distribution Update",
-            "description": "Electice team competed pcb board",
-            "date": "2022-11-14T07:40:04.517Z"
-        },
-        {
-            "type": "important",
-            "title": "Important Update",
-            "description": "This is a important update",
-            "date": "2022-11-14T07:40:04.517Z"
-        },
-        {
-            "type": "me",
-            "title": "Frame&Hull Team Update",
-            "description": "Frame has began to be assembled",
-            "date": "2022-11-14T07:40:04.517Z"
-        }
-        ,
-        {
-            "type": "cs",
-            "title": "Computer Vision Update",
-            "description": "Computer Vision started training their Algorithm",
-            "date": "2022-11-14T07:40:04.517Z"
-        }
-        ,
-        {
-            "type": "ee",
-            "title": "Power distribution Update",
-            "description": "Electice team competed pcb board",
             "date": "2022-11-14T07:40:04.517Z"
         }
     ]
