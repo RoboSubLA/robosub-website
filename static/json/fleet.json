@@ -1,0 +1,108 @@
+[
+    {
+        "year": "2022-2023",
+        "subs": [
+            {
+                "team": "Senior Design Team",
+                "subName": "Lanturn",
+                "subImg": "lanturn.jpg"
+            },
+            {
+                "team": "Club Team",
+                "subName": "Blastoise",
+                "subImg": "blastoise.jpg"
+            }
+        ],
+        "rankings": {
+            "overall": "NaN",
+            "video": "NaN",
+            "website": "NaN",
+            "techReport": "NaN"
+        }
+    },
+    {
+        "year": "2021-2022",
+        "subs": [
+            {
+                "team": "Senior Design Team",
+                "subName": "Lanturn",
+                "subImg": "lanturn.jpg"
+            },
+            {
+                "team": "Club Team",
+                "subName": "Blastoise",
+                "subImg": "blastoise.jpg"
+            }
+        ],
+        "rankings": {
+            "overall": "8st",
+            "video": "32nd",
+            "website": "21st",
+            "techReport": "25th"
+        }
+    },
+    {
+        "year": "2020-2021",
+        "subs": [
+            {
+                "team": "Senior Design Team",
+                "subName": "Lanturn",
+                "subImg": "lanturn2019_2021.png"
+            },
+            {
+                "team": "Club Team",
+                "subName": "Donphan",
+                "subImg": "donphan2021.jpeg"
+            }
+        ],
+        "rankings": {
+            "overall": "~",
+            "video": "22nd",
+            "website": "28st",
+            "techReport": "36th"
+        }
+    },
+    {
+        "year": "2019-2020",
+        "subs": [
+            {
+                "team": "Senior Design Team",
+                "subName": "Lanturn",
+                "subImg": "lanturn2019_2021.png"
+            },
+            {
+                "team": "Club Team",
+                "subName": "Donphan",
+                "subImg": "donphan2020.jpeg"
+            }
+        ],
+        "rankings": {
+            "overall": "11th",
+            "video": "9nd",
+            "website": "13th",
+            "techReport": "20th"
+        }
+    },
+    {
+        "year": "2018-2019",
+        "subs": [
+            {
+                "team": "Senior Design Team",
+                "subName": "Gyarados",
+                "subImg": "gyarados.png"
+            },
+            {
+                "team": "Club Team",
+                "subName": "Magikarp",
+                "subImg": "magikarp.png"
+            }
+        ],
+        "rankings": {
+            "overall": "31th",
+            "video": "~",
+            "website": "~",
+            "techReport": "~"
+        }
+    }
+]
+

@@ -103,13 +103,8 @@ export default [
     exact: true
   },
   {
-    path: '/fleet',
-    component: ComponentCreator('/fleet', '233'),
-    exact: true
-  },
-  {
-    path: '/fleet',
-    component: ComponentCreator('/fleet', '060'),
+    path: '/fleet/',
+    component: ComponentCreator('/fleet/', 'dc8'),
     exact: true
   },
   {
