@@ -26,6 +26,11 @@
       "type": "package",
       "name": "@docusaurus/theme-classic",
       "version": "2.2.0"
+    },
+    "docusaurus-plugin-sass": {
+      "type": "package",
+      "name": "docusaurus-plugin-sass",
+      "version": "0.2.2"
     }
   }
 }

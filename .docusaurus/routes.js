@@ -138,6 +138,11 @@ export default [
     exact: true
   },
   {
+    path: '/timeline/',
+    component: ComponentCreator('/timeline/', '912'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', '473'),
     routes: [
