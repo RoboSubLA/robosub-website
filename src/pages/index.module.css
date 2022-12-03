@@ -6,6 +6,11 @@
   font-family: var(--ifm-heading-font-family);
  }
 
+.heroContainer {
+  z-index: 1;
+  margin: auto;
+}
+
 .heroBanner {
   padding: 3rem 0;
   text-align: center;
@@ -65,5 +70,27 @@
     margin: .25rem;
     color: inherit;
     border-color: inherit;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .heroBanner {
+    padding: .5rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSubTitle {
+    font-size: .5rem;
+  }
+
+  #heroButton {
+    font-size: .3rem;
+    margin: .25rem;
+    color: inherit;
+    border-color: inherit;
+    border-width: 1px;
   }
 }

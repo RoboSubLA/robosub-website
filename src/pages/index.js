@@ -11,8 +11,8 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--background', styles.heroBanner)}>
-      <div className="container">
       <AnimatedBackground/>
+      <div className={styles.heroContainer}>
         <Box
           component="img"
           sx={{
