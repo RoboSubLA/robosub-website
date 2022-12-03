@@ -193,19 +193,12 @@
     },
     "content": "content---events-290-6e7"
   },
-  "/fleet-233": {
-    "__comp": "__comp---site-src-pages-fleet-js-961-96b",
+  "/fleet/-dc8": {
+    "__comp": "__comp---site-src-pages-fleet-index-js-6-b-2-69a",
     "__context": {
       "plugin": "plugin---events-275-4dd"
     },
     "config": "config---events-5-e-9-da1"
-  },
-  "/fleet-060": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---events-275-4dd"
-    },
-    "content": "content---fleet-60-e-35a"
   },
   "/markdown-page-68f": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",

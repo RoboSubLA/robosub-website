@@ -685,19 +685,6 @@
       },
       {
         "type": "jsx",
-        "permalink": "/fleet",
-        "source": "@site/src/pages/fleet.js"
-      },
-      {
-        "type": "mdx",
-        "permalink": "/fleet",
-        "source": "@site/src/pages/fleet.md",
-        "title": "My Markdown page",
-        "description": "This is a Markdown page",
-        "frontMatter": {}
-      },
-      {
-        "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
       },
@@ -732,6 +719,11 @@
         "permalink": "/team",
         "source": "@site/src/pages/team.md",
         "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/fleet/",
+        "source": "@site/src/pages/fleet/index.js"
       },
       {
         "type": "jsx",
