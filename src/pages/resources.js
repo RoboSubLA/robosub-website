@@ -1,11 +1,11 @@
-import React from 'react';
-import Layout from '@theme/Layout';
+import React from "react";
+import Layout from "@theme/Layout";
+import styles from './resources.module.css';
 
 export default function ResourcesPage() {
   return (
     <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
+      <h1>Resources</h1>
     </Layout>
   );
 }

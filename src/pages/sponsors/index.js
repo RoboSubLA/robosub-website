@@ -51,23 +51,38 @@ const contactsJSON = {
 const SponsorsHeader = () => {
     return (
         <Box className={styles.ourSponsorsLogosContainer} sx={{ flexGrow: 1 }}>
+        <h1> GOLD SPONSORS</h1>
             <Grid container spacing={1}>
                 <Grid item xs={4}>
-                    <img className={styles.csulaLogo} src={require('@site/static/img/sponsors/csula.png').default}/>
-                </Grid>
+                    <img className={styles.csulaLogo} src={require('@site/static/img/sponsors/csula.png').default}/>                </Grid>
                 <Grid item xs={4}>
-                    <img className={styles.sparkfunLogo} src={require('@site/static/img/sponsors/sparkfun.png').default}/>
+                    <img className={styles.vectornavLogo} src={require('@site/static/img/sponsors/vectornav.png').default}/>
                 </Grid>
                 <Grid item xs={4}>
                     <img className={styles.onrLogo} src={require('@site/static/img/sponsors/onr.png').default}/>
                 </Grid>
+            </Grid>
+
+        <h1>SILVER SPONSORS</h1>
+            <Grid container spacing={1}>
+              <Grid item xs={1}></Grid>
+                <Grid item xs={4}>
+                <img className={styles.bluetrailLogo} src={require('@site/static/img/sponsors/bluetrail.png').default}/>
+                </Grid>
+                <Grid item xs={2}></Grid>
+                <Grid item xs={4}>
+                <img className={styles.blueroboticsLogo} src={require('@site/static/img/sponsors/bluerobotics.png').default}/>
+                </Grid>
+            </Grid>
+          <h1> BRONZE SPONSORS </h1>
+            <Grid container spacing={1}>
                 <Grid item xs={6}>
                     <MathWorksSVG className={styles.mathworksLogo}/>
                 </Grid>
-                <Grid item xs={6}>           
+                <Grid item xs={6}>
                     <DassaultSystemesSVG className={styles.dassaultsystemesLogo}/>
                 </Grid>
-            </Grid>
+              </Grid>
         </Box>
     )
 }
@@ -83,7 +98,7 @@ const BecomeSponsor = () => {
             dedicate their time to tackling the challenges that building AUVs
             presents. Students who participate in our project graduate with a
             strong multidisciplinary skill set and are often presented with
-            internship or employment opportunities shortly after graduation..
+            internship or employment opportunities shortly after graduation.
         </p>
         <div className={styles.wrapperHowYouCanHelp}>
             <div className={styles.wrapperDiv1}>
@@ -96,7 +111,7 @@ const BecomeSponsor = () => {
                 <p>MONETARY CONTRIBUTIONS</p>
                 <p>DISCOUNTED PURCHASES</p>
             </div>
-            
+
         </div>
         <Grid container spacing={1.5}>
             <Grid item xs={4}>
@@ -120,7 +135,7 @@ const BecomeSponsor = () => {
                     </ul>
                 </Card>
             </Grid>
-            <Grid item xs={4}> 
+            <Grid item xs={4}>
                 <Card id={styles.tierCard} className={styles.goldTierCard}>
                     <h2 className={styles.tierCardTitle}>GOLD</h2>
                     <h4 className={styles.tierCardMoneyRange}> $1,000+ </h4>
@@ -151,14 +166,14 @@ const ContactUs = () => {
                     <p>{contact.address}</p>
                     <p>{contact.email}</p>
                     <p>{contact.phone}</p>
-                </Card>                
+                </Card>
             </Grid>
         )
     })
 }
 
 export default function Sponsors() {
- 
+
   return (
     <Layout>
       <div className={styles.heroBanner}>
@@ -174,9 +189,9 @@ export default function Sponsors() {
                 <ContactUs/>
             </Grid>
         </div>
-        
+
       </div>
-      
+
     </Layout>
   );
 }

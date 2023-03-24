@@ -22,12 +22,12 @@ function HomepageHeader() {
           alt="RobosubLa Logo"
           src={require("../../static/img/RoboSubLogo.png").default}
         />
-        <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
+        <h1 className={styles.heroTitle}>RoboSub LA</h1>
         <p className={styles.heroSubTitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Button id={styles.heroButton} size='large' variant='outlined' href='/docs/intro'>WATCH TRAILER</Button>
+          <Button id={styles.heroButton} size='large' variant='outlined' href='https://www.youtube.com/watch?v=vo6-J_rYyo4'>WATCH TRAILER</Button>
           <Button id={styles.heroButton} size='large' variant='outlined' href='/docs/intro'>SIGN UP</Button>
-          <Button id={styles.heroButton} size='large' variant='outlined' href='/resources'>GET STARTED</Button> 
+          <Button id={styles.heroButton} size='large' variant='outlined' href='/resources'>GET STARTED</Button>
         </div>
       </div>
     </header>
