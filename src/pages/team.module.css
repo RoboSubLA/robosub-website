@@ -20,7 +20,6 @@
     padding: 3rem;
 }
 
-
 .csulaLogo {
     width: 7rem;
     height: 7rem;
@@ -138,13 +137,10 @@ ul li::marker {
     background-color: #ffc800 !important;
 }
 
-
 .contactUsContainer {
     background-image: linear-gradient(var(--ifm-color-primary-darkest),rgba(17, 17, 17, 0.878));
     text-align: center;
 }
-
-
 
 .contactTitle {
     font-size: 3rem;
@@ -314,20 +310,6 @@ ul li::marker {
     .dassaultsystemesLogo {
         width: 6rem;
         height: 3rem;
-    }
-
-    .bluetrailLogo{
-      width: 1rem;
-      height: 1rem;
-    }
-
-    .vectornavLogo{
-      width: 2rem;
-      height: 1rem;
-    }
-    .blueroboticsLogo{
-      width: 10px;
-      height: 10px;
     }
 
     .becomeSponsorTitle {

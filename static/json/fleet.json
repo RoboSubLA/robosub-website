@@ -1,16 +1,37 @@
 [
+  {
+      "year": "2022-2023",
+      "subs": [
+          {
+              "team": "Senior Design Team",
+              "subName": "Lanturn",
+              "subImg": "lanturn2023.jpg"
+          },
+          {
+              "team": "Club Team",
+              "subName": "Wailord",
+              "subImg": "wailord.png"
+          }
+      ],
+      "rankings": {
+          "overall": "NaN",
+          "video": "NaN",
+          "website": "NaN",
+          "techReport": "NaN"
+      }
+  },
     {
         "year": "2022-2023",
         "subs": [
             {
                 "team": "Senior Design Team",
                 "subName": "Lanturn",
-                "subImg": "lanturn.jpg"
+                "subImg": "lanturn2023.jpg"
             },
             {
                 "team": "Club Team",
-                "subName": "Blastoise",
-                "subImg": "blastoise.jpg"
+                "subName": "Wailord",
+                "subImg": "wailord.png"
             }
         ],
         "rankings": {
@@ -105,4 +126,3 @@
         }
     }
 ]
-

@@ -63,7 +63,7 @@ const ShowcaseSubs = ({array}) => {
 
 const GenerateFleetShowcase = () => {
   const showcaseSubs = fleetJSON[0];
-  return( 
+  return(
     <div>
       <div className={styles.subCardContainer}>
         <ShowcaseSubs array={showcaseSubs.subs}/>
@@ -73,8 +73,8 @@ const GenerateFleetShowcase = () => {
         <Chip className={styles.rankingChipShowcase} label={"Video: "+showcaseSubs.rankings.video}/>
         <Chip className={styles.rankingChipShowcase} label={"Website: "+showcaseSubs.rankings.website}/>
         <Chip className={styles.rankingChipShowcase} label={"Technical Report: "+showcaseSubs.rankings.techReport}/>
-      </div>    
-    </div>         
+      </div>
+    </div>
   )
 }
 
@@ -91,7 +91,7 @@ const GenerateFleet = () => {
               <SubsCard array={element.subs}/>
             </div>
             <RankingChips rankings={element.rankings}/>
-          </Card> 
+          </Card>
         </Grid>
     );
   })

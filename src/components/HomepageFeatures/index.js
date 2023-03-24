@@ -8,7 +8,12 @@ const FeatureList = [
     Svg: require('@site/static/img/who_are_we.svg').default,
     description: (
       <>
-        We are Aren
+        RoboSub LA is an interdisciplinary team at California State University,
+        Los Angeles that builds autonomous submarine vehicles annually to participate
+        in the international RoboSub competition. Our team is divided into two groups,
+        the student organization and the senior design team. We work to produce two
+        separate autonomous underwater vehicles. Our student organization consists of five subteams;
+        Frame and Hull, Electronics, Controls, Autonomy, and Computer Vision.
       </>
     ),
   },
@@ -17,7 +22,7 @@ const FeatureList = [
     Svg: require('@site/static/img/what_we_do.svg').default,
     description: (
       <>
-        We do Aren
+      ...
       </>
     ),
   },

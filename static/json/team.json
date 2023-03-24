@@ -1,0 +1,238 @@
+{
+    "crew": [
+        {
+            "name": "Aren Petrossian",
+            "title": "President",
+            "crewImg":"aren.jpg",
+            "email": "arenpetrossian@ymail.com",
+            "phone":""
+        },
+        {
+            "name": "Katherine Bonomo",
+            "title": "Vice President",
+            "crewImg":"katherine.jpg",
+            "email": "kbonomo@calstatela.edu",
+            "phone":""
+        },
+        {
+            "name": "Victor Solis",
+            "title": "Autonomy Lead",
+            "crewImg":"victor.jpg",
+            "email": "vsolis13@calstatela.edu",
+            "phone":""
+        },
+        {
+            "name": "Jordan Doose",
+            "title": "Controls Lead",
+            "crewImg":"jordan.jpg",
+            "email": "jdoose@calstatela.edu",
+            "phone":""
+        },
+        {
+            "name": "Ashley Tran",
+            "title": "Computer Vision Lead",
+            "crewImg":"ashley.jpg",
+            "email": "ashl3y.t1@gmail.com",
+            "phone":""
+        },
+        {
+            "name": "Paola Reyes",
+            "title": "Frame & Hull Lead",
+            "crewImg":"paola.jpg",
+            "email": "preyes29@calstatela.edu",
+            "phone":""
+        },
+        {
+            "name": "Andrew Ye",
+            "title": "Electronics Lead",
+            "crewImg":"andrewY.jpg",
+            "email": "aye7@calstatela.edu",
+            "phone":""
+        },
+        {
+            "name": "Jose Rangel",
+            "title": "Frame & Hull Lead",
+            "crewImg":"joseR.jpg",
+            "email": "jrange53@calstatela.edu",
+            "phone":""
+        },
+        {
+            "name":"Dylan Huang",
+            "crewImg": "dylan.jpg",
+            "title": "Computer Vision",
+            "email":"Dylansken@gmail.com"
+          },
+          {
+            "name": "Gian Owen Asayas",
+            "crewImg": "gian.jpg",
+            "title": "Frame & Hull",
+            "link": "https://www.linkedin.com/in/gian-owen-asayas-4378111a1/",
+            "email":"gasayas2@calstatela.edu"
+          },
+          {
+            "name": "Anthony Arias",
+            "crewImg":  "anthony.jpg",
+            "title": "Frame & Hull",
+            "email":"aarias70@calstatela.edu"
+          },
+          {
+            "name": "Arun N.Radhakrishnan",
+            "crewImg": "arun.jpg",
+            "title": "Controls / Electronics",
+            "link": "https://in.linkedin.com/in/arun-n-r-58790256",
+            "email":"anareco@calstatela.edu"
+          },
+          {
+            "name":"Theresa Mai",
+            "crewImg": "theresa.jpg",
+            "title": "Electronics",
+            "email":"tmai25@calstatela.edu"
+          },
+          {
+            "name": "Eric Galstyan",
+            "crewImg":  "ericG.jpg",
+            "title": "Electronics",
+            "email":"egalsty5@calstatela.edu"
+          },
+          {
+            "name": "Kevin Hong",
+            "crewImg": "kevinH.jpg",
+            "title": "Electronics / Frame & Hull",
+            "email":"khong14@calstatela.edu"
+          },
+          {
+            "name": "Sebastian Luna",
+            "crewImg":  "sebastian.jpg",
+            "title": "Controls / Autonomy",
+            "link": "https://www.linkedin.com/in/sebastian-luna-1931321b6",
+            "email":"sebatianluna805@gmail.com"
+          },
+          {
+            "name": "Victor Solis",
+            "crewImg": "victor.jpg",
+            "title": "Software Stack",
+            "link": "https://www.linkedin.com/in/victor-solis/",
+            "email": "vsolis13@calstatela.edu"
+          },
+          {
+            "name":"Thomas Benson",
+            "crewImg": "thomas.jpg",
+            "title":"Navigation",
+            "link": "https://github.com/MindEvo",
+            "email":"tbenson2@calstatela.edu"
+          },
+          {
+            "name": "Bailey Canham",
+            "crewImg": "bailey.jpg",
+            "title": "Computer Vision",
+            "link": "https://www.linkedin.com/in/bailey-canham-772b26223/",
+            "email":"bcanham2@calstatela.edu"
+          },
+          {
+            "name": "Brandon Vy Cao",
+            "crewImg": "brandon.jpg",
+            "title": "Navigation",
+            "link": "https://www.linkedin.com/in/bailey-canham-772b26223/",
+            "email":"bcao6@calstatela.edu"
+          },
+          {
+            "name": "Hector Mora-Silva",
+            "crewImg": "hector.jpg",
+            "title": "Autonomy",
+            "email":"mora.hector247@gmail.com"
+          },
+          {
+            "name": "David Fernandez",
+            "crewImg": "davidF.jpg",
+            "title": "Software Stack",
+            "link": "https://dnxv.github.io/Portfolio/",
+            "email":"dcamac36@calstatela.edu"
+          },
+          {
+            "name": "Milca Ucelo Paiz",
+            "crewImg": "milca.jpg",
+            "title": "Computer Vision"
+          },
+          {
+            "name": "Roberto Hernandez",
+            "crewImg": "roberto.jpg",
+            "title": "Autonomy"
+          },
+          {
+            "name": "Andrew Marin Heusser",
+            "crewImg": "andrewH.jpg",
+            "title": "Controls",
+            "email":"heusser.andrew@gmail.com"
+          },
+          {
+            "name": "Bart Rando",
+            "crewImg": "bart.jpeg",
+            "title": "Controls",
+            "email":"bcao6@calstatela.edu"
+          },
+          {
+            "name": "Aren Petrossian",
+            "crewImg": "aren.jpg",
+            "title": "Intervehicle Communication",
+            "text": "Mechanical Engineer Student with a 4.0 gpa",
+            "link": "https://www.linkedin.com/in/aren-petrossian/",
+            "email":"arenpetrossian@ymail.com"
+          },
+          {
+            "name": "Carlos Luna Orozco",
+            "crewImg": "carlos.jpg",
+            "title": "Hull",
+            "email":"cluna32@calstatela.edu"
+          },
+          {
+            "name": "Tianyu Ma",
+            "crewImg": "tianyu.jpg",
+            "title": "Frame",
+            "email":"tam5@calstatela.edu"
+          },
+          {
+            "name": "Nahom Seifu",
+            "crewImg": "nahom.jpg",
+            "title": "Simulation",
+            "link": "https://www.linkedin.com/in/seifu-nahom/",
+            "email":"seifunahom1@gmail.com"
+          },
+          {
+            "name": "Edward Razo",
+            "crewImg": "edward.jpg",
+            "title": "Claw",
+            "email":"Erazo6@calstatela.edu"
+          },
+          {
+            "name": "Steven Magana",
+            "crewImg": "steven.jpg",
+            "title": "Ball Dropper",
+            "link": "www.linkedin.com/in/steven-magana98",
+            "email":"smagan25@calstatela.edu"
+          },
+          {
+            "name": "Jose Lares",
+            "crewImg": "joseL.jpg",
+            "title": "Torpedo",
+            "email":"Jlares5@calstatela.edu"
+          },
+          {
+            "name": "Cristin Mota",
+            "crewImg": "cristin.jpg",
+            "title": "Hydrophones",
+            "email":"Cmota11@calstatela.edu"
+          },
+          {
+            "name": "Anthony Zelada",
+            "crewImg": "anthonyZ.jpg",
+            "title": "Power Distribution Board",
+            "email":"azelada2@calstatela.edu"
+          },
+          {
+            "name": "Edgar Brito",
+            "crewImg": "edgar.jpg",
+            "title": "Doppler Velocity Log",
+            "email":"ebrito4@calstatela.edu"
+          }
+    ]
+}
