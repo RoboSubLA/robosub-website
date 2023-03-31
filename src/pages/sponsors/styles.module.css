@@ -111,8 +111,10 @@
     font-weight: bolder;
 }
 
-ul {
-    margin: 10px
+/* Change */
+.sponsor_offer {
+    margin: 10px;
+    list-style-image: url('../../../static/img/favicon.ico');
 }
 
 ul li {
@@ -121,10 +123,11 @@ ul li {
     padding-left: 10px;
 }
 
-ul li::marker {
+/* Moved to .sponsor_offer */
+/* ul li::marker {
     content: url('../../../static/img/favicon.ico');
 
-}
+} */
 
 .bronzeTierCard {
     background-color: #e5882a !important;

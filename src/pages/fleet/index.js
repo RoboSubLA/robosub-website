@@ -9,7 +9,9 @@ import fleetJSON from '../../../static/json/fleet.json';
 const SubsCard = ({array}) => {
   return array.map((sub) => {
     return(
+      
         <Card className={styles.subCard} sx={{ maxWidth: 600 }}>
+          
           <CardMedia
             className={styles.subImg}
             component="img"
@@ -17,6 +19,7 @@ const SubsCard = ({array}) => {
             image={require('@site/static/img/auv/'+sub.subImg).default}
             alt="sub image"
           />
+
           <CardContent className={styles.subCardContent}>
             <Typography className={styles.subName} style={{textAlign: "center"}} gutterBottom variant="h5" component="div">
               {sub.subName}
@@ -25,6 +28,7 @@ const SubsCard = ({array}) => {
               {sub.team}
             </Typography>
           </CardContent>
+          
         </Card>
     )
   })

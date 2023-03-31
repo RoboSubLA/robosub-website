@@ -64,7 +64,9 @@ const SponsorsHeader = () => {
             </Grid>
 
         <h1>SILVER SPONSORS</h1>
+
             <Grid container spacing={1}>
+
               <Grid item xs={1}></Grid>
                 <Grid item xs={4}>
                 <img className={styles.bluetrailLogo} src={require('@site/static/img/sponsors/bluetrail.png').default}/>
@@ -113,34 +115,45 @@ const BecomeSponsor = () => {
             </div>
 
         </div>
+
+        {/* Sponsorship Packages */}
+        
+        {/* Bronze Sponsorship */}
         <Grid container spacing={1.5}>
             <Grid item xs={4}>
                 <Card id={styles.tierCard} className={styles.bronzeTierCard}>
                     <h2 className={styles.tierCardTitle}>BRONZE</h2>
                     <h4 className={styles.tierCardMoneyRange}> $100 - $500 </h4>
-                    <ul>
+
+                    <ul className={styles.sponsor_offer}>
                         <li>Company logo on Website</li>
                         <li>Small sized company logo on team competition uniform</li>
                     </ul>
                 </Card>
             </Grid>
+
+            {/* Silver Sponsorship */}
             <Grid item xs={4}>
                 <Card id={styles.tierCard} className={styles.silverTierCard}>
                     <h2 className={styles.tierCardTitle}>SILVER</h2>
                     <h4 className={styles.tierCardMoneyRange}> $500 - $1,000 </h4>
-                    <ul>
+                    
+                    <ul className={styles.sponsor_offer}>
                         <li>Company logo on Website</li>
                         <li>Medium sized company logo on team competition uniform</li>
                         <li>Small company logo on {new Date().getFullYear()} submarine</li>
                     </ul>
+
                 </Card>
             </Grid>
+
+            {/* Gold Sponsorship */}
             <Grid item xs={4}>
                 <Card id={styles.tierCard} className={styles.goldTierCard}>
                     <h2 className={styles.tierCardTitle}>GOLD</h2>
                     <h4 className={styles.tierCardMoneyRange}> $1,000+ </h4>
 
-                    <ul>
+                    <ul className={styles.sponsor_offer}>
                         <li>Logo & statement on website</li>
                         <li>Large sized company logo on team competition uniform</li>
                         <li>Large logo on {new Date().getFullYear()} submarine</li>

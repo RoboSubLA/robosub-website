@@ -11,6 +11,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--background', styles.heroBanner)}>
+
       <AnimatedBackground/>
       <div className={styles.heroContainer}>
         <Box
@@ -24,10 +25,14 @@ function HomepageHeader() {
         />
         <h1 className={styles.heroTitle}>RoboSub LA</h1>
         <p className={styles.heroSubTitle}>{siteConfig.tagline}</p>
+
         <div className={styles.buttons}>
+
           <Button id={styles.heroButton} size='large' variant='outlined' href='https://www.youtube.com/watch?v=vo6-J_rYyo4'>WATCH TRAILER</Button>
           <Button id={styles.heroButton} size='large' variant='outlined' href='/docs/intro'>SIGN UP</Button>
-          <Button id={styles.heroButton} size='large' variant='outlined' href='/resources'>GET STARTED</Button>
+          
+          {/* Updated the directory*/}
+          <Button id={styles.heroButton} size='large' variant='outlined' href='/resources/resources'>GET STARTED</Button>
         </div>
       </div>
     </header>
@@ -41,6 +46,7 @@ export default function Home() {
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
+      
       <main>
         <HomepageFeatures />
       </main>
