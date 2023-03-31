@@ -1,0 +1,66 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-heading-font-family:'Courier Prime', Courier, monospace;
+  /* text color */
+  --ifm-color-text: black;
+  
+  /* accent color */
+  --ifm-color-primary-accent: #fcc92f;
+  
+  --ifm-color-primary: #14b3fd;
+  --ifm-color-primary-darker: #0089df;
+  --ifm-color-primary-darkest: #185cd0;
+  --ifm-color-primary-light: #0da2ff;
+  --ifm-color-primary-lighter: #24abff;
+  --ifm-color-primary-lightest: #35b2ff;
+  
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  /* text color */
+  --ifm-color-text: white;
+  
+  /* accent color */
+  --ifm-color-primary-accent: #fcbd00;
+  
+  --ifm-color-primary:#185cd0;
+  --ifm-color-primary-dark: #004bb4;
+  --ifm-color-primary-darker: #0044a2;
+  --ifm-color-primary-darkest: #012454;
+  --ifm-color-primary-light: #0155ca;
+  --ifm-color-primary-lighter: #015ad6;
+  --ifm-color-primary-lightest: #006aff;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+/* Global styling of Navbar */
+.navItems {
+  color: var(--ifm-color-text);
+}
+
+.navItems:hover {
+  color: var(--ifm-color-primary-accent);
+}
+
+.navbar{
+  color: var(--ifm-color-primary-accent);
+}
+
+.navbar__title {
+  color: var(--ifm-color-text);
+}
+
+.navbar__title:hover {
+  color: var(--ifm-color-primary-accent);
+}

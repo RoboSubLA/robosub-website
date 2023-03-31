@@ -1,0 +1,96 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+ * {
+  font-family: var(--ifm-heading-font-family);
+ }
+
+.heroContainer {
+  z-index: 1;
+  margin: auto;
+}
+
+.heroBanner {
+  padding: 3rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  background-image: linear-gradient(var(--ifm-color-primary),var(--ifm-color-primary-darkest));
+  color: var(--ifm-color-text);
+
+}
+
+.heroTitle {
+  font-size: 10rem;
+  margin: 0%;
+}
+
+.heroSubTitle {
+  font-size: 2rem;
+  /* font-family: var(--ifm-heading-font-family); */
+}
+
+.buttons {
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#heroButton {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.2rem;
+  margin: .5rem;
+  color: inherit;
+  border-color: inherit;
+  border-width: .3rem;
+}
+
+#heroButton:hover {
+  color: var(--ifm-color-primary-accent)
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .heroTitle {
+    font-size: 3rem;
+  }
+
+  .heroSubTitle {
+    font-size: 1rem;
+  }
+
+  #heroButton {
+    font-size: .7rem;
+    margin: .25rem;
+    color: inherit;
+    border-color: inherit;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .heroBanner {
+    padding: .5rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSubTitle {
+    font-size: .5rem;
+  }
+
+  #heroButton {
+    font-size: .3rem;
+    margin: .25rem;
+    color: inherit;
+    border-color: inherit;
+    border-width: 1px;
+  }
+}
