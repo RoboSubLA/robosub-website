@@ -83,7 +83,7 @@ const config = {
             className: 'navItems',
           },
           {
-            to: '/resources',
+            to: '/resources/resources',
             label: 'Resources',
             position: 'right',
             className: 'navItems',
