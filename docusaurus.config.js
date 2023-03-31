@@ -78,7 +78,7 @@ const config = {
           },
           {
             to: '/team',
-            label: 'Team',
+            label: 'Crew Deck',
             position: 'right',
             className: 'navItems',
           },
