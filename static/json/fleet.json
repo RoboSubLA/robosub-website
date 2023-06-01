@@ -17,7 +17,8 @@
           "overall": "NaN",
           "video": "NaN",
           "website": "NaN",
-          "techReport": "NaN"
+          "techReport": "NaN",
+          "moreDetails" :"twentyTwentyTwo"
       }
   },
     {
@@ -38,7 +39,8 @@
             "overall": "NaN",
             "video": "NaN",
             "website": "NaN",
-            "techReport": "NaN"
+            "techReport": "NaN",
+            "moreDetails":"twentyTwentyTwo"
         }
     },
     {
@@ -59,7 +61,8 @@
             "overall": "8st",
             "video": "32nd",
             "website": "21st",
-            "techReport": "25th"
+            "techReport": "25th",
+            "moreDetails" :"twentyTwentyOne"
         }
     },
     {
@@ -80,7 +83,8 @@
             "overall": "~",
             "video": "22nd",
             "website": "28st",
-            "techReport": "36th"
+            "techReport": "36th",
+            "moreDetails" :"twentyTwenty"
         }
     },
     {
@@ -101,7 +105,8 @@
             "overall": "11th",
             "video": "9nd",
             "website": "13th",
-            "techReport": "20th"
+            "techReport": "20th",
+            "moreDetails" :"twentyNineteen"
         }
     },
     {
@@ -122,7 +127,8 @@
             "overall": "31th",
             "video": "~",
             "website": "~",
-            "techReport": "~"
+            "techReport": "~",
+            "moreDetails" :"twentyEighteen"
         }
     }
 ]

@@ -1,0 +1,398 @@
+{
+  "eighteenTeam": [
+    {
+      "position": "Team Captain / President",
+      "name": "J.Diego Santillan",
+      "major": "Electrical Engineering"
+    },
+    {
+      "position": "Frame and Motion",
+      "name": "Kevin Tran",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Torpedo System Lead",
+      "name": "Andrew Lopez",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Frame Design Lead",
+      "name": "Alan Truong",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Hull Design Lead",
+      "name": "David Garcia",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Communications Lead",
+      "name": "Albert Le",
+      "major": "Electrical Engineering"
+    },
+    {
+      "position": "Hydrophones",
+      "name": "Aldo Madrid",
+      "major": "Electrical Engineering"
+    },
+    {
+      "position": "Apprentice",
+      "name": "Sidra Gibeault",
+      "major": "Electrical Engineering"
+    },
+    {
+      "position": "Computer Science Lead",
+      "name": "Olin Alvarez",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "Jonathan Song",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "Danny Padilla",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "Henry Ho",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "Ethan Cha",
+      "major": "Computer Science"
+    }
+  ],
+  "twentyOneLanturn": [
+    {
+      "position": "Mission Planning Lead",
+      "name": "Ashkan Aledavoud",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Leader",
+      "name": "Carl Solli",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Vision & Sensors Lead",
+      "name": "Christian Castillo",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Controls Leader & Sensors Lead",
+      "name": "Leslie Araujo",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Mechanical Engineering Team",
+      "name": "Forrest Hale",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Mechanical Engineering Team",
+      "name": "Zachary Beatti",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Mechanical Engineering Team",
+      "name": "Victor Sandoval",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Electrical Engineering Team",
+      "name": "Victor Sandoval",
+      "major": "Electrical Engineering"
+    },
+    {
+      "position": "Electrical Engineering Team",
+      "name": "Andrew Maravilla",
+      "major": "Electrical Engineering"
+    },
+    {
+      "position": "Electrical Engineering Team",
+      "name": "Edward Komperda",
+      "major": "Electrical Engineering"
+    },
+    {
+      "position": "Electrical Engineering Team",
+      "name": "Emigdio Alaniz",
+      "major": "Electrical Engineering"
+    },
+    {
+      "position": "Mission Planning",
+      "name": "Alan Chan",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Vision & Mission Planning",
+      "name": "Daniel Valadez",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Vision",
+      "name": "Daniel Valadez",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Vision",
+      "name": "Bryan Sanchez",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Vision",
+      "name": "Robin Romero",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Vision",
+      "name": "Edwin Tran",
+      "major": "Computer Science"
+    }
+  ],
+  "twentyOneBlastoise": [
+    {
+      "position": "President",
+      "name": "Aren Petrossian",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Vice President",
+      "name": "Katherine Bonomo",
+      "major": "Civil Engineering"
+    },
+    {
+      "position": "Computer Vision Co-Lead",
+      "name": "Jennifer Serrano",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Vision Co-Lead",
+      "name": "Adrian Salgado",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Mission Planning Lead",
+      "name": "Victor Solis",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Frame and Hull",
+      "name": "Paola Reyes",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Frame and Hull",
+      "name": "Jazmin Reyes",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Frame and Hull",
+      "name": "Jose Rangel",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Frame and Hull",
+      "name": "Chayuth Mandtanavonsin",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Power Distribution",
+      "name": "Jordan Doose",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Power Distribution",
+      "name": "Andrew Ye",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Computer Vision",
+      "name": "Ashley Tran",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Vision",
+      "name": "Perla Ramirez",
+      "major": "Computer Science"
+    }
+  ],
+  "twentyTwoLanturn": [
+    {
+      "position": "Mechenical & Engineering Leader",
+      "name": "Aren Petrossian",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Mechenical Engineering Team",
+      "name": "Jose Iares",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Mechenical Engineering Team",
+      "name": "Carlos Luna",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Mechenical Engineering Team",
+      "name": "Steven Magana",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Mechenical Engineering Team",
+      "name": "Edward Razo",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Mechenical Engineering Team",
+      "name": "Nahom Seifu",
+      "major": "Mechanical Engineering"
+    },
+
+    {
+      "position": "Mechenical Engineering Team",
+      "name": "Tianyu Ma",
+      "major": "Mechanical Engineering"
+    },
+    {
+      "position": "Electrical Engineering Team",
+      "name": "Anthony Zelada",
+      "major": "Electrical Engineering"
+    },
+    {
+      "position": "Electrical Engineering Team",
+      "name": "Cristian Mota",
+      "major": "Electrical Engineering"
+    },
+    {
+      "position": "Computer Science Leader",
+      "name": "Victor Solis",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "Thomas Benson",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "Hector Mora-Silva",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "Roberto Hernandez",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "Bailey Canham",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "Brandon Vy Cao",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "David Fernandez",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "Andrew Marin Heusser",
+      "major": "Computer Science"
+    },
+    {
+      "position": "Computer Science Team",
+      "name": "Milca Ucelo",
+      "major": "Computer Science"
+    }
+  ],
+  "twentyTwoWailord": [
+    {
+        "position": "Club President",
+        "name": "Aren Petrossian",
+        "major": "Mechanical Engineering"
+      },
+      {
+        "position": "Club Vice President",
+        "name": "Katherine Bonomo",
+        "major": "Civil Engineering"
+      },
+      {
+        "position": "Autonomy Lead",
+        "name": "Victor Solis",
+        "major": "Computer Science"
+      },
+      {
+        "position": "Frame and Hull Lead",
+        "name": "Paola Reyes",
+        "major": "Electrical Engineering"
+      },
+      {
+        "position": "Frame and Hull Lead",
+        "name": "Jose Rangel",
+        "major": "Electrical Engineering"
+      },
+      {
+        "position": "Electronics Lead",
+        "name": "Andrew Ye",
+        "major": "Electrical Engineering"
+      },
+      {
+        "position": "Computer Vision Lead",
+        "name": "Ashley Tran",
+        "major": "Computer Science"
+      },
+      {
+        "position": "Frame and Hull",
+        "name": "Gian Owen Asayas",
+        "major": "Mechincal Engineering"
+      },
+      {
+        "position": "Frame and Hull",
+        "name": "Anthony Arias",
+        "major": "Electrical Engineering"
+      },
+      {
+        "position": "Frame and Hull/Electronics",
+        "name": "Arun N. Radhakrishnan",
+        "major": "Electrical Engineering"
+      },
+      {
+        "position": "Electronics",
+        "name": "Theresa Mai",
+        "major": "Electrical Engineering"
+      },
+      {
+        "position": "Electronics",
+        "name": "Eric Galstyan",
+        "major": "Electrical Engineering"
+      },
+      {
+        "position": "Controls",
+        "name": "Sebastian Luna",
+        "major": "Computer Science"
+      },
+      {
+        "position": "Controls",
+        "name": "David Roberto Lopez",
+        "major": "Computer Science"
+      },
+      {
+        "position": "Computer Vision",
+        "name": "Dylan Huang",
+        "major": "Computer Science"
+      },
+      {
+        "position": "Computer Vision",
+        "name": "Branden Zamora",
+        "major": "Computer Science"
+      }
+  ]
+}
