@@ -84,6 +84,34 @@ export default function ResourcesPage() {
               Here at RoboSub LA we are passionate about Robotics and we want to
               share what we know with our community of Robotic enthusiast.
               <br></br> <br></br>
+              <p>
+                <h3><b>RoboSub International Competition</b></h3>{" "}
+                <h4>What is RoboSub?</h4>
+                RoboSub is an international student competition. Student teams
+                from around the world design and build robotic submarines,
+                otherwise known as Autonomous Underwater Vehicles (AUV). The
+                behaviors demonstrated by these experimental AUVs mimics those
+                of real-world systems, currently deployed around the world for
+                underwater exploration, seafloor mapping, and sonar
+                localization, amongst many others.
+                <h4>The Competition</h4>
+                Assemble your team and get busy designing, building and testing
+                the sub-systems of your AUV. Now put it all together and
+                demonstrate your vehicles autonomy by completing a series of
+                tasks through a pre-defined mission.<br></br><br></br>
+                <h3><b>RoboSub LA Team</b></h3>
+                Our team is split up into two project teams, the student
+                organization and the senior design team. The senior design team
+                builds one vehicle, and the club members build a separate
+                vehicle while being mentored by senior design members. Both
+                vehicles are intended for use in the competition and strategies
+                will be carefully considered based on the capabilities of both
+                vehicles. Members have the opportunity to design advanced
+                robotics systems and work on an interdisciplinary project to
+                gain experience working with a team. Please see the progress tab
+                for a better idea of what our members are working on and what
+                tasks and projects are available to new members
+              </p>
               <u>ADD HANDBOOK, SECTION BREAKDOWN?</u>
             </p>
 
