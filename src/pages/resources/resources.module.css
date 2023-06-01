@@ -3,6 +3,10 @@
     overflow: hidden;
 }
 
+.li{
+    list-style-type: none;
+}
+
 .navbar{
     /* background color */
     background-color: white;
@@ -57,7 +61,6 @@
     /* Adds a space */
     position: relative;
     
-
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;

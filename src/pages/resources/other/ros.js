@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import styles from "./controls.module.css";
+import styles from "./ros.modules.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 
-export default function Controls() {
+export default function ROS() {
   const { siteConfig } = useDocusaurusContext();
 
   function get_started() {
@@ -48,11 +48,11 @@ export default function Controls() {
             </button>
 
             <div id="dropdown" className={styles.DPContent}>
-              <a href="./framehull">Frame and Hull</a>
-              <a href="./electronics">Electronics</a>
-              <a href="./controls">Controls</a>
-              <a href="./autonomy">Autonomy</a>
-              <a href="./compvis">Computer Vision</a>
+              <a href="../teams/framehull">Frame and Hull</a>
+              <a href="../teams/electronics">Electronics</a>
+              <a href="../teams/controls">Controls</a>
+              <a href="../teams/autonomy">Autonomy</a>
+              <a href="../teams/compvis">Computer Vision</a>
             </div>
             <button onClick={arduino} className={styles.btn}>ARDUINO</button>
           
@@ -65,7 +65,7 @@ export default function Controls() {
           </ul>
         </nav>
      
-      <h1>CONTROLS</h1>
+      <h1>ROBOT OPERATING SYSTEM (2)</h1>
       
       </div>
     </Layout>

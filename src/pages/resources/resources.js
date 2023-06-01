@@ -2,146 +2,116 @@ import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./resources.module.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import { useRef } from "react";
+// import { useRef } from "react";
 
-import { Html, StackedLineChart } from "@mui/icons-material";
-import { inputAdornmentClasses } from "@mui/material";
- 
+// import { Html, StackedLineChart } from "@mui/icons-material";
+// import { inputAdornmentClasses } from "@mui/material";
 
 export default function ResourcesPage() {
-
   const { siteConfig } = useDocusaurusContext();
 
   function get_started() {
-    
-    // Creating new element tag
-    var elem = document.createElement('h');
-     
-    // Adding text in the element tag
-    var text = document.createTextNode("NEW TEXT"); 
-    
-    // Appending (adding) the text in the element
-    elem.appendChild(text);
-    
-    // Getting document ID
-    var rep = document.getElementById("current");
+    location.assign("./resources");
+  }
 
-    // Replacing all children node
-    rep.replaceChildren(elem);   
+  function linuxfunc() {
+    location.assign("./other/linux");
+  }
+
+  function arduino() {
+    location.assign("./other/arduino");
+  }
+
+  function github() {
+    location.assign("./other/github");
+  }
+
+  function ros() {
+    location.assign("./other/ros");
   }
 
   // Teams Navbar Function
   function teamsFunc() {
-    document.getElementById("dropdown").classList.toggle(styles.show)
+    document.getElementById("dropdown").classList.toggle(styles.show);
   }
 
   return (
     <Layout>
-
       {/* Side Nav Bar */}
       <div className={styles.pageWrapper}>
-
-        <nav className={styles.navbar}> 
+        <nav className={styles.navbar}>
           <ul className={styles.navbar_elements}>
+            <button onClick={get_started} className={styles.btn}>
+              GET STARTED
+            </button>
 
-            <li>
-              <button onClick={get_started} className={styles.btn}> Get Started </button>
-            </li>
+            <button onClick={teamsFunc} className={styles.btn}>
+              TEAMS
+            </button>
 
-            <li>
-              <button onClick="" className={styles.btn}> Mission Planning </button>
-            </li>
+            <div id="dropdown" className={styles.DPContent}>
+              <a href="./teams/framehull">Frame and Hull</a>
+              <a href="./teams/electronics">Electronics</a>
+              <a href="./teams/controls">Controls</a>
+              <a href="./teams/autonomy">Autonomy</a>
+              <a href="./teams/compvis">Computer Vision</a>
+            </div>
 
-            <li>
-              <button onClick={teamsFunc} className={styles.btn}> Teams </button>
+            <button onClick={arduino} className={styles.btn}>
+              ARDUINO
+            </button>
 
-              <div id="dropdown" className={styles.DPContent}>
+            <button onClick={linuxfunc} className={styles.btn}>
+              LINUX
+            </button>
 
-                <a href='./teams/framehull'>Frame and Hull</a>
-                <a href='./teams/actuatedsys'>Actuated Systems</a>
-                <a href='./teams/electronics'>Electronics</a>
-                <a href='./teams/controls'>Controls</a>
-                <a href='./teams/autonomy'>Autonomy</a>
-                <a href='./teams/compvis'>Computer Vision</a>
+            <button onClick={github} className={styles.btn}>
+              GIT & GITHUB
+            </button>
 
-              </div>
-
-            </li>
-
-            <li>
-              <button onClick="" className={styles.btn}> Arduino </button>
-            </li>
-
-            <li>
-              <button onClick="" className={styles.btn}> Linux </button>
-            </li>
-
-            <li>
-              <button onClick="" className={styles.btn}> Git & GitHub </button>
-            </li>
-
-            <li>
-              <button onClick="" className={styles.btn}> Robot OS </button>
-            </li>
-
+            <button onClick={ros} className={styles.btn}>
+              ROBOT OS
+            </button>
           </ul>
         </nav>
 
         {/* Default Div */}
         <div className={styles.myDIV}>
-
-          {/* <p dangerouslySetInnerHTML={markup} id="demo" /> */}
           <p id="current">
+            <h1> Welcome Members & RoboSub Teams </h1>
 
-            <h1> Welcome Members & RoboSum Teams </h1>
-
-            <p> Here at RoboSub LA we are passionate about Robotics and we want to share what we know with our community of Robotic enthusiast. </p>
+            <p>
+              Here at RoboSub LA we are passionate about Robotics and we want to
+              share what we know with our community of Robotic enthusiast.
+              <br></br> <br></br>
+              <u>ADD HANDBOOK, SECTION BREAKDOWN?</u>
+            </p>
 
             <h2> Team Breakdown Subteams: </h2>
 
             {/* Teams */}
-            <nav>
+            <div className="">
+              <a href="./teams/framehull">Frame and Hull</a>
+            </div>
 
-              <ul>
-                <li>
-                  
-                  <div className="">
-                    <a href='./teams/framehull'>Frame and Hull</a> 
-                  </div>
+            <div className="">
+              <a href="./teams/electronics">Electronics</a>
+            </div>
 
-                  <div className="">
-                    <a href='./teams/actuatedsys'>Actuated Systems</a>
-                  </div>
+            <div className="">
+              <a href="./teams/controls">Controls</a>
+            </div>
 
-                  <div className="">
-                    <a href='./teams/electronics'>Electronics</a>
-                  </div>
+            <div className="">
+              <a href="./teams/autonomy">Autonomy</a>
+            </div>
 
-                  <div className="">
-                    <a href='./teams/controls'>Controls</a>
-                  </div>
-
-                  <div className="">
-                    <a href='./teams/autonomy'>Autonomy</a>
-                  </div>
-                  
-                  <div className="">
-                    <a href='./teams/compvis'>Computer Vision</a>
-                  </div>
-
-                </li>
-              </ul>
-    
-            </nav>
-
+            <div className="">
+              <a href="./teams/compvis">Computer Vision</a>
+            </div>
           </p>
-
         </div>
-
       </div>
-
-  
-
     </Layout>
   );
 }

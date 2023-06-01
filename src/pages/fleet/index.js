@@ -28,7 +28,6 @@ const SubsCard = ({array}) => {
               {sub.team}
             </Typography>
           </CardContent>
-          
         </Card>
     )
   })
@@ -41,6 +40,8 @@ const RankingChips = ({rankings}) => {
       <Chip className={styles.rankingChip} label={"Video: "+rankings.video}/>
       <Chip className={styles.rankingChip} label={"Website: "+rankings.website}/>
       <Chip className={styles.rankingChip} label={"Technical Report: "+rankings.techReport}/>
+      <Chip className={styles.readMoreChip} label="READ MORE" component="a" href={"fleet/years/" + rankings.moreDetails} clickable></Chip>
+     
     </div>
   )
 }
