@@ -1,0 +1,67 @@
+.cardsContainer {
+    text-align: left;
+    padding: 1rem;
+}
+
+.contactCard {
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.2rem;
+}
+
+.contactCard > h3 {
+    margin-bottom: 15px;
+}
+
+.contactCard > p {
+    margin-bottom: 10px;
+}
+
+.contactCardAccentColor {
+    color: var(--ifm-color-primary);
+    background-color:var(--ifm-color-primary-accent) !important;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 996px) {
+   
+    .contactCard {
+        margin: 10px;
+        padding: 10px;
+        line-height: 1rem;
+    }
+
+    .contactCard > h3 {
+        font-size: .8rem;
+        margin-bottom: 7px;
+    }
+
+    .contactCard > p {
+        font-size: .5rem;
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contactTitle {
+        font-size: 1rem;
+        margin: 0%;
+    }
+
+    .contactCard {
+        margin: 10px;
+        padding: 10px;
+        line-height: 1rem;
+    }
+
+    .contactCard > h3 {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .contactCard > p {
+        font-size: 5px;
+        margin-bottom: 1px;
+    }
+}

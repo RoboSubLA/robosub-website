@@ -1,0 +1,277 @@
+.fleetHeader {
+    background-image: linear-gradient(var(--ifm-color-primary),var(--ifm-color-primary-darkest));
+    height: 100vh;
+    padding: 2rem;
+}
+
+.fleetTitle {
+    font-size: 4rem;
+}
+
+.showcaseBox {
+    margin: 1rem 6rem 1rem 6rem;
+}
+
+.showcaseSubscontainer {
+    position: relative;
+    margin: 1rem 6rem 1rem 6rem;
+}
+
+.showcaseImg {
+    float: left;
+    width:  600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.showcaseOverlay {
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: inherit;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(186, 172, 79, 0.871);
+}
+.showcaseSubscontainer:hover .showcaseOverlay {
+    opacity: 1 !important;
+}
+
+.overlayText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlaySubName {
+    font-size: 3rem !important;
+    color: var(--ifm-color-primary-darker);
+}
+
+.overlaySubTeam {
+    font-size: 2rem !important;
+}
+
+.rankingChipShowcase {
+    margin: 5rem 1rem 1rem 1rem;
+    width: 300px;
+    font-size: 1.3rem !important;
+    height: 5rem !important;
+    background-color: var( --ifm-color-primary-lightest) !important;
+    color: var(--ifm-color-text) !important;
+}
+
+
+.fleetContainer {
+    padding: 3rem;
+}
+
+.fleetYear {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: black;
+    border-bottom: 4px solid rgb(229, 162, 19);
+}
+
+.fleetCard {
+    background-color: var( --ifm-color-primary-accent) !important;
+    padding: 1rem;
+    border-radius: 25px !important;
+}
+
+.subCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subCard {
+    width: 400px;
+    height: 350px;
+    margin: 1rem 6rem 1rem 6rem;
+}
+
+.chipContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rankingChip {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 300px;
+    font-size: 1rem !important;
+    background-color: var( --ifm-color-primary-lightest) !important;
+    color: var(--ifm-color-text) !important;
+}
+
+.readMoreChip {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 200px;
+    font-size: 1rem !important;
+    background-color: red !important;
+    color: var(--ifm-color-text) !important;
+}
+
+
+@media screen and (max-width: 996px) {
+    .fleetHeader {
+        padding: .5rem;
+        height: 50vh;
+    }
+
+    .fleetTitle {
+        font-size: 2rem;
+    }
+
+    .showcaseBox {
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .showcaseSubscontainer {
+        position: relative;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .showcaseImg {
+        width:  200px;
+        height: 150px;
+    }
+
+    .overlaySubName {
+        font-size: 1rem !important;
+        color: var(--ifm-color-primary);
+    }
+    
+    .overlaySubTeam {
+        font-size: .5rem !important;
+    }
+
+    .rankingChipShowcase {
+        margin: 1rem .3rem 1rem .3rem;
+        width: 110px;
+        font-size: .5rem !important;
+        height: 2rem !important;
+
+    }
+    .fleetContainer {
+        padding: 1rem;
+    }
+
+    .fleetYear {
+        font-size: 1.5rem;
+        border-bottom: 3px solid rgb(229, 162, 19);
+    }
+    .subCard {
+        width: 200px;
+        height: 150px;
+        margin: 1rem 2rem 1rem 2rem;
+    }
+    .subImg {
+        width: 150px;
+        height: 100px;
+    }
+    .subCardContent{
+        padding: .3rem !important;
+    }
+    .subName {
+        font-size: 1rem !important;
+    }
+    .subTeam {
+        font-size: .5rem !important;
+    }
+    .rankingChip {
+        margin-left: .4rem;
+        margin-right: .4rem;
+        width: 150px;
+        height: 1.3rem !important;
+        font-size: .5rem !important;
+    }
+}
+  
+@media screen and (max-width: 375px) {
+    .fleetHeader {
+        padding: .5rem;
+        height: 50vh;
+    }
+
+    .fleetTitle {
+        font-size: 2rem;
+    }
+
+    .showcaseBox {
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .showcaseSubscontainer {
+        position: relative;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .showcaseImg {
+        width:  200px;
+        height: 100px;
+    }
+
+    .overlaySubName {
+        font-size: 1rem !important;
+        color: var(--ifm-color-primary);
+    }
+    
+    .overlaySubTeam {
+        font-size: .5rem !important;
+    }
+
+    .rankingChipShowcase {
+        margin: 1rem .3rem 1rem .3rem;
+        width: 80px;
+        font-size: .3rem !important;
+        height: 1.5rem !important;
+
+    }
+
+    .fleetContainer {
+        padding: 1rem;
+    }
+
+    .fleetYear {
+        font-size: 1rem;
+        border-bottom: 2px solid rgb(229, 162, 19);
+    }
+    .subCard {
+        width: 200px;
+        height: 100px;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    .subImg {
+        width: 100px;
+        height: 70px;
+    }
+    .subCardContent{
+        padding: .3rem !important;
+    }
+    .subName {
+        font-size: .5rem !important;
+    }
+    .subTeam {
+        font-size: .3rem !important;
+    }
+    .rankingChip {
+        margin-left: .2rem;
+        margin-right: .2rem;
+        width: 200px;
+        height: 1rem !important;
+        font-size: .3rem !important;
+    }
+}
