@@ -7,10 +7,16 @@
     list-style-type: none;
 }
 
+.icon{
+    width:300px;
+    height:250px;
+}
+
 .navbar{
     /* background color */
     background-color: white;
 
+    margin-right:10px;
     /* padding */
     padding: 15px;
     
@@ -18,15 +24,16 @@
     width: auto;
 
     /* height */
-    height: 878px;
+    height: 1923px;
 
     /* moves content to the left */
     float: left;
+ 
 }
 
 
 .navbar_elements{
-    padding: 0;
+    padding: 0px;
     margin: 0;
     list-style: none;
     text-align: center;
@@ -34,6 +41,7 @@
     display: grid;
     grid-auto-flow: row;
     grid-row-gap: 23px;
+    /* position: fixed; */
 }
 
 .nav_ind{
@@ -43,7 +51,7 @@
 .myDIV {
     width: auto;
     text-align: center;
-    background-color: darkblue;
+    background-color: black;
   }
 
 .btn{

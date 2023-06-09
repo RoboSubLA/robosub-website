@@ -1,14 +1,18 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./resources.module.css";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-// import { useRef } from "react";
-
-// import { Html, StackedLineChart } from "@mui/icons-material";
-// import { inputAdornmentClasses } from "@mui/material";
+import {
+  Button,
+  Card,
+  CardContent,
+  CardMedia,
+  Typography,
+  CardActions,
+} from "@mui/material";
+// import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export default function ResourcesPage() {
-  const { siteConfig } = useDocusaurusContext();
+  // const { siteConfig } = useDocusaurusContext();
 
   function get_started() {
     location.assign("./resources");
@@ -78,28 +82,52 @@ export default function ResourcesPage() {
         {/* Default Div */}
         <div className={styles.myDIV}>
           <p id="current">
-            <h1> Welcome Members & RoboSub Teams </h1>
+            <h1> Welcome Members & RoboSub Teams! </h1>
 
             <p>
-              Here at RoboSub LA we are passionate about Robotics and we want to
-              share what we know with our community of Robotic enthusiast.
+              Here at{" "}
+              <span style={{ color: "teal" }}>
+                <b>RoboSub LA</b>
+              </span>{" "}
+              we are passionate about Robotics and we want to share what we know
+              with our community of Robotic enthusiast.
               <br></br> <br></br>
               <p>
-                <h3><b>RoboSub International Competition</b></h3>{" "}
-                <h4>What is RoboSub?</h4>
+                <h2 style={{ color: "green" }}>
+                  <u>
+                    {" "}
+                    <b>ROBOSUB INTERNATIONAL COMPETITION</b>
+                  </u>
+                </h2>{" "}
+                <h4 style={{ color: "yellow" }}>What is RoboSub?</h4>
                 RoboSub is an international student competition. Student teams
                 from around the world design and build robotic submarines,
                 otherwise known as Autonomous Underwater Vehicles (AUV). The
                 behaviors demonstrated by these experimental AUVs mimics those
                 of real-world systems, currently deployed around the world for
                 underwater exploration, seafloor mapping, and sonar
-                localization, amongst many others.
-                <h4>The Competition</h4>
+                localization, amongst many others.<br></br>
+                <br></br>
+                <h4 style={{ color: "yellow" }}>The Competition</h4>
                 Assemble your team and get busy designing, building and testing
                 the sub-systems of your AUV. Now put it all together and
                 demonstrate your vehicles autonomy by completing a series of
-                tasks through a pre-defined mission.<br></br><br></br>
-                <h3><b>RoboSub LA Team</b></h3>
+                tasks through a pre-defined mission.<br></br>
+                <br></br>
+                <a href="https://robonation.org/app/uploads/sites/4/2023/04/2023-RoboSub_Team-Handbook_v1.0.pdf">
+                  <img
+                    className="icon"
+                    src={
+                      require("@site/static/img/other/robosubLogo.png").default
+                    }
+                    width="200"
+                  ></img>
+                </a>
+                <h2 style={{ color: "teal" }}>
+                  <b>
+                    <u>ROBOSUB LOS ANGELES TEAM</u>
+                  </b>
+                </h2>
                 Our team is split up into two project teams, the student
                 organization and the senior design team. The senior design team
                 builds one vehicle, and the club members build a separate
@@ -110,32 +138,179 @@ export default function ResourcesPage() {
                 robotics systems and work on an interdisciplinary project to
                 gain experience working with a team. Please see the progress tab
                 for a better idea of what our members are working on and what
-                tasks and projects are available to new members
+                tasks and projects are available to new members.
               </p>
-              <u>ADD HANDBOOK, SECTION BREAKDOWN?</u>
             </p>
 
             <h2> Team Breakdown Subteams: </h2>
 
             {/* Teams */}
-            <div className="">
-              <a href="./teams/framehull">Frame and Hull</a>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <Card sx={{ maxWidth: 300, margin: "20px" }}>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  // image={
+                  //   require("@site/static/img/other/frameandHull_icon.png")
+                  //     .default
+                  // }
+                  alt="Frame & Hull Photo"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    FRAME AND HULL TEAM
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    The Frame and Hull subteam is responsible for making the
+                    design of the AUV itself. The hull and frame of the sub are
+                    the physical components of the AUV, which the team will be
+                    responsible for making.
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <a href="./teams/framehull">
+                    <Button size="small" color="primary">
+                      LEARN MORE
+                    </Button>
+                  </a>
+                </CardActions>
+              </Card>
+              <Card sx={{ maxWidth: 300, margin: "20px" }}>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  // image={
+                  //   require("@site/static/img/other/frameandHull_icon.png")
+                  //     .default
+                  // }
+                  alt="Electronics Photo"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    ELECTRONICS TEAM
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    The Electronics subteam is responsible primarily on the
+                    management of internal current conversion from the battery
+                    to all of the other electronic parts in the robotic
+                    submarine. The team creates schematics for the functionality
+                    of buck converters.
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <a href="./teams/electronics">
+                    <Button size="small" color="primary">
+                      LEARN MORE
+                    </Button>
+                  </a>
+                </CardActions>
+              </Card>
+
+              <Card sx={{ maxWidth: 300, margin: "20px" }}>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  // image={
+                  //   require("@site/static/img/other/frameandHull_icon.png")
+                  //     .default
+                  // }
+                  alt="Controls Photo"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    CONTROLS TEAM
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    The Controls Team is responsible for making the AUV respond
+                    to movement instructions. Because the AUV is autonomous, the
+                    controls won't be manually operated by any person, but there
+                    will usually still be a GUI that either the Controls or
+                    Autonomy subteam must make, in order to debug the code and
+                    test the controls.
+                  </Typography>
+                </CardContent>
+                {/* </CardActionArea> */}
+                <CardActions>
+                  <a href="./teams/controls">
+                    <Button size="small" color="primary">
+                      LEARN MORE
+                    </Button>
+                  </a>
+                </CardActions>
+              </Card>
             </div>
 
-            <div className="">
-              <a href="./teams/electronics">Electronics</a>
-            </div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <Card sx={{ maxWidth: 300, margin: "20px" }}>
+                {/* <CardActionArea> */}
+                <CardMedia
+                  component="img"
+                  height="140"
+                  // image={
+                  //   require("@site/static/img/other/frameandHull_icon.png")
+                  //     .default
+                  // }
+                  alt="Autonomy Photo"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    AUTONOMY TEAM
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    The Autonomy team is responsible for writing the state
+                    machine of the AUV. The state machine determines what the
+                    AUV is doing at any time, and it's very important when
+                    deciding what to do next. For example, an AUV might have a
+                    state that tells it to follow a path. If the AUV has reached
+                    the end of a path, then something has to be called by the
+                    state machine to tell the AUV to transition to the next
+                    state, which might tell the AUV to stop or do another task,
+                    depending on what the competition wants the AUV to do.
+                  </Typography>
+                </CardContent>
+                {/* </CardActionArea> */}
+                <CardActions>
+                  <a href="./teams/autonomy">
+                    <Button size="small" color="primary">
+                      LEARN MORE
+                    </Button>
+                  </a>
+                </CardActions>
+              </Card>
 
-            <div className="">
-              <a href="./teams/controls">Controls</a>
-            </div>
-
-            <div className="">
-              <a href="./teams/autonomy">Autonomy</a>
-            </div>
-
-            <div className="">
-              <a href="./teams/compvis">Computer Vision</a>
+              <Card sx={{ maxWidth: 300, margin: "20px" }}>
+                {/* <CardActionArea> */}
+                <CardMedia
+                  component="img"
+                  height="140"
+                  // image={
+                  //   require("@site/static/img/other/frameandHull_icon.png")
+                  //     .default
+                  // }
+                  alt="CV Team Photo"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    COMPUTER VISION TEAM
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    The Computer Vision subteam is responsible for making the
+                    AUV recognize objects with its camera. So, one of the most
+                    important tasks of the CV team is object detection. This
+                    year, YOLO (You Only Look Once) will be used for the CV
+                    software which is a deep learning algorithm that is used to
+                    train custom object detection models.
+                  </Typography>
+                </CardContent>
+                {/* </CardActionArea> */}
+                <CardActions>
+                  <a href="./teams/compvis">
+                    <Button size="small" color="primary">
+                      LEARN MORE
+                    </Button>
+                  </a>
+                </CardActions>
+              </Card>
             </div>
           </p>
         </div>
