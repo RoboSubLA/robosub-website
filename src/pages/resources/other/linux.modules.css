@@ -1,88 +1,106 @@
-
-
 .pageWrapper {
-    overflow: hidden;
-    text-align:center;
+  overflow: hidden;
 }
 
-.li{
-    list-style-type: none;
+.li {
+  list-style-type: none;
+}
+.virtualization {
+  overflow: hidden;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 22px;
+  background-color: darkorange;
 }
 
-
-.navbar{
-    /* background color */
-    background-color: white;
-
-    /* padding */
-    padding: 15px;
-    
-    /* width */
-    width: auto;
-
-    /* height */
-    height: 2050px;
-
-    /* moves content to the left */
-    float: left;
+.hardDrive {
+  overflow: hidden;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: gray;
 }
 
-
-.navbar_elements{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-    
-    display: grid;
-    grid-auto-flow: row;
-    grid-row-gap: 23px;
+.linuxList {
+  background-color: teal;
+  overflow: hidden;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 22px;
+  padding: 20px;
 }
 
-.nav_ind{
-    border-top: 10px;
+.navbar {
+  /* background color */
+  background-color: white;
+
+  /* padding */
+  padding: 15px;
+
+  /* width */
+  width: auto;
+
+  /* height */
+  height: 2340px;
+
+  /* moves content to the left */
+  float: left;
+}
+
+.navbar_elements {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  position: relative;
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 23px;
+}
+
+.nav_ind {
+  border-top: 10px;
 }
 
 .myDIV {
-    width: auto;
-    text-align: center;
-    background-color: darkblue;
-  }
+  width: auto;
+  text-align: center;
+  background-color: darkblue;
+}
 
-.btn{
-    font-size: 18px;
-    cursor: pointer;
-
+.btn {
+  font-size: 18px;
+  cursor: pointer;
 }
 
 /* Teams Navbar Button CSS */
 
 .DPContent {
-    /* Content does NOT show */
-    display: none;
+  /* Content does NOT show */
+  display: none;
 
-    /* Adds a space */
-    position: relative;
-    
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  /* Adds a space */
+  position: relative;
+
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
-/*  */
 .DPContent a {
-    color: black;
-    text-decoration: none;
-    display: block;
-    
+  color: black;
+  text-decoration: none;
+  display: block;
 }
 
-.DPContent a:hover{
-    background-color: lightblue;
+.DPContent a:hover {
+  background-color: lightblue;
 }
 
 /* Show Function Helper */
 .show {
-    display: block;
-    text-decoration: none;
+  display: block;
+  text-decoration: none;
 }

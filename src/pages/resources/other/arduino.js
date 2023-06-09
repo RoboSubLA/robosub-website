@@ -70,33 +70,52 @@ export default function Arduino() {
           </ul>
         </nav>
 
-        <h1>Arduino</h1>
+        <h1>ARDUINO</h1>
         <div>
-          <h3 className="resource-text">Install Arduino IDE</h3>
-          <p className="resource-text">Instructions to install IDE here</p>
-          <div className="links-container">
-            <a
-              className="resource-links"
-              href="https://www.arduino.cc/en/Guide/Windows"
-            >
-              <i class="fab fa-windows"> Windows</i>
-            </a>
-            <a
-              className="resource-links"
-              href="https://www.arduino.cc/en/Guide/MacOSX"
-            >
-              <i class="fab fa-apple"> Mac OS</i>
+          <h3 style={{ color: "teal" }}>Installing Arduino IDE</h3>
+          <p>Instructions to install IDE here:</p>
+          <div className={styles.linksCon}>
+            <a href="https://www.arduino.cc/en/Guide/Windows">
+              <img
+                className={styles.icon}
+                src={require("@site/static/img/other/windowsLogo.png").default}
+                width="200"
+                alt="Windows Logo"
+              ></img>
             </a>
             <a
               className="resource-links"
               href="https://www.arduino.cc/en/Guide/Linux"
             >
-              <i class="fab fa-linux"></i> Linux
+              <img
+                className={styles.icon}
+                src={require("@site/static/img/other/linuxLogo.png").default}
+                height="100"
+                width="160"
+                alt="Linux Logo"
+              ></img>
+            </a>
+
+            <a
+              className="resource-links"
+              href="https://www.arduino.cc/en/Guide/MacOSX"
+            >
+              <img
+                className={styles.icon}
+                src={require("@site/static/img/other/macLogo.png").default}
+                height="120"
+                width="120"
+                alt="Mac OS Logo"
+              ></img>
             </a>
           </div>
-
           <br />
-          <h3 className="resource-text">Arduino Basics</h3>
+        </div>
+
+        <div className={styles.backgroundContainer}>
+          <h2 style={{ color: "black" }}>
+            <b>Arduino Basics</b>
+          </h2>
           <p className="iframe-align">
             <iframe
               className="resource-iframe"
@@ -109,8 +128,6 @@ export default function Arduino() {
           </p>
           <h4 className="resource-text">Breadboard, LEDs, and Buttons</h4>
           <br></br>
-
-          <h3 className="resource-text">Arduino Basics</h3>
           <p className="iframe-align">
             <iframe
               className="resource-iframe"
@@ -121,7 +138,7 @@ export default function Arduino() {
               allowfullscreen
             ></iframe>
           </p>
-          <h4 className="resource-text">Servo, Potentiometer, and DC Motor</h4>
+          <h4>Servo, Potentiometer, and DC Motor</h4>
         </div>
       </div>
     </Layout>

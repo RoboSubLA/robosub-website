@@ -9,6 +9,25 @@
     list-style-type: none;
 }
 
+.linksCon{
+    justify-content: align;
+}
+
+.icon{
+    margin:20px;
+}
+
+
+.backgroundContainer{
+    overflow:hidden;
+    width:auto;
+    padding:20px;
+    margin-left:200px;
+    margin-right:30px;
+    background-color:gray;
+    justify-content: center;
+    border-radius: 100px;
+}
 
 .navbar{
     /* background color */
@@ -21,7 +40,7 @@
     width: auto;
 
     /* height */
-    height: 750px;
+    height: 875px;
 
     /* moves content to the left */
     float: left;
@@ -33,7 +52,6 @@
     margin: 0;
     list-style: none;
     text-align: center;
-    
     display: grid;
     grid-auto-flow: row;
     grid-row-gap: 23px;
@@ -46,6 +64,7 @@
 .myDIV {
     width: auto;
     text-align: center;
+    justify-content: center;
     background-color: darkblue;
   }
 

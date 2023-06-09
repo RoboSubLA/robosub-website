@@ -76,22 +76,22 @@ export default function Github() {
           control changes to their code. To understand exactly what GitHub is,
           you need to know two connected principles:
         </p>
-        <h3 className="resources-section-h3"> Version Control:</h3>
+        <h3 className="resources-section-h3"> 1. Version Control:</h3>
         <p className="resources-section-p">
           In software engineering, version control is a class of systems
           responsible for managing changes to computer programs, documents,
           large web sites, or other collections of information. Version control
           is a component of software configuration management.
         </p>
-        <h3 className="resources-section-h3"> Git: </h3>
-        <p className="resources-section-p">
+        <div>
+        <h3 className="resources-section-h3"> 2. Git: </h3>
           Git is software for tracking changes in any set of files, usually used
           for coordinating work among programmers collaboratively developing
           source code during software development. Its goals include speed, data
           integrity, and support for distributed, non-linear workflows.
-        </p>
-        <h1 className="resources-section-h1">Set Up</h1>
-        <h3 className="resources-section-h3"> Installing Git:</h3>
+          </div>
+        <h1><u>Set Up</u></h1>
+        <h3 className="resources-section-h3"> Installing Git Links:</h3>
         <a className="git-links" href="https://git-scm.com/download/win">
           <i class="fab fa-windows fa-2x"> Windows</i>
         </a>
@@ -101,12 +101,13 @@ export default function Github() {
         <a className="git-links" href="https://git-scm.com/download/mac">
           <i class="fab fa-apple fa-2x"> Mac OS</i>
         </a>
-        <h3 className="resources-section-h3"> GitHub:</h3>
+        <h3 className="resources-section-h3"> GitHub Link:</h3>
         <a className="git-links" href="https://github.com/">
           <i class="fab fa-github fa-2x"> GitHub </i>
         </a>
         <h1>Git Cheat Sheet:</h1>
-        SETUP Configuring user information used across all local repositories
+        SETUP - Configuring user information used across all local repositories
+        <br></br>
         <code className="git-code">
           git config --global user.name “[firstname lastname]”
         </code>

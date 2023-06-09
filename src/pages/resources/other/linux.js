@@ -69,11 +69,13 @@ export default function Linux() {
           </ul>
         </nav>
 
-        <h1>LINUX</h1>
+        <h1 style={{ textAlign: "center" }}>LINUX</h1>
 
-        {/* <Image className="linux-logo" src="/images/other/LinuxLogo.png" /> */}
-        <p className="linux-h1"> What is Linux </p>
-        <p className="linux-p">
+        <h2 style={{ textAlign: "center", backgroundColor: "teal", overflow:"hidden" }}>
+          {" "}
+          What is Linux?{" "}
+        </h2>
+        <p style={{ textAlign: "center", overflow:"hidden"  }}>
           {" "}
           Just like Windows, iOS, and Mac OS, Linux is an operating system. In
           fact, one of the most popular platforms on the planet, Android, is
@@ -83,105 +85,108 @@ export default function Linux() {
           communication between your software and your hardware. Without the
           operating system (OS), the software wouldnt function?{" "}
         </p>
-        <p className="linux-h3">
-          The Linux operating system comprises several different pieces:
-        </p>
 
-        <li className="linux-list-item">
-          <span className="accent-color-linux">Bootloader</span> – The software
-          that manages the boot process of your computer. For most users, this
-          will simply be a splash screen that pops up and eventually goes away
-          to boot into the operating system.
-        </li>
-        <li className="linux-list-item">
-          <span className="accent-color-linux">Kernel</span> – This is the one
-          piece of the whole that is actually called ?Linux?. The kernel is the
-          core of the system and manages the CPU, memory, and peripheral
-          devices. The kernel is the lowest level of the OS.
-        </li>
-        <li className="linux-list-item">
-          <span className="accent-color-linux">Init System</span> – This is a
-          sub-system that bootstraps the user space and is charged with
-          controlling daemons. One of the most widely used init systems is
-          systemd? which also happens to be one of the most controversial. It is
-          the init system that manages the boot process, once the initial
-          booting is handed over from the bootloader (i.e., GRUB or GRand
-          Unified Bootloader).
-        </li>
-        <li className="linux-list-item">
-          <span className="accent-color-linux">Daemons</span> – These are
-          background services (printing, sound, scheduling, etc.) that either
-          start up during boot or after you log into the desktop.
-        </li>
-        <li className="linux-list-item">
-          <span className="accent-color-linux">Graphical server</span> – This is
-          the sub-system that displays the graphics on your monitor. It is
-          commonly referred to as the X server or just X.
-        </li>
-        <li className="linux-list-item">
-          <span className="accent-color-linux">Desktop environment</span> – This
-          is the piece that the users actually interact with. There are many
-          desktop environments to choose from (GNOME, Cinnamon, Mate, Pantheon,
-          Enlightenment, KDE, Xfce, etc.). Each desktop environment includes
-          built-in applications (such as file managers, configuration tools, web
-          browsers, and games).
-        </li>
-        <li className="linux-list-item">
-          <span className="accent-color-linux">Applications</span> – Desktop
-          environments do not offer the full array of apps. Just like Windows
-          and macOS, Linux offers thousands upon thousands of high-quality
-          software titles that can be easily found and installed. Most modern
-          Linux distributions (more on this below) include App Store-like tools
-          that centralize and simplify application installation. For example,
-          Ubuntu Linux has the Ubuntu Software Center (a rebrand of GNOME
-          Software? Figure 1) which allows you to quickly search among the
-          thousands of apps and install them from one centralized location.
-        </li>
+        <div className={styles.linuxList}>
+          <p className="linux-h3">
+            The Linux operating system comprises several different pieces:
+          </p>
+          <li className="linux-list-item">
+            <span>Bootloader</span> – The software that manages the boot process
+            of your computer. For most users, this will simply be a splash
+            screen that pops up and eventually goes away to boot into the
+            operating system.
+          </li>
+          <li className="linux-list-item">
+            <span className="accent-color-linux">Kernel</span> – This is the one
+            piece of the whole that is actually called ?Linux?. The kernel is
+            the core of the system and manages the CPU, memory, and peripheral
+            devices. The kernel is the lowest level of the OS.
+          </li>
+          <li className="linux-list-item">
+            <span className="accent-color-linux">Init System</span> – This is a
+            sub-system that bootstraps the user space and is charged with
+            controlling daemons. One of the most widely used init systems is
+            systemd? which also happens to be one of the most controversial. It
+            is the init system that manages the boot process, once the initial
+            booting is handed over from the bootloader (i.e., GRUB or GRand
+            Unified Bootloader).
+          </li>
+          <li className="linux-list-item">
+            <span className="accent-color-linux">Daemons</span> – These are
+            background services (printing, sound, scheduling, etc.) that either
+            start up during boot or after you log into the desktop.
+          </li>
+          <li className="linux-list-item">
+            <span className="accent-color-linux">Graphical server</span> – This
+            is the sub-system that displays the graphics on your monitor. It is
+            commonly referred to as the X server or just X.
+          </li>
+          <li className="linux-list-item">
+            <span className="accent-color-linux">Desktop environment</span> –
+            This is the piece that the users actually interact with. There are
+            many desktop environments to choose from (GNOME, Cinnamon, Mate,
+            Pantheon, Enlightenment, KDE, Xfce, etc.). Each desktop environment
+            includes built-in applications (such as file managers, configuration
+            tools, web browsers, and games).
+          </li>
+          <li className="linux-list-item">
+            <span className="accent-color-linux">Applications</span> – Desktop
+            environments do not offer the full array of apps. Just like Windows
+            and macOS, Linux offers thousands upon thousands of high-quality
+            software titles that can be easily found and installed. Most modern
+            Linux distributions (more on this below) include App Store-like
+            tools that centralize and simplify application installation. For
+            example, Ubuntu Linux has the Ubuntu Software Center (a rebrand of
+            GNOME Software? Figure 1) which allows you to quickly search among
+            the thousands of apps and install them from one centralized
+            location.
+          </li>
+        </div>
+        <h2 style={{ textAlign: "center" }}>Installing Linux </h2>
+        <p style={{ textAlign: "center", paddingLeft: "25px" }}>3 Methods:</p>
+        <div className={styles.virtualization}>
+          <h3>
+            {" "}
+            <u>Virtualization </u>{" "}
+          </h3>
+          <p>
+            Virtualization involves installing an emulator to run an instance of
+            the Linux OS inside a window on a host computer. The main benefit of
+            this type of install is the ability to add and remove various
+            versions of operating systems without the need of making any major
+            changes to your hard drive. It is also the easiest to implement. The
+            downsides include needing at least 8 GB of ram for the setup we are
+            running, as well as needing different install software depending on
+            your native OS. In addition, the computer vision software
+            requirements are different, and running those algorithms might
+            produce unexpected results, or refuse to run altogether. Still a
+            great choice if Linux is new to you and you want to try it out
+            risk-free.
+          </p>
 
-        <h2 className="linux-h1">Installing Linux </h2>
-        <p
-          className="linux-h3"
-          style={{ textAlign: "center", paddingLeft: "25px" }}
-        >
-          3 Methods:
-        </p>
+          <a
+            href="https://www.makeuseof.com/tag/install-linux-windows-vmware-virtual-machine/"
+          >
+            - Install Linux on Windows
+          </a>
 
-        <p className="linux-h1"> Virtualization </p>
-        <p className="linux-p">
-          Virtualization involves installing an emulator to run an instance of
-          the Linux os inside a window on a host computer. The main benifit of
-          this type of install is the ability to add and remove various versions
-          of OS's without the need of making any major change to your hard
-          drive. It is the easiest to implement. The downsides include needing
-          at least 8gb of ram for the set up we are running, as well as needing
-          different install software depending on your native OS. In addition
-          the computer vision software requirements are different, and running
-          those algorithms might produce unexpected results, or refuse to run
-          altogether. Still a great choice if Linus is new to you and want to
-          try it out risk free.
-        </p>
+          <br></br>
 
-        <a
-          className="linux-links"
-          href="https://www.makeuseof.com/tag/install-linux-windows-vmware-virtual-machine/"
-        >
-          Install Linux on windows
-        </a>
-        <br></br>
+          <a
+            href="https://www.imore.com/how-use-linux-your-mac-using-virtual-machine"
+          >
+            - Install Linux on MAC
+          </a>
+        </div>
 
-        <a
-          className="linux-links"
-          href="https://www.imore.com/how-use-linux-your-mac-using-virtual-machine"
-        >
-          Install Linux on MAC
-        </a>
-
+        <div className={styles.hardDrive}>
         <p className="linux-h1"> External Hard Drive Install </p>
         <p>
           Installing on an external hard drive is the easiest way to have your
-          host computer nativily boot linux. The only required material is an
-          additional hard drive (internal or external) and a bootable USB
+          host computer natively boot Linux. The only required material is an
+          additional hard drive (internal or external) and a bootable USB.
         </p>
+     
         <p className="linux-h3">Bootable USB Windows</p>
         <p className="iframe-align">
           <iframe
@@ -209,9 +214,10 @@ export default function Linux() {
           className="linux-links"
           href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview"
         >
-          Bootable USB Help
+         - Official Linux Bootable USB Tutorial
         </a>
-
+        </div>
+        <div className={styles.virtualization}>
         <p className="linux-h1"> Hard Drive Partitioning </p>
 
         <p>
@@ -227,16 +233,18 @@ export default function Linux() {
           className="linux-links"
           href="https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/"
         >
-          Partition Install on Windows
+          -Partition Install on Windows
         </a>
-
+<br></br>
         <a
           className="linux-links"
           href="https://www.makeuseof.com/tag/install-linux-macbook-pro/"
         >
-          Partition Install on Mac
+          -Partition Install on Mac
         </a>
+        </div>
       </div>
+      {/* </div> */}
     </Layout>
   );
 }
