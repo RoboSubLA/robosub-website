@@ -106,8 +106,10 @@ export default function Github() {
           <i class="fab fa-github fa-2x"> GitHub </i>
         </a>
         <h1>Git Cheat Sheet:</h1>
+        <p style={{backgroundColor:"teal"}}>
         SETUP - Configuring user information used across all local repositories
-        <br></br>
+        </p>
+
         <code className="git-code">
           git config --global user.name “[firstname lastname]”
         </code>
@@ -124,8 +126,10 @@ export default function Github() {
         <p className="git-cheat-p">
           Set automatic command line coloring for Git for easy reviewing
         </p>
-        SETUP & INIT Configuring user information used across all local
-        repositories
+        <p style={{backgroundColor:"teal"}}>
+        SETUP & INIT - Configuring user information used across all local
+        repositories <br></br>
+        </p>
         <code className="git-code">git init</code>
         <p className="git-cheat-p">
           Initialize an existing directory as a Git repository
@@ -134,7 +138,7 @@ export default function Github() {
         <p className="git-cheat-p">
           Retrieve an entire repository from a hosted location via URL
         </p>
-        STAGE & SNAPSHOT Working with snapshots and the Git staging area
+        STAGE & SNAPSHOT -Working with snapshots and the Git staging area <br></br>
         <code className="git-code">git add [file] or git add .</code>
         <p className="git-cheat-p">
           Add a file as it looks now to your next commit (stage)
@@ -143,8 +147,10 @@ export default function Github() {
         <p className="git-cheat-p">
           Commit your staged content as a new commit snapshot
         </p>
-        BRANCH & MERGE Isolating work in branches, changing context, and
+        <p style={{backgroundColor:"teal"}}>
+        BRANCH & MERGE - Isolating work in branches, changing context, and
         integrating changes
+        </p>
         <code className="git-code">git branch</code>
         <p className="git-cheat-p">
           List your branches. a * will appear next to the currently active
