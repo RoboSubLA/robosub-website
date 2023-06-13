@@ -21,10 +21,6 @@ export default function CompVis() {
     location.assign("../other/github");
   }
 
-  function ros() {
-    location.assign("../other/ros");
-  }
-
   function teamsFunc() {
     document.getElementById("dropdown").classList.toggle(styles.show);
   }
@@ -62,10 +58,6 @@ export default function CompVis() {
             <button onClick={github} className={styles.btn}>
               GIT & GITHUB
             </button>
-
-            <button onClick={ros} className={styles.btn}>
-              ROBOT OS
-            </button>
           </ul>
         </nav>
 
@@ -75,24 +67,26 @@ export default function CompVis() {
           as the 'eyes' to the submarine through custom object detection models.
           We utilize the You Only Look Once algorithm as well as the computer
           vision library OpenCV. The You Only Look Once algorithm allows us to
-          create custom object detection models. 
-          <br></br><br></br>We first print vinyl posters of
-          the competition objects and reconstruct what we anticipate to be the
-          obstacles. Then, we submerge the objects underwater and take videos.
-          From the underwater videos, we use a Python script and OpenCV to
-          publish and extract frames which will be the dataset to be trained on.
-          After we have prepared our dataset, we then manually annotate each
-          image with bounding boxes. Once annotations are done, the dataset is
-          ready to be trained on. We employ a few augmentations to make our
-          dataset more robust and help improve accuracy, which include Gaussian
-          blur, changing the image orientation, and cropping.<br></br><br></br> Additionally, for
-          some obstacles, we may add classes to denote orientation which helps
-          Autonomy make decisions on navigation. We then use Google Colab for
-          its computing ability (GPU) to train using the YOLO algorithm. Once we
-          have our trained object detection models, we utilize OpenCV within our
-          submarine to subscribe and publish frames from the equipped RGB camera
-          using ROS. We syncrohnize the YOLO repository to utilize our models to
-          detect objects in realtime.
+          create custom object detection models.
+          <br></br>
+          <br></br>We first print vinyl posters of the competition objects and
+          reconstruct what we anticipate to be the obstacles. Then, we submerge
+          the objects underwater and take videos. From the underwater videos, we
+          use a Python script and OpenCV to publish and extract frames which
+          will be the dataset to be trained on. After we have prepared our
+          dataset, we then manually annotate each image with bounding boxes.
+          Once annotations are done, the dataset is ready to be trained on. We
+          employ a few augmentations to make our dataset more robust and help
+          improve accuracy, which include Gaussian blur, changing the image
+          orientation, and cropping.<br></br>
+          <br></br> Additionally, for some obstacles, we may add classes to
+          denote orientation which helps Autonomy make decisions on navigation.
+          We then use Google Colab for its computing ability (GPU) to train
+          using the YOLO algorithm. Once we have our trained object detection
+          models, we utilize OpenCV within our submarine to subscribe and
+          publish frames from the equipped RGB camera using ROS. We syncrohnize
+          the YOLO repository to utilize our models to detect objects in
+          realtime.
         </p>
       </div>
     </Layout>

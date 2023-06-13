@@ -30,10 +30,6 @@ export default function ResourcesPage() {
     location.assign("./other/github");
   }
 
-  function ros() {
-    location.assign("./other/ros");
-  }
-
   // Teams Navbar Function
   function teamsFunc() {
     document.getElementById("dropdown").classList.toggle(styles.show);
@@ -73,9 +69,6 @@ export default function ResourcesPage() {
               GIT & GITHUB
             </button>
 
-            <button onClick={ros} className={styles.btn}>
-              ROBOT OS
-            </button>
           </ul>
         </nav>
 

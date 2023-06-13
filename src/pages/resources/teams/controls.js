@@ -21,10 +21,6 @@ export default function Controls() {
     location.assign("../other/github");
   }
 
-  function ros() {
-    location.assign("../other/ros");
-  }
-
   function teamsFunc() {
     document.getElementById("dropdown").classList.toggle(styles.show);
   }
@@ -62,10 +58,6 @@ export default function Controls() {
             <button onClick={github} className={styles.btn}>
               GIT & GITHUB
             </button>
-
-            <button onClick={ros} className={styles.btn}>
-              ROBOT OS
-            </button>
           </ul>
         </nav>
 
@@ -75,12 +67,13 @@ export default function Controls() {
           high-level movement commands into individual thruster and actuator
           commands to actually move the robot around. We work mostly in C++ on
           embedded systems such as our custom controller PCBs, and communicate
-          with the rest of our software over ROS. <br></br><br></br>Most of the year is spent
-          updating our software to be compatible with new versions of Linux and
-          ROS, and adding any features we think could improve our vehicles'
-          performance. When it comes time to test, we spend a lot of time tuning
-          the parameters of our various orientation and translation controllers
-          to best accomplish commanded movements in the shortest time possible.
+          with the rest of our software over ROS. <br></br>
+          <br></br>Most of the year is spent updating our software to be
+          compatible with new versions of Linux and ROS, and adding any features
+          we think could improve our vehicles' performance. When it comes time
+          to test, we spend a lot of time tuning the parameters of our various
+          orientation and translation controllers to best accomplish commanded
+          movements in the shortest time possible.
         </p>
       </div>
     </Layout>

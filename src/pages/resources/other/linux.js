@@ -21,10 +21,6 @@ export default function Linux() {
     location.assign("../other/github");
   }
 
-  function ros() {
-    location.assign("../other/ros");
-  }
-
   function teamsFunc() {
     document.getElementById("dropdown").classList.toggle(styles.show);
   }
@@ -62,20 +58,22 @@ export default function Linux() {
             <button onClick={github} className={styles.btn}>
               GIT & GITHUB
             </button>
-
-            <button onClick={ros} className={styles.btn}>
-              ROBOT OS
-            </button>
           </ul>
         </nav>
 
         <h1 style={{ textAlign: "center" }}>LINUX</h1>
 
-        <h2 style={{ textAlign: "center", backgroundColor: "teal", overflow:"hidden" }}>
+        <h2
+          style={{
+            textAlign: "center",
+            backgroundColor: "teal",
+            overflow: "hidden",
+          }}
+        >
           {" "}
           What is Linux?{" "}
         </h2>
-        <p style={{ textAlign: "center", overflow:"hidden"  }}>
+        <p style={{ textAlign: "center", overflow: "hidden" }}>
           {" "}
           Just like Windows, iOS, and Mac OS, Linux is an operating system. In
           fact, one of the most popular platforms on the planet, Android, is
@@ -164,84 +162,80 @@ export default function Linux() {
             risk-free.
           </p>
 
-          <a
-            href="https://www.makeuseof.com/tag/install-linux-windows-vmware-virtual-machine/"
-          >
+          <a href="https://www.makeuseof.com/tag/install-linux-windows-vmware-virtual-machine/">
             - Install Linux on Windows
           </a>
 
           <br></br>
 
-          <a
-            href="https://www.imore.com/how-use-linux-your-mac-using-virtual-machine"
-          >
+          <a href="https://www.imore.com/how-use-linux-your-mac-using-virtual-machine">
             - Install Linux on MAC
           </a>
         </div>
 
         <div className={styles.hardDrive}>
-        <p className="linux-h1"> External Hard Drive Install </p>
-        <p>
-          Installing on an external hard drive is the easiest way to have your
-          host computer natively boot Linux. The only required material is an
-          additional hard drive (internal or external) and a bootable USB.
-        </p>
-     
-        <p className="linux-h3">Bootable USB Windows</p>
-        <p className="iframe-align">
-          <iframe
-            className="linux-yt"
-            src="https://www.youtube.com/embed/X_fDdUgqIUQ"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </p>
-        <p className="linux-h3">Bootable USB MAC OS</p>
-        <p className="iframe-align">
-          <iframe
-            className="linux-yt"
-            src="https://www.youtube.com/embed/Yf3VChom8qo"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </p>
+          <p className="linux-h1"> External Hard Drive Install </p>
+          <p>
+            Installing on an external hard drive is the easiest way to have your
+            host computer natively boot Linux. The only required material is an
+            additional hard drive (internal or external) and a bootable USB.
+          </p>
 
-        <a
-          className="linux-links"
-          href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview"
-        >
-         - Official Linux Bootable USB Tutorial
-        </a>
+          <p className="linux-h3">Bootable USB Windows</p>
+          <p className="iframe-align">
+            <iframe
+              className="linux-yt"
+              src="https://www.youtube.com/embed/X_fDdUgqIUQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </p>
+          <p className="linux-h3">Bootable USB MAC OS</p>
+          <p className="iframe-align">
+            <iframe
+              className="linux-yt"
+              src="https://www.youtube.com/embed/Yf3VChom8qo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </p>
+
+          <a
+            className="linux-links"
+            href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview"
+          >
+            - Official Linux Bootable USB Tutorial
+          </a>
         </div>
         <div className={styles.virtualization}>
-        <p className="linux-h1"> Hard Drive Partitioning </p>
+          <p className="linux-h1"> Hard Drive Partitioning </p>
 
-        <p>
-          This method involves partitioning your hard drive on the host computer
-          to allow seperate OS's to be installed on the same drive. It has the
-          least computer requirements, as Linux is installed on the hard drive
-          and uses all host resources. Partitioning is potentially risky as
-          there is a possibility of deleting your operating system but as long
-          as you are paying attention and following steps there should be no
-          problems.
-        </p>
-        <a
-          className="linux-links"
-          href="https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/"
-        >
-          -Partition Install on Windows
-        </a>
-<br></br>
-        <a
-          className="linux-links"
-          href="https://www.makeuseof.com/tag/install-linux-macbook-pro/"
-        >
-          -Partition Install on Mac
-        </a>
+          <p>
+            This method involves partitioning your hard drive on the host
+            computer to allow seperate OS's to be installed on the same drive.
+            It has the least computer requirements, as Linux is installed on the
+            hard drive and uses all host resources. Partitioning is potentially
+            risky as there is a possibility of deleting your operating system
+            but as long as you are paying attention and following steps there
+            should be no problems.
+          </p>
+          <a
+            className="linux-links"
+            href="https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/"
+          >
+            -Partition Install on Windows
+          </a>
+          <br></br>
+          <a
+            className="linux-links"
+            href="https://www.makeuseof.com/tag/install-linux-macbook-pro/"
+          >
+            -Partition Install on Mac
+          </a>
         </div>
       </div>
       {/* </div> */}

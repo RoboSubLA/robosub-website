@@ -21,10 +21,6 @@ export default function Arduino() {
     location.assign("../other/github");
   }
 
-  function ros() {
-    location.assign("../other/ros");
-  }
-
   function teamsFunc() {
     document.getElementById("dropdown").classList.toggle(styles.show);
   }
@@ -62,10 +58,6 @@ export default function Arduino() {
 
             <button onClick={github} className={styles.btn}>
               GIT & GITHUB
-            </button>
-
-            <button onClick={ros} className={styles.btn}>
-              ROBOT OS
             </button>
           </ul>
         </nav>

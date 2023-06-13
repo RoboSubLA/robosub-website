@@ -22,10 +22,6 @@ export default function Electronics() {
     location.assign("../other/github");
   }
 
-  function ros() {
-    location.assign("../other/ros");
-  }
-
   // Teams Navbar Function
   function teamsFunc() {
     document.getElementById("dropdown").classList.toggle(styles.show);
@@ -36,11 +32,13 @@ export default function Electronics() {
       <div className={styles.pageWrapper}>
         <nav className={styles.navbar}>
           <ul className={styles.navbar_elements}>
-          <button onClick={get_started} className={styles.btn}>
+            <button onClick={get_started} className={styles.btn}>
               GET STARTED
             </button>
 
-            <button onClick={teamsFunc} className={styles.btn}>TEAMS</button>
+            <button onClick={teamsFunc} className={styles.btn}>
+              TEAMS
+            </button>
 
             <div id="dropdown" className={styles.DPContent}>
               <a href="./framehull">Frame and Hull</a>
@@ -60,10 +58,6 @@ export default function Electronics() {
 
             <button onClick={github} className={styles.btn}>
               GIT & GITHUB
-            </button>
-
-            <button onClick={ros} className={styles.btn}>
-              ROBOT OS
             </button>
           </ul>
         </nav>
