@@ -89,8 +89,8 @@ const config = {
             className: 'navItems',
           },
           {
-            to: '/events',
-            label: 'Events',
+            to: '/updates',
+            label: 'Updates',
             position: 'right',
             className: 'navItems',
           },
