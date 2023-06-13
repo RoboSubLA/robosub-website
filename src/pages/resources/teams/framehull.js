@@ -43,6 +43,7 @@ export default function FrameHull() {
             <div id="dropdown" className={styles.DPContent}>
               <a href="./framehull">Frame and Hull</a>
               <a href="./electronics">Electronics</a>
+              <a href="./actuatedsys">Actuated Systems</a>
               <a href="./controls">Controls</a>
               <a href="./autonomy">Autonomy</a>
               <a href="./compvis">Computer Vision</a>

@@ -1,10 +1,8 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./compvis.module.css";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export default function CompVis() {
-  const { siteConfig } = useDocusaurusContext();
 
   function get_started() {
     location.assign("./../resources");
@@ -42,6 +40,7 @@ export default function CompVis() {
             <div id="dropdown" className={styles.DPContent}>
               <a href="./framehull">Frame and Hull</a>
               <a href="./electronics">Electronics</a>
+              <a href="./actuatedsys">Actuated Systems</a>
               <a href="./controls">Controls</a>
               <a href="./autonomy">Autonomy</a>
               <a href="./compvis">Computer Vision</a>

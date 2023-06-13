@@ -9,11 +9,8 @@ import {
   Typography,
   CardActions,
 } from "@mui/material";
-// import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export default function ResourcesPage() {
-  // const { siteConfig } = useDocusaurusContext();
-
   function get_started() {
     location.assign("./resources");
   }
@@ -52,6 +49,7 @@ export default function ResourcesPage() {
             <div id="dropdown" className={styles.DPContent}>
               <a href="./teams/framehull">Frame and Hull</a>
               <a href="./teams/electronics">Electronics</a>
+              <a href="./teams/actuatedsys">Actuated Systems</a>
               <a href="./teams/controls">Controls</a>
               <a href="./teams/autonomy">Autonomy</a>
               <a href="./teams/compvis">Computer Vision</a>
@@ -68,7 +66,6 @@ export default function ResourcesPage() {
             <button onClick={github} className={styles.btn}>
               GIT & GITHUB
             </button>
-
           </ul>
         </nav>
 
@@ -82,8 +79,9 @@ export default function ResourcesPage() {
               <span style={{ color: "teal" }}>
                 <b>RoboSub LA</b>
               </span>{" "}
-              we are passionate about Robotics and we want to share what we know
-              with our community of Robotic enthusiast.
+              we are passionate about Robotics; we want to share what we know
+              with our community of robotic enthusiasts and foster technical
+              skills through a hands-on, interdisciplinary approach.
               <br></br> <br></br>
               <p>
                 <h2 style={{ color: "green" }}>
@@ -135,7 +133,7 @@ export default function ResourcesPage() {
               </p>
             </p>
 
-            <h2> Team Breakdown Subteams: </h2>
+            <h2> Team Breakdown - Subteams: </h2>
 
             {/* Teams */}
             <div style={{ display: "flex", justifyContent: "center" }}>
@@ -207,6 +205,40 @@ export default function ResourcesPage() {
                   //   require("@site/static/img/other/frameandHull_icon.png")
                   //     .default
                   // }
+                  alt="Actuated Systems Photo"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    ACTUATED SYSTEMS TEAM
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    The Actuated Systems subteam is responsible for designing
+                    and manufacturing the claw, ball dropper, and torpedo
+                    systems. Students focus on kinematics, finite element
+                    analysis, and computational fluid dynamics & effectively
+                    apply that in the design and manufacturing of the
+                    aforementioned submarine components.
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <a href="./teams/actuatedsys">
+                    <Button size="small" color="primary">
+                      LEARN MORE
+                    </Button>
+                  </a>
+                </CardActions>
+              </Card>
+            </div>
+
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <Card sx={{ maxWidth: 300, margin: "20px" }}>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  // image={
+                  //   require("@site/static/img/other/frameandHull_icon.png")
+                  //     .default
+                  // }
                   alt="Controls Photo"
                 />
                 <CardContent>
@@ -231,9 +263,7 @@ export default function ResourcesPage() {
                   </a>
                 </CardActions>
               </Card>
-            </div>
 
-            <div style={{ display: "flex", justifyContent: "center" }}>
               <Card sx={{ maxWidth: 300, margin: "20px" }}>
                 {/* <CardActionArea> */}
                 <CardMedia
@@ -288,11 +318,13 @@ export default function ResourcesPage() {
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     The Computer Vision subteam is responsible for making the
-                    AUV recognize objects with its camera. So, one of the most
-                    important tasks of the CV team is object detection. This
-                    year, YOLO (You Only Look Once) will be used for the CV
+                    AUV locate & recognize objects with its camera. One of the
+                    most important tasks of the CV team is object detection.
+                    This year, YOLO (You Only Look Once) will be used for the CV
                     software which is a deep learning algorithm that is used to
-                    train custom object detection models.
+                    train custom object detection models. The CV team is also
+                    responsible for interfacing with the submarine using a ROS
+                    node.
                   </Typography>
                 </CardContent>
                 {/* </CardActionArea> */}
