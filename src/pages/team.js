@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import { Grid, Card, Chip, Box } from "@mui/material";
+
+import {Grid, Card, Chip, Box } from "@mui/material";
 import styles from "./sponsors/styles.module.css";
 
 import crewJSON from "../../static/json/team.json";
