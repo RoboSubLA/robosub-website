@@ -7,23 +7,23 @@ export default function Electronics() {
   const { siteConfig } = useDocusaurusContext();
 
   function get_started() {
-    location.assign("./resources");
+    location.assign("../resources");
   }
 
   function linuxfunc() {
-    location.assign("./other/linux");
+    location.assign("../other/linux");
   }
 
   function arduino() {
-    location.assign("./other/arduino");
+    location.assign("../other/arduino");
   }
 
   function github() {
-    location.assign("./other/github");
+    location.assign("../other/github");
   }
 
   function ros() {
-    location.assign("./other/ros");
+    location.assign("../other/ros");
   }
 
   // Teams Navbar Function
