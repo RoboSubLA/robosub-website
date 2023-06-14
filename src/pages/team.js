@@ -90,8 +90,9 @@ export default function TeamPage() {
     <div border-radius='5px'>
       </div>
       <div className={styles.contactUsContainer}>
-        <h1 className={styles.contactTitle}>OFFICERS</h1>
-        <div className={styles.cardsContainer}>
+      <div className={styles.cardsContainer}>
+        <h1 className={styles.contactTitle} style={{backgroundColor:"gray", color:"white", fontSize:"4rem;"}} align="center">Officers</h1>
+        
           <Grid
             sx={{ flexGrow: 1 }}
             container
@@ -100,7 +101,7 @@ export default function TeamPage() {
           >
             <ContactUs />
           </Grid>
-          <h1 className={styles.contactTitle} align="center">CLUB TEAM</h1>
+          <h1 className={styles.contactTitle} style={{backgroundColor:"black", color:"white", fontSize:"4rem;"}} align="center">Club Team</h1>
           <Grid
             sx={{ flexGrow: 1 }}
             container
@@ -110,7 +111,7 @@ export default function TeamPage() {
             <ContactClub />
           </Grid>
 
-          <h1 className={styles.contactTitle} align="center">SENIOR DESIGN</h1>
+          <h1 className={styles.contactTitle} align="center" style={{backgroundColor:"teal", color:"white", fontSize:"4rem;"}}>Senior Design</h1>
           <Grid
             sx={{ flexGrow: 1 }}
             container

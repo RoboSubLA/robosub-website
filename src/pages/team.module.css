@@ -3,6 +3,10 @@
     padding: 1rem;
 }
 
+.contactTitle{
+  color:white;
+}
+
 .contactCard {
     margin: 20px;
     padding: 20px;

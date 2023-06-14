@@ -1,11 +1,12 @@
 .heroBanner {
     background-image: linear-gradient(var(--ifm-color-primary),var(--ifm-color-primary-darkest));
     text-align: center;
-    padding: 3rem;
+    /* height: 90vh; */
+    padding: 1rem;
 }
 
 .heroTitle {
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 0%;
 }
 
@@ -17,7 +18,7 @@
     background-color: hsla(45, 97%, 59%, 0.5);
     border: 2px solid black;
     border-radius: 20px;
-    padding: 3rem;
+    padding: .5rem;
 }
 
 

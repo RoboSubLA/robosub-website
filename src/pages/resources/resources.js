@@ -153,9 +153,10 @@ export default function ResourcesPage() {
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     The Frame and Hull subteam is responsible for making the
-                    design of the AUV itself. The hull and frame of the sub are
-                    the physical components of the AUV, which the team will be
-                    responsible for making.
+                    design of the AUV itself. Frame and Hull will be
+                    constructing and assembling the frame and hull. This subteam
+                    also works with SolidWorks to determine placement of other
+                    submarine components and varying approach decisions.
                   </Typography>
                 </CardContent>
                 <CardActions>
@@ -185,7 +186,9 @@ export default function ResourcesPage() {
                     management of internal current conversion from the battery
                     to all of the other electronic parts in the robotic
                     submarine. The team creates schematics for the functionality
-                    of buck converters.
+                    of buck converters. Additionally, this subteam will use
+                    software including KiCAD and EagleCAD to design and optimize
+                    PCB boards.
                   </Typography>
                 </CardContent>
                 <CardActions>
@@ -251,7 +254,9 @@ export default function ResourcesPage() {
                     controls won't be manually operated by any person, but there
                     will usually still be a GUI that either the Controls or
                     Autonomy subteam must make, in order to debug the code and
-                    test the controls.
+                    test the controllers. Controls also creates frameworks that
+                    will assess the sensors, the thrusters and other software
+                    components.
                   </Typography>
                 </CardContent>
                 {/* </CardActionArea> */}
@@ -288,7 +293,8 @@ export default function ResourcesPage() {
                     the end of a path, then something has to be called by the
                     state machine to tell the AUV to transition to the next
                     state, which might tell the AUV to stop or do another task,
-                    depending on what the competition wants the AUV to do.
+                    depending on what the competition wants the AUV to do. This
+                    subteam also utilizes Behavior Trees.
                   </Typography>
                 </CardContent>
                 {/* </CardActionArea> */}
@@ -320,9 +326,10 @@ export default function ResourcesPage() {
                     The Computer Vision subteam is responsible for making the
                     AUV locate & recognize objects with its camera. One of the
                     most important tasks of the CV team is object detection.
-                    This year, YOLO (You Only Look Once) will be used for the CV
-                    software which is a deep learning algorithm that is used to
-                    train custom object detection models. The CV team is also
+                    YOLO (You Only Look Once) will be used for the Computer
+                    Vision software which is a deep learning algorithm that is
+                    used to train custom object detection models in conjunction
+                    with PyTorch and Google Colab. The CV team is also
                     responsible for interfacing with the submarine using a ROS
                     node.
                   </Typography>
