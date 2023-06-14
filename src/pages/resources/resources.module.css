@@ -51,7 +51,9 @@
 .myDIV {
     width: auto;
     text-align: center;
-    background-color: black;
+    background-color:var(--ifm-color-primary-darkest) !important;
+    padding-left:250px;
+    padding-right:75px;
   }
 
 .btn{
