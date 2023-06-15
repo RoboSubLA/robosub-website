@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-// import styles from './styles.module.css';
+import styles from './styles.module.css';
 import crewJSON from "../../../../static/json/oldTeams.json";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
@@ -37,34 +37,36 @@ export default function twentyTwentyOne() {
   
     return(
       <Layout>
-        <h> 2021 </h>
+        <div className={styles.myDIV}>
+    <h1 style={{fontSize:"4rem"}}>  2021-2022 </h1>
+    <h3 className={styles.header}>LANTURN</h3>
         <table responsive striped bordered hover variant="dark">
           <thead>
-            <tr> <th>Lanturn</th></tr>
+  
             <tr>
-              <th>Position</th>
-              <th>Name</th>
-              <th>Major</th>
+            <th>POSITION</th>
+              <th>NAME</th>
+              <th>MAJOR</th>
             </tr>
           </thead>
           <tbody id="table-body">
             <Lanturn></Lanturn>
           </tbody>
         </table>
-
-        <table responsive striped bordered hover variant="dark">
+        <h3 className={styles.header}>BLASTOISE</h3>
+        <table className={styles.table} responsive striped bordered hover variant="dark">
           <thead>
-          <tr>Blastoise</tr>
             <tr>
-              <th>Position</th>
-              <th>Name</th>
-              <th>Major</th>
+              <th>POSITION</th>
+              <th>NAME</th>
+              <th>MAJOR</th>
             </tr>
           </thead>
           <tbody id="table-body">
             <Blastoise></Blastoise>
           </tbody>
         </table>
+        </div>
       </Layout>
     );
   }

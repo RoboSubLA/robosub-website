@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-// import styles from './styles.module.css';
+import styles from "./styles.module.css";
 import crewJSON from "../../../../static/json/oldTeams.json";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
@@ -33,18 +33,19 @@ const Wailord = () => {
 };
 
 export default function twentyTwentyTwo() {
-    const { siteConfig } = useDocusaurusContext();
-  
-    return(
-      <Layout>
-      <h> 2021 </h>
-        <table responsive striped bordered hover variant="dark">
+  const { siteConfig } = useDocusaurusContext();
+
+  return (
+    <Layout>
+      <div className={styles.myDIV}>
+        <h1 style={{ fontSize: "4rem" }}> 2022-2023 </h1>
+        <h3 className={styles.header}>Lanturn</h3>
+        <table responsive striped bordered hover className={styles.table}>
           <thead>
-            <tr> <th>Lanturn</th></tr>
             <tr>
-              <th>Position</th>
-              <th>Name</th>
-              <th>Major</th>
+              <th>POSITION</th>
+              <th>NAME</th>
+              <th>MAJOR</th>
             </tr>
           </thead>
           <tbody id="table-body">
@@ -52,19 +53,26 @@ export default function twentyTwentyTwo() {
           </tbody>
         </table>
 
-        <table responsive striped bordered hover variant="dark">
+        <h3 className={styles.header}>Wailord</h3>
+        <table
+        responsive
+          striped
+          bordered
+          hover
+          className={styles.table}
+        >
           <thead>
-          <tr>Wailord</tr>
             <tr>
-              <th>Position</th>
-              <th>Name</th>
-              <th>Major</th>
+              <th>POSITION</th>
+              <th>NAME</th>
+              <th>MAJOR</th>
             </tr>
           </thead>
           <tbody id="table-body">
             <Wailord></Wailord>
           </tbody>
         </table>
-      </Layout>
-    );
-  }
+      </div>
+    </Layout>
+  );
+}
