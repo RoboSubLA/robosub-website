@@ -5,7 +5,15 @@ import HandymanIcon from "@mui/icons-material/Handyman";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import DisplaySettingsIcon from "@mui/icons-material/DisplaySettings";
-import { Grid, Card, Chip } from "@mui/material";
+import Timeline from "@mui/lab/Timeline";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import TimelineConnector from "@mui/lab/TimelineConnector";
+import TimelineContent from "@mui/lab/TimelineContent";
+import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
+import TimelineDot from "@mui/lab/TimelineDot";
+import Typography from "@mui/material/Typography";
+import { Grid, Card, Chip, CardContent } from "@mui/material";
 import updatesJSON from "../../static/json/updates.json";
 import { CardMedia } from "@mui/material";
 import styles from "./updates.module.css";
@@ -163,29 +171,29 @@ const UpdateN = () => {
   });
 };
 
-const UpdateD = () => {
-  const updateArray = updatesJSON.december;
+// const UpdateD = () => {
+//   const updateArray = updatesJSON.december;
 
-  return updateArray.map((contact) => {
-    return (
-      <Grid item xs={4} sm={2} md={2}>
-        <Card className="" variant="outlined">
-          <h3>{contact.title}</h3>
-          <CardMedia
-            component="img"
-            className={styles.image}
-            image={require("@site/static/img/updates/" + contact.photo).default}
-            alt="photo"
-          />
-          {generateChip(contact.type)}
+//   return updateArray.map((contact) => {
+//     return (
+//       <Grid item xs={4} sm={2} md={2}>
+//         <Card className="" variant="outlined">
+//           <h3>{contact.title}</h3>
+//           <CardMedia
+//             component="img"
+//             className={styles.image}
+//             image={require("@site/static/img/updates/" + contact.photo).default}
+//             alt="photo"
+//           />
+//           {generateChip(contact.type)}
 
-          <p>{contact.description}</p>
-          <p>{contact.date}</p>
-        </Card>
-      </Grid>
-    );
-  });
-};
+//           <p>{contact.description}</p>
+//           <p>{contact.date}</p>
+//         </Card>
+//       </Grid>
+//     );
+//   });
+// };
 
 const UpdateF = () => {
   const updateArray = updatesJSON.february;
@@ -216,21 +224,39 @@ const UpdateM = () => {
 
   return updateArray.map((contact) => {
     return (
-      <Grid item xs={4} sm={2} md={2}>
-        <Card className="" variant="outlined">
+      // <Grid item xs={4} sm={2} md={2}>
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: "auto 0" }}
+          // align="right"
+          variant="body2"
+          color="text.primary"
+        >
           <h3>{contact.title}</h3>
-          <CardMedia
-            component="img"
-            className={styles.image}
-            image={require("@site/static/img/updates/" + contact.photo).default}
-            alt="photo"
-          />
+          {contact.date}
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
           {generateChip(contact.type)}
-
-          <p>{contact.description}</p>
-          <p>{contact.date}</p>
-        </Card>
-      </Grid>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          {/* <Card className={styles.card}> */}
+          <Card sx={{ maxWidth: 315}}>
+                <img
+                  src={
+                    require("@site/static/img/updates/" + contact.photo).default
+                  }
+                  loading="lazy"
+                  alt=""
+                  sx={{ maxHeight: 300}}
+                />
+            <CardContent>
+                {contact.description}
+            </CardContent>
+          </Card>
+        </TimelineContent>
+      </TimelineItem>
     );
   });
 };
@@ -284,10 +310,33 @@ const UpdateMay = () => {
 };
 
 export default function EventsPage() {
-
   return (
     <Layout>
       <div className={styles.background}>
+        <Timeline position="alternate">
+          <UpdateM></UpdateM>
+
+          <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: "auto 0" }}
+              variant="body2"
+              color="text.secondary"
+            >
+              10:00 am
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector />
+              <TimelineDot color="primary"></TimelineDot>
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent sx={{ py: "12px", px: 2 }}>
+              <Typography variant="h6" component="span">
+                Code
+              </Typography>
+              <Typography>Because it&apos;s awesome!</Typography>
+            </TimelineContent>
+          </TimelineItem>
+        </Timeline>
         <Grid
           // sx={{ flexGrow: 1 }}
           className={styles.background}
@@ -299,12 +348,10 @@ export default function EventsPage() {
           <UpdateO></UpdateO>
           <UpdateN></UpdateN>
           <UpdateF></UpdateF>
-          <UpdateM></UpdateM>
+          {/* <UpdateM></UpdateM> */}
           <UpdateA></UpdateA>
           <UpdateMay></UpdateMay>
         </Grid>
-
-
       </div>
     </Layout>
   );

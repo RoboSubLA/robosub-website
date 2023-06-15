@@ -6,10 +6,11 @@
     list-style-type: none;
 }
 
-.textPara{
+.textPara {
     background-color: "#6699CC";
     text-align: center;
-    padding:10px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .icon {
@@ -17,36 +18,38 @@
     height: 250px;
 }
 
-.navbar {
-    /* background color */
+.navBackground{
+    /* overflow: hidden; */
     background-color: white;
+    float:left;
+    position: fixed;
+    height:75%;
+}
 
+.navbar {
+    /* background-color: white; */
     margin-right: 10px;
     /* padding */
     padding: 15px;
-
+    margin-bottom:20px;
     /* width */
     width: auto;
-
-    /* height */
-    height: 2084px;
-
+    /* height: 2084px; */
     /* moves content to the left */
     float: left;
+    text-align: center;
 
 }
 
-
 .navbar_elements {
+    /* background-color: white; */
     padding: 0px;
     margin: 0;
     list-style: none;
     text-align: center;
-
     display: grid;
     grid-auto-flow: row;
     grid-row-gap: 23px;
-    /* position: fixed; */
 }
 
 .nav_ind {
@@ -57,8 +60,8 @@
     width: auto;
     text-align: center;
     background-color: var(--ifm-color-primary-darkest) !important;
-    padding-left: 250px;
-    padding-right: 75px;
+    padding-left: 200px;
+    padding-right: 20px;
 }
 
 .btn {

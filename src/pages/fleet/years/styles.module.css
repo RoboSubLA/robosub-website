@@ -27,7 +27,6 @@ th {
     background-color: var(--ifm-color-primary-light) !important;
 }
 
-
 table,
 th,
 td {
@@ -40,7 +39,6 @@ td {
     font-size: 20px;
     background-color: hsla(45, 97%, 59%, 0.5);
 }
-
 
 @media screen and (max-width: 996px) {
 
@@ -62,6 +60,6 @@ td {
     .header {
         font-size: 1rem;
         margin: 0%;
-        width:200px;
+        width: 200px;
     }
 }

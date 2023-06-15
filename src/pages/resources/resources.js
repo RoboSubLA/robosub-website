@@ -8,7 +8,9 @@ import {
   CardMedia,
   Typography,
   CardActions,
+  Grid,
 } from "@mui/material";
+import { CenterFocusStrongOutlined } from "@mui/icons-material";
 
 export default function ResourcesPage() {
   function get_started() {
@@ -36,6 +38,7 @@ export default function ResourcesPage() {
     <Layout>
       {/* Side Nav Bar */}
       <div className={styles.pageWrapper}>
+        <div className={styles.navBackground}>
         <nav className={styles.navbar}>
           <ul className={styles.navbar_elements}>
             <button onClick={get_started} className={styles.btn}>
@@ -68,6 +71,7 @@ export default function ResourcesPage() {
             </button>
           </ul>
         </nav>
+        </div>
 
         {/* Default Div */}
         <div className={styles.myDIV}>
@@ -76,7 +80,10 @@ export default function ResourcesPage() {
               {" "}
               Welcome Members & RoboSub Teams!{" "}
             </h1>
-            <div className={styles.textPara} style={{ backgroundColor: "#6699CC" }}>
+            <div
+              className={styles.textPara}
+              style={{ backgroundColor: "#6699CC" }}
+            >
               Here at{" "}
               <span style={{ color: "222222" }}>
                 <b>
@@ -87,62 +94,68 @@ export default function ResourcesPage() {
               with our community of robotic enthusiasts and foster technical
               skills through a hands-on, collaborative approach.
               <br></br> <br></br>
-              {/* <p> */}
-                <h2 style={{ color: "darker" }}>
-                  <u>
-                    {" "}
-                    <b>ROBOSUB INTERNATIONAL COMPETITION</b>
-                  </u>
-                </h2>{" "}
-                <h4 style={{ color: "yellow" }}>What is RoboSub?</h4>
-                RoboSub is an international student competition. Student teams
-                from around the world design and build robotic submarines,
-                otherwise known as Autonomous Underwater Vehicles (AUV). The
-                behaviors demonstrated by these experimental AUVs mimics those
-                of real-world systems, currently deployed around the world for
-                underwater exploration, seafloor mapping, and sonar
-                localization, amongst many others.<br></br>
-                <br></br>
-                <h4 style={{ color: "yellow" }}>The Competition</h4>
-                Assemble your team and get busy designing, building and testing
-                the sub-systems of your AUV. Now put it all together and
-                demonstrate your vehicles autonomy by completing a series of
-                tasks through a pre-defined mission. Themes differ every year.
-                For the upcoming 2023 event, the competition's will be based on
-                the iconic sci-fy film Stargate. Click the RoboSub logo below to
-                learn more. <br></br>
-                <br></br>
-                <a href="https://robonation.org/app/uploads/sites/4/2023/04/2023-RoboSub_Team-Handbook_v1.0.pdf">
-                  <img
-                    className="icon"
-                    src={
-                      require("@site/static/img/other/robosubLogo.png").default
-                    }
-                    width="200"
-                  ></img>
-                </a>
-                <h2 style={{ color: "teal" }}>
-                  <b>
-                    <u>ROBOSUB LOS ANGELES TEAM</u>
-                  </b>
-                </h2>
-                Our team is split up into two project teams, the student
-                organization and the senior design team. The senior design team
-                builds one vehicle, and the club members build a separate
-                vehicle while being mentored by senior design members. Both
-                vehicles are intended for use in the competition and strategies
-                will be carefully considered based on the capabilities of both
-                vehicles. Members have the opportunity to design advanced
-                robotics systems and work on an interdisciplinary project to
-                gain experience working with a team. Please see the progress tab
-                for a better idea of what our members are working on and what
-                tasks and projects are available to new members.
+              <h2 style={{ color: "darker" }}>
+                <u>
+                  {" "}
+                  <b>ROBOSUB INTERNATIONAL COMPETITION</b>
+                </u>
+              </h2>{" "}
+              <h4 style={{ color: "yellow" }}>What is RoboSub?</h4>
+              RoboSub is an international student competition. Student teams
+              from around the world design and build robotic submarines,
+              otherwise known as Autonomous Underwater Vehicles (AUV). The
+              behaviors demonstrated by these experimental AUVs mimics those of
+              real-world systems, currently deployed around the world for
+              underwater exploration, seafloor mapping, and sonar localization,
+              amongst many others.<br></br>
+              <br></br>
+              <h4 style={{ color: "yellow" }}>The Competition</h4>
+              Assemble your team and get busy designing, building and testing
+              the sub-systems of your AUV. Now put it all together and
+              demonstrate your vehicles autonomy by completing a series of tasks
+              through a pre-defined mission. Themes differ every year. For the
+              upcoming 2023 event, the competition's will be based on the iconic
+              sci-fy film Stargate. Click the RoboSub logo below to learn more.{" "}
+              <br></br>
+              <br></br>
+              <a href="https://robonation.org/app/uploads/sites/4/2023/04/2023-RoboSub_Team-Handbook_v1.0.pdf">
+                <img
+                  className="icon"
+                  src={
+                    require("@site/static/img/other/robosubLogo.png").default
+                  }
+                  width="200"
+                ></img>
+              </a>
+              <h2 style={{ color: "teal" }}>
+                <b>
+                  <u>ROBOSUB LOS ANGELES TEAM</u>
+                </b>
+              </h2>
+              Our team is split up into two project teams, the student
+              organization and the senior design team. The senior design team
+              builds one vehicle, and the club members build a separate vehicle
+              while being mentored by senior design members. Both vehicles are
+              intended for use in the competition and strategies will be
+              carefully considered based on the capabilities of both vehicles.
+              Members have the opportunity to design advanced robotics systems
+              and work on an interdisciplinary project to gain experience
+              working with a team. Please see the progress tab for a better idea
+              of what our members are working on and what tasks and projects are
+              available to new members.
             </div>
 
             <h2> Team Breakdown - Subteams: </h2>
 
             {/* Teams */}
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            <Grid
+              sx={{ flexGrow: 1 }}
+              container
+              spacing={0.5}
+              alignItems="center"
+              justifyContent="center"
+              columns={{ xs: 6, sm: 12, md: 10 }}
+            >
               <Card sx={{ maxWidth: 300, margin: "20px" }}>
                 <CardMedia
                   component="img"
@@ -235,9 +248,16 @@ export default function ResourcesPage() {
                   </a>
                 </CardActions>
               </Card>
-            </div>
+            </Grid>
 
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            <Grid
+              sx={{ flexGrow: 1 }}
+              container
+              spacing={0.5}
+              alignItems="center"
+              justifyContent="center"
+              columns={{ xs: 6, sm: 12, md: 10 }}
+            >
               <Card sx={{ maxWidth: 300, margin: "20px" }}>
                 <CardMedia
                   component="img"
@@ -337,7 +357,7 @@ export default function ResourcesPage() {
                   </a>
                 </CardActions>
               </Card>
-            </div>
+         </Grid>
           </p>
         </div>
       </div>

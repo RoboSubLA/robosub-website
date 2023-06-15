@@ -1,9 +1,13 @@
 .image{
-    height: 150px;
-    width: 50%;
+    /* height: 300px;
+    width: 250px; */
     margin-top: 10px;
     margin-bottom: 10px;
     overflow:hidden;
+}
+
+.card{
+  width:65%
 }
 
 .background {
