@@ -120,24 +120,23 @@ export default function twentyNineteen() {
           extrusions and flat bars to avoid complex machining, which contributes
           to ease of scaling if more mounting surfaces are needed. Components
           are slid into the t-slot fixture brackets then held in place by
-          tightening one or more set screws.  <br></br>
+          tightening one or more set screws. <br></br>
           <br></br>
           <img
             className={styles.descIMG}
             src={require("@site/static/img/other/2019lanturn2.jpeg").default}
           />
-          <br></br> In addition to
-          the frame and hull, lanturn features a claw, pneumatic torpedo system,
-          and a DC motor controlled dropper. The claw uses a servo motor to
-          rotate the gears, which are used to open and close the grippers. The
-          grippers hold the objects in place after picking them up. The torpedo
-          system uses a CO2 bucket changer for easy replacement of CO2
-          cartridges, an ASA regulator to decrease the CO2 pressure to the
-          desired value, a solenoid valve to release the CO2 to launch the
-          torpedo, and the 3D printed torpedoes themselves. The dropper uses a
-          DC motor to rotate the platform 90 degrees at a time to release 3
-          markers one at a time. The lid is used to replace the markers after
-          each run. <br></br>
+          <br></br> In addition to the frame and hull, lanturn features a claw,
+          pneumatic torpedo system, and a DC motor controlled dropper. The claw
+          uses a servo motor to rotate the gears, which are used to open and
+          close the grippers. The grippers hold the objects in place after
+          picking them up. The torpedo system uses a CO2 bucket changer for easy
+          replacement of CO2 cartridges, an ASA regulator to decrease the CO2
+          pressure to the desired value, a solenoid valve to release the CO2 to
+          launch the torpedo, and the 3D printed torpedoes themselves. The
+          dropper uses a DC motor to rotate the platform 90 degrees at a time to
+          release 3 markers one at a time. The lid is used to replace the
+          markers after each run. <br></br>
           <img
             className={styles.descIMG}
             src={require("@site/static/img/other/2019lanturn3.png").default}
@@ -169,16 +168,16 @@ export default function twentyNineteen() {
             className={styles.descIMG}
             src={require("@site/static/img/other/2019lanturn4.png").default}
           />
-          <br></br><br></br>A Python API
-          sends information from the sensor hardware to the submarine
-          motherboard, where the mission planning software is running. The
-          mission planning software contains several state machines for each
-          competition task. Data is transferred among these state machines
-          through ROS publishers and subscribers, and the mission planning
-          module's output is sent to the submarine's controls module. The
-          controls module computes the necessary stabilization motor commands,
-          and then sends both the computed stabilization commands and the
-          movement commands from mission planning to the motors to both
+          <br></br>
+          <br></br>A Python API sends information from the sensor hardware to
+          the submarine motherboard, where the mission planning software is
+          running. The mission planning software contains several state machines
+          for each competition task. Data is transferred among these state
+          machines through ROS publishers and subscribers, and the mission
+          planning module's output is sent to the submarine's controls module.
+          The controls module computes the necessary stabilization motor
+          commands, and then sends both the computed stabilization commands and
+          the movement commands from mission planning to the motors to both
           stabilize and move the submarine. The decision-making process is based
           on previous states and current sensor information. Each state has
           several subscribers. To increase the efficiency of message passing,
@@ -200,7 +199,8 @@ export default function twentyNineteen() {
             className={styles.descIMG}
             src={require("@site/static/img/other/donphan1.png").default}
           />
-          <br></br><br></br>
+          <br></br>
+          <br></br>
           The objectives of this design include modularity and reduction of drag
           in the water. To ensure easy access to all of the sub's internals, six
           nuts on the half-inch diameter threaded rods can be removed to quickly

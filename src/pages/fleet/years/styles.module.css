@@ -10,18 +10,19 @@
     background-color: gray;
     font-weight: bolder;
     font-family: aria-label;
-    width:1300px;
+    width: 1300px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.descIMG{
-    width:300px;
-    height:300px;
+.descIMG {
+    width: 300px;
+    height: 00px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 th {
     background-color: var(--ifm-color-primary-light) !important;
 }
@@ -43,6 +44,7 @@ td {
 
 
 @media screen and (max-width: 600px) {
+
     table,
     th,
     td {

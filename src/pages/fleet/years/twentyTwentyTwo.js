@@ -32,7 +32,6 @@ const Wailord = () => {
 };
 
 export default function twentyTwentyTwo() {
-
   return (
     <Layout>
       <div className={styles.myDIV}>
@@ -52,13 +51,7 @@ export default function twentyTwentyTwo() {
         </table>
 
         <h3 className={styles.header}>WAILORD ~ (Club Team)</h3>
-        <table
-        responsive
-          striped
-          bordered
-          hover
-          className={styles.table}
-        >
+        <table responsive striped bordered hover className={styles.table}>
           <thead>
             <tr>
               <th>POSITION</th>

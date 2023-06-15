@@ -1,5 +1,5 @@
 .heroBanner {
-    background-image: linear-gradient(var(--ifm-color-primary),var(--ifm-color-primary-darkest));
+    background-image: linear-gradient(var(--ifm-color-primary), var(--ifm-color-primary-darkest));
     text-align: center;
     /* height: 90vh; */
     padding: 1rem;
@@ -20,6 +20,16 @@
     border-radius: 20px;
     padding: .5rem;
 }
+
+.pdfContainer {
+    overflow: auto;
+}
+
+/* .pdf{
+    width:"500px";
+    height:"650px";
+}   */
+
 
 
 .csulaLogo {
@@ -74,11 +84,12 @@
     margin: 1rem;
 
 }
+
 .wrapperDiv1 {
-    float:left;
+    float: left;
 }
 
-.wrapperDiv1 > h2 {
+.wrapperDiv1>h2 {
     font-weight: 900;
     font-size: 2rem;
     margin-right: 2rem;
@@ -89,7 +100,7 @@
     overflow: hidden;
 }
 
-.wrapperDiv2 > p {
+.wrapperDiv2>p {
     font-weight: 900;
     font-size: 1.3rem;
     margin-left: 2rem;
@@ -141,7 +152,7 @@ ul li::marker {
 
 
 .contactUsContainer {
-    background-image: linear-gradient(var(--ifm-color-primary-darkest),rgba(17, 17, 17, 0.878));
+    background-image: linear-gradient(var(--ifm-color-primary-darkest), rgba(17, 17, 17, 0.878));
     text-align: center;
 }
 
@@ -163,33 +174,34 @@ ul li::marker {
     line-height: 1.2rem;
 }
 
-.contactCard > h3 {
+.contactCard>h3 {
     margin-bottom: 15px;
 }
 
-.contactCard > p {
+.contactCard>p {
     margin-bottom: 10px;
 }
 
 .contactCardAccentColor {
     color: var(--ifm-color-primary);
-    background-color:var(--ifm-color-primary-accent) !important;
+    background-color: var(--ifm-color-primary-accent) !important;
     margin-bottom: 10px;
 }
 
 
 @media screen and (max-width: 996px) {
     .heroBanner {
-      padding: 2rem;
+        padding: 2rem;
     }
 
     .heroTitle {
-      font-size: 3rem;
+        font-size: 3rem;
     }
 
     .heroParagraph {
         font-size: 1.3rem;
     }
+
     .csulaLogo {
         width: 4rem;
         height: 4rem;
@@ -210,6 +222,16 @@ ul li::marker {
         height: 3rem;
     }
 
+    .pdf {
+        width: 60vh;
+        height: 75vh;
+    }
+
+    .pdfContainer {
+        overflow: auto;
+        margin: auto;
+    }
+
     .dassaultsystemesLogo {
         width: 6rem;
         height: 3rem;
@@ -219,11 +241,11 @@ ul li::marker {
         font-size: 2rem;
     }
 
-    .becomeSponsorParagraph{
+    .becomeSponsorParagraph {
         font-size: 1rem;
     }
 
-    .wrapperDiv1 > h2 {
+    .wrapperDiv1>h2 {
         font-weight: 900;
         font-size: 1rem;
     }
@@ -232,7 +254,7 @@ ul li::marker {
         border-left: 3px solid var(--ifm-color-primary-accent);
     }
 
-    .wrapperDiv2 > p {
+    .wrapperDiv2>p {
         font-size: .5rem;
     }
 
@@ -268,12 +290,12 @@ ul li::marker {
         line-height: 1rem;
     }
 
-    .contactCard > h3 {
+    .contactCard>h3 {
         font-size: .8rem;
         margin-bottom: 7px;
     }
 
-    .contactCard > p {
+    .contactCard>p {
         font-size: .5rem;
         margin-bottom: 3px;
     }
@@ -281,11 +303,11 @@ ul li::marker {
 
 @media screen and (max-width: 375px) {
     .heroBanner {
-      padding: 1rem;
+        padding: 1rem;
     }
 
     .heroTitle {
-      font-size: 2rem;
+        font-size: 2rem;
     }
 
     .heroParagraph {
@@ -317,29 +339,30 @@ ul li::marker {
         height: 3rem;
     }
 
-    .bluetrailLogo{
-      width: 1rem;
-      height: 1rem;
+    .bluetrailLogo {
+        width: 1rem;
+        height: 1rem;
     }
 
-    .vectornavLogo{
-      width: 2rem;
-      height: 1rem;
+    .vectornavLogo {
+        width: 2rem;
+        height: 1rem;
     }
-    .blueroboticsLogo{
-      width: 10px;
-      height: 10px;
+
+    .blueroboticsLogo {
+        width: 10px;
+        height: 10px;
     }
 
     .becomeSponsorTitle {
         font-size: 1rem;
     }
 
-    .becomeSponsorParagraph{
+    .becomeSponsorParagraph {
         font-size: .5rem;
     }
 
-    .wrapperDiv1 > h2 {
+    .wrapperDiv1>h2 {
         font-weight: 900;
         font-size: .5rem;
     }
@@ -348,7 +371,7 @@ ul li::marker {
         border-left: 2px solid var(--ifm-color-primary-accent);
     }
 
-    .wrapperDiv2 > p {
+    .wrapperDiv2>p {
         font-size: .3rem;
     }
 
@@ -390,12 +413,12 @@ ul li::marker {
         line-height: 1rem;
     }
 
-    .contactCard > h3 {
+    .contactCard>h3 {
         font-size: 10px;
         margin-bottom: 5px;
     }
 
-    .contactCard > p {
+    .contactCard>p {
         font-size: 5px;
         margin-bottom: 1px;
     }

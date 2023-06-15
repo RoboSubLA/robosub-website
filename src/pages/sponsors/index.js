@@ -127,20 +127,18 @@ const BecomeSponsor = () => {
           <p>MONETARY CONTRIBUTIONS</p>
           <p>DISCOUNTED PURCHASES</p>
         </div>
-        <div className="pdf-container">
-          <div></div>
-          <h1 className="spons-heading">
-            Ready to sponsor RoboSubLA? Read our benefits packet!
-          </h1>
-          <object
-            class="pdf"
-            width="500px"
-            height="675px"
-            data="https://drive.google.com/file/d/1PsGdtf7-BZoSfNbwImO0Ay_P16BJabqs/preview"
-            type="application/pdf"
-          ></object>
-        </div>
       </div>
+      <div className={styles.pdfContainer}>
+        <h1>Ready to sponsor RoboSubLA? Read our benefits packet!</h1>
+        <object
+          className={styles.pdf}
+          width="500px"
+          height="650px"
+          data="https://drive.google.com/file/d/1PsGdtf7-BZoSfNbwImO0Ay_P16BJabqs/preview"
+          type="application/pdf"
+        ></object>
+      </div>
+
       <Grid container spacing={1.5}>
         <Grid item xs={4}>
           <Card id={styles.tierCard} className={styles.bronzeTierCard}>
