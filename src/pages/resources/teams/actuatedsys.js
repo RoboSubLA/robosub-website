@@ -60,6 +60,7 @@ export default function ActuatedSys() {
           </ul>
         </nav>
         <h> Actuated Systems</h>
+        <p>The actuated systems team oversees designing and building a robotic claw, a ball dropper, and a torpedo launcher. These systems are designed to successfully complete tasks that are needed during competition. Students use their engineering skills to design the actuated system and use SolidWorks and 3D printing to bring it to life. FEA’s and CFD’s are produced to ensure the proper performance of the system. The actuated systems team works together with the computer vision and navigation teams to ensure that the sensors and vision can successfully complete the competition tasks.</p>
         </div>
       </Layout>
     );

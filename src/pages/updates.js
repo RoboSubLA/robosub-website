@@ -80,13 +80,13 @@ const generateChip = (type) => {
     default:
       return (
         <Chip
-        className="None"
-        icon={<VisibilityIcon />}
-        component="a"
-        color="secondary"
-        href="../resources/teams/compvis"
-        label="Computer Vision"
-      />
+          className="None"
+          icon={<VisibilityIcon />}
+          component="a"
+          color="secondary"
+          href="../resources/teams/compvis"
+          label="Computer Vision"
+        />
       );
   }
 };
@@ -100,9 +100,9 @@ const Update = () => {
         <Card className="" variant="outlined">
           <h3>{contact.title}</h3>
           <CardMedia
-             component="img"
-             className={styles.image}
-            image={require("@site/static/img/updates/"+contact.photo).default}
+            component="img"
+            className={styles.image}
+            image={require("@site/static/img/updates/" + contact.photo).default}
             alt="photo"
           />
           {generateChip(contact.type)}
@@ -124,9 +124,9 @@ const UpdateO = () => {
         <Card className="" variant="outlined">
           <h3>{contact.title}</h3>
           <CardMedia
-             component="img"
-             className={styles.image}
-            image={require("@site/static/img/updates/"+contact.photo).default}
+            component="img"
+            className={styles.image}
+            image={require("@site/static/img/updates/" + contact.photo).default}
             alt="photo"
           />
           {generateChip(contact.type)}
@@ -148,9 +148,9 @@ const UpdateN = () => {
         <Card className="" variant="outlined">
           <h3>{contact.title}</h3>
           <CardMedia
-             component="img"
-             className={styles.image}
-            image={require("@site/static/img/updates/"+contact.photo).default}
+            component="img"
+            className={styles.image}
+            image={require("@site/static/img/updates/" + contact.photo).default}
             alt="photo"
           />
           {generateChip(contact.type)}
@@ -172,9 +172,9 @@ const UpdateD = () => {
         <Card className="" variant="outlined">
           <h3>{contact.title}</h3>
           <CardMedia
-             component="img"
-             className={styles.image}
-            image={require("@site/static/img/updates/"+contact.photo).default}
+            component="img"
+            className={styles.image}
+            image={require("@site/static/img/updates/" + contact.photo).default}
             alt="photo"
           />
           {generateChip(contact.type)}
@@ -196,9 +196,9 @@ const UpdateF = () => {
         <Card className="" variant="outlined">
           <h3>{contact.title}</h3>
           <CardMedia
-             component="img"
-             className={styles.image}
-            image={require("@site/static/img/updates/"+contact.photo).default}
+            component="img"
+            className={styles.image}
+            image={require("@site/static/img/updates/" + contact.photo).default}
             alt="photo"
           />
           {generateChip(contact.type)}
@@ -220,9 +220,9 @@ const UpdateM = () => {
         <Card className="" variant="outlined">
           <h3>{contact.title}</h3>
           <CardMedia
-             component="img"
-             className={styles.image}
-            image={require("@site/static/img/updates/"+contact.photo).default}
+            component="img"
+            className={styles.image}
+            image={require("@site/static/img/updates/" + contact.photo).default}
             alt="photo"
           />
           {generateChip(contact.type)}
@@ -244,9 +244,9 @@ const UpdateA = () => {
         <Card className="" variant="outlined">
           <h3>{contact.title}</h3>
           <CardMedia
-             component="img"
-             className={styles.image}
-            image={require("@site/static/img/updates/"+contact.photo).default}
+            component="img"
+            className={styles.image}
+            image={require("@site/static/img/updates/" + contact.photo).default}
             alt="photo"
           />
           {generateChip(contact.type)}
@@ -268,9 +268,9 @@ const UpdateMay = () => {
         <Card className="" variant="outlined">
           <h3>{contact.title}</h3>
           <CardMedia
-             component="img"
-             className={styles.image}
-            image={require("@site/static/img/updates/"+contact.photo).default}
+            component="img"
+            className={styles.image}
+            image={require("@site/static/img/updates/" + contact.photo).default}
             alt="photo"
           />
           {generateChip(contact.type)}
@@ -284,26 +284,28 @@ const UpdateMay = () => {
 };
 
 export default function EventsPage() {
+
   return (
     <Layout>
-      <Grid
-            // sx={{ flexGrow: 1 }}
-            container
-            spacing={1}
-            columns={{ xs: 4, sm: 12, md: 10 }}
-          >
-               <Update></Update>
-            
-         
-               <UpdateO></UpdateO>
-               <UpdateN></UpdateN>
-               {/* <UpdateD></UpdateD> */}
-               <UpdateF></UpdateF>
-               <UpdateM></UpdateM>
-               <UpdateA></UpdateA>
-               <UpdateMay></UpdateMay>
-          </Grid>
-   
+      <div className={styles.background}>
+        <Grid
+          // sx={{ flexGrow: 1 }}
+          className={styles.background}
+          container
+          spacing={1}
+          columns={{ xs: 4, sm: 12, md: 10 }}
+        >
+          <Update></Update>
+          <UpdateO></UpdateO>
+          <UpdateN></UpdateN>
+          <UpdateF></UpdateF>
+          <UpdateM></UpdateM>
+          <UpdateA></UpdateA>
+          <UpdateMay></UpdateMay>
+        </Grid>
+
+
+      </div>
     </Layout>
   );
 }

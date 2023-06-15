@@ -5,3 +5,13 @@
     margin-bottom: 10px;
     overflow:hidden;
 }
+
+.background {
+    background-image: linear-gradient(
+      var(--ifm-color-primary-lightest),
+      var(--ifm-color-primary-darkest)
+ 
+    );
+    height: 100%;
+    padding: 2rem;
+  }

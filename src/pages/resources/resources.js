@@ -72,19 +72,23 @@ export default function ResourcesPage() {
         {/* Default Div */}
         <div className={styles.myDIV}>
           <p id="current">
-            <h1 style={{fontSize:"4rem"}}> Welcome Members & RoboSub Teams! </h1>
-
-            <div style={{backgroundColor:"gray"}}>
+            <h1 style={{ fontSize: "4rem" }}>
+              {" "}
+              Welcome Members & RoboSub Teams!{" "}
+            </h1>
+            <div className={styles.textPara} style={{ backgroundColor: "#6699CC" }}>
               Here at{" "}
               <span style={{ color: "222222" }}>
-              <b> <u>RoboSub LA</u></b> 
-              </span>{" "}
-              we are passionate about Robotics; we want to share what we know
+                <b>
+                  <u>RoboSub LA</u>
+                </b>
+              </span>
+              , we are passionate about Robotics; we want to share what we know
               with our community of robotic enthusiasts and foster technical
-              skills through a hands-on, interdisciplinary approach.
+              skills through a hands-on, collaborative approach.
               <br></br> <br></br>
-              <p>
-                <h2 style={{ color: "gray" }}>
+              {/* <p> */}
+                <h2 style={{ color: "darker" }}>
                   <u>
                     {" "}
                     <b>ROBOSUB INTERNATIONAL COMPETITION</b>
@@ -103,7 +107,10 @@ export default function ResourcesPage() {
                 Assemble your team and get busy designing, building and testing
                 the sub-systems of your AUV. Now put it all together and
                 demonstrate your vehicles autonomy by completing a series of
-                tasks through a pre-defined mission.<br></br>
+                tasks through a pre-defined mission. Themes differ every year.
+                For the upcoming 2023 event, the competition's will be based on
+                the iconic sci-fy film Stargate. Click the RoboSub logo below to
+                learn more. <br></br>
                 <br></br>
                 <a href="https://robonation.org/app/uploads/sites/4/2023/04/2023-RoboSub_Team-Handbook_v1.0.pdf">
                   <img
@@ -130,33 +137,33 @@ export default function ResourcesPage() {
                 gain experience working with a team. Please see the progress tab
                 for a better idea of what our members are working on and what
                 tasks and projects are available to new members.
-              </p>
             </div>
 
             <h2> Team Breakdown - Subteams: </h2>
 
             {/* Teams */}
             <div style={{ display: "flex", justifyContent: "center" }}>
-              <Card sx={{ maxWidth: 300, margin: "20px"}}>
+              <Card sx={{ maxWidth: 300, margin: "20px" }}>
                 <CardMedia
                   component="img"
                   height="140"
-                   image={
-                    require("@site/static/img/other/frameHullTeam.jpeg")
-                      .default
+                  image={
+                    require("@site/static/img/other/frameHullTeam.jpeg").default
                   }
                   alt="Frame & Hull Photo"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    FRAME AND HULL 
+                    FRAME AND HULL
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     The Frame and Hull subteam is responsible for making the
                     design of the AUV itself. Frame and Hull will be
                     constructing and assembling the frame and hull. This subteam
                     also works with SolidWorks to determine placement of other
-                    submarine components and varying approach decisions.<br></br><br></br>
+                    submarine components and varying approach decisions.
+                    <br></br>
+                    <br></br>
                   </Typography>
                 </CardContent>
                 <CardActions>
@@ -204,10 +211,7 @@ export default function ResourcesPage() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={
-                    require("@site/static/img/other/actsys.png")
-                      .default
-                  }
+                  image={require("@site/static/img/other/actsys.png").default}
                   alt="Actuated Systems Photo"
                 />
                 <CardContent>
@@ -239,14 +243,13 @@ export default function ResourcesPage() {
                   component="img"
                   height="140"
                   image={
-                    require("@site/static/img/other/controlsTeam.png")
-                      .default
+                    require("@site/static/img/other/controlsTeam.png").default
                   }
                   alt="Controls Photo"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    CONTROLS 
+                    CONTROLS
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     The Controls Team is responsible for making the AUV respond
@@ -273,15 +276,12 @@ export default function ResourcesPage() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={
-                    require("@site/static/img/other/autTeam.png")
-                      .default
-                  }
+                  image={require("@site/static/img/other/autTeam.png").default}
                   alt="Autonomy Photo"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    AUTONOMY 
+                    AUTONOMY
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     The Autonomy team is responsible for writing the state
@@ -291,7 +291,8 @@ export default function ResourcesPage() {
                     state that tells it to follow a path. If the AUV has reached
                     the end of a path, then something has to be called by the
                     state machine to tell the AUV to transition to the next
-                    state, which might tell the AUV to stop or do another task.<br></br>
+                    state, which might tell the AUV to stop or do another task.
+                    <br></br>
                   </Typography>
                 </CardContent>
                 {/* </CardActionArea> */}
@@ -304,30 +305,28 @@ export default function ResourcesPage() {
                 </CardActions>
               </Card>
 
-              <Card sx={{ maxWidth: 300, margin: "20px"}}>
+              <Card sx={{ maxWidth: 300, margin: "20px" }}>
                 {/* <CardActionArea> */}
                 <CardMedia
                   component="img"
                   height="140"
-                  image={
-                    require("@site/static/img/other/cvTeam.png")
-                      .default
-                  }
+                  image={require("@site/static/img/other/cvTeam.png").default}
                   alt="CV Team Photo"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    COMPUTER VISION 
+                    COMPUTER VISION
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    The Computer Vision subteam is responsible for making the
-                    AUV locate & recognize objects with its camera. One of the
-                    most important tasks of the CV team is object detection.
-                    YOLO (You Only Look Once) will be used for the Computer
-                    Vision software which is a deep learning algorithm that is
-                    used to train custom object detection models. The CV team is also
-                    responsible for interfacing with the submarine using a ROS
-                    node.<br></br><br></br>
+                    The Computer Vision subteam is responsible for providing the
+                    AUV ability to locate & recognize objects. The main
+                    objective is object detection. YOLO (You Only Look Once) is
+                    a deep learning algorithm that CV uses to train custom
+                    object detection models for providing computer vision. The
+                    CV team is also responsible for interfacing with the
+                    submarine's camera for real-time detection using a ROS node.
+                    <br></br>
+                    <br></br>
                   </Typography>
                 </CardContent>
                 <CardActions>

@@ -18,9 +18,9 @@ const ContactUs = () => {
             className={styles.contactCardAccentColor}
             label={contact.title}
           />
-         <CardMedia
+          <CardMedia
             component="img"
-   className={styles.cardIMG}
+            className={styles.cardIMG}
             src={require("@site/static/img/members/" + contact.crewImg).default}
             alt="alt_text"
           />
@@ -45,9 +45,9 @@ const ContactClub = () => {
             className={styles.contactCardAccentColor}
             label={contact.title}
           />
-             <CardMedia
+          <CardMedia
             component="img"
-   className={styles.cardIMG}
+            className={styles.cardIMG}
             src={require("@site/static/img/members/" + contact.crewImg).default}
             alt="alt_text"
           />
@@ -73,9 +73,9 @@ const ContactSeniors = () => {
             className={styles.contactCardAccentColor}
             label={contact.title}
           />
-      <CardMedia
+          <CardMedia
             component="img"
-   className={styles.cardIMG}
+            className={styles.cardIMG}
             src={require("@site/static/img/members/" + contact.crewImg).default}
             alt="alt_text"
           />
