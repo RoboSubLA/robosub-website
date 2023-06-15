@@ -39,7 +39,7 @@ export default function twentyTwentyOne() {
       <Layout>
         <div className={styles.myDIV}>
     <h1 style={{fontSize:"4rem"}}>  2021-2022 </h1>
-    <h3 className={styles.header}>LANTURN</h3>
+    <h3 className={styles.header}>LANTURN ~ (Senior Design)</h3>
         <table responsive striped bordered hover variant="dark">
           <thead>
   
@@ -53,7 +53,7 @@ export default function twentyTwentyOne() {
             <Lanturn></Lanturn>
           </tbody>
         </table>
-        <h3 className={styles.header}>BLASTOISE</h3>
+        <h3 className={styles.header}>BLASTOISE ~ (Club Team)</h3>
         <table className={styles.table} responsive striped bordered hover variant="dark">
           <thead>
             <tr>

@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./styles.module.css";
 import crewJSON from "../../../../static/json/oldTeams.json";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 const Lanturn = () => {
   const teamArray = crewJSON.twentyTwoLanturn;
@@ -33,13 +32,12 @@ const Wailord = () => {
 };
 
 export default function twentyTwentyTwo() {
-  const { siteConfig } = useDocusaurusContext();
 
   return (
     <Layout>
       <div className={styles.myDIV}>
         <h1 style={{ fontSize: "4rem" }}> 2022-2023 </h1>
-        <h3 className={styles.header}>Lanturn</h3>
+        <h3 className={styles.header}>LANTURN ~ (Senior Design)</h3>
         <table responsive striped bordered hover className={styles.table}>
           <thead>
             <tr>
@@ -53,7 +51,7 @@ export default function twentyTwentyTwo() {
           </tbody>
         </table>
 
-        <h3 className={styles.header}>Wailord</h3>
+        <h3 className={styles.header}>WAILORD ~ (Club Team)</h3>
         <table
         responsive
           striped

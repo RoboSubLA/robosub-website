@@ -191,7 +191,7 @@
     .subTeam {
         font-size: .5rem !important;
     }
-    .rankingChip {
+    .rankingChip, .readMoreChip {
         margin-left: .4rem;
         margin-right: .4rem;
         width: 150px;
@@ -267,7 +267,7 @@
     .subTeam {
         font-size: .3rem !important;
     }
-    .rankingChip {
+    .rankingChip, .readMoreChip {
         margin-left: .2rem;
         margin-right: .2rem;
         width: 200px;
