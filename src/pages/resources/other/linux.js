@@ -43,6 +43,7 @@ export default function Linux() {
             <div id="dropdown" className={styles.DPContent}>
               <a href="../teams/framehull">Frame and Hull</a>
               <a href="../teams/electronics">Electronics</a>
+              <a href="../teams/actuatedsys">Actuated Systems</a>
               <a href="../teams/controls">Controls</a>
               <a href="../teams/autonomy">Autonomy</a>
               <a href="../teams/compvis">Computer Vision</a>
@@ -61,7 +62,8 @@ export default function Linux() {
           </ul>
         </nav>
 
-        <h1 style={{ textAlign: "center" }}>LINUX</h1>
+<div className={styles.myDIV}>
+        <h1 style={{ textAlign: "center", fontSize:"4rem" }}>LINUX</h1>
 
         <h2
           style={{
@@ -70,8 +72,7 @@ export default function Linux() {
             overflow: "hidden",
           }}
         >
-          {" "}
-          What is Linux?{" "}
+          What is Linux?
         </h2>
         <p style={{ textAlign: "center", overflow: "hidden" }}>
           {" "}
@@ -236,6 +237,7 @@ export default function Linux() {
           >
             -Partition Install on Mac
           </a>
+          </div>
         </div>
       </div>
       {/* </div> */}

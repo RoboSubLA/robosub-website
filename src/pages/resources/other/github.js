@@ -43,6 +43,7 @@ export default function Github() {
             <div id="dropdown" className={styles.DPContent}>
               <a href="../teams/framehull">Frame and Hull</a>
               <a href="../teams/electronics">Electronics</a>
+              <a href="../teams/actuatedsys">Actuated Systems</a>
               <a href="../teams/controls">Controls</a>
               <a href="../teams/autonomy">Autonomy</a>
               <a href="../teams/compvis">Computer Vision</a>
@@ -60,7 +61,8 @@ export default function Github() {
             </button>
           </ul>
         </nav>
-        <h1>GIT and GITHUB</h1>
+        <div className={styles.myDIV}>
+        <h1 style={{fontSize:"4rem"}}>GIT & GITHUB</h1>
         {/* <Image className="github-logo" src="/images/other/GitHubLogo.png" /> */}
         <p className="resources-section-p">
           At a high level, GitHub is a website and cloud-based service that
@@ -161,6 +163,7 @@ export default function Github() {
         <p className="git-cheat-p">
           Merge the specified branch’s history into the current one
         </p>
+ </div>
       </div>
     </Layout>
   );

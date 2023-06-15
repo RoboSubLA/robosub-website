@@ -9,6 +9,9 @@
     list-style-type: none;
 }
 
+.myDIV{
+    background-color:var(--ifm-color-primary-darkest) !important;
+}
 
 .navbar{
     /* background color */
@@ -46,7 +49,6 @@
 .myDIV {
     width: auto;
     text-align: center;
-    background-color: darkblue;
   }
 
 .btn{

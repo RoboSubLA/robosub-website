@@ -67,7 +67,7 @@
 .myDIV {
   width: auto;
   text-align: center;
-  background-color: darkblue;
+background-color:var(--ifm-color-primary-darkest) !important;
 }
 
 .btn {

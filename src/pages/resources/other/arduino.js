@@ -43,6 +43,7 @@ export default function Arduino() {
             <div id="dropdown" className={styles.DPContent}>
               <a href="../teams/framehull">Frame and Hull</a>
               <a href="../teams/electronics">Electronics</a>
+              <a href="../teams/actuatedsys">Actuated Systems</a>
               <a href="../teams/controls">Controls</a>
               <a href="../teams/autonomy">Autonomy</a>
               <a href="../teams/compvis">Computer Vision</a>
@@ -62,9 +63,10 @@ export default function Arduino() {
           </ul>
         </nav>
 
-        <h1>ARDUINO</h1>
-        <div>
-          <h3 style={{ color: "teal" }}>Installing Arduino IDE</h3>
+        <div className={styles.myDIV}>
+
+        <h1 style={{fontSize:"4rem"}}>ARDUINO</h1>
+          <h3 style={{ color: "yellow" }}>Installing Arduino IDE</h3>
           <p>Instructions to install IDE here:</p>
           <div className={styles.linksCon}>
             <a href="https://www.arduino.cc/en/Guide/Windows">
@@ -82,8 +84,8 @@ export default function Arduino() {
               <img
                 className={styles.icon}
                 src={require("@site/static/img/other/linuxLogo.png").default}
-                height="100"
-                width="160"
+                height="90"
+                width="180"
                 alt="Linux Logo"
               ></img>
             </a>
@@ -102,7 +104,7 @@ export default function Arduino() {
             </a>
           </div>
           <br />
-        </div>
+        
 
         <div className={styles.backgroundContainer}>
           <h2 style={{ color: "black" }}>
@@ -131,6 +133,7 @@ export default function Arduino() {
             ></iframe>
           </p>
           <h4>Servo, Potentiometer, and DC Motor</h4>
+        </div>
         </div>
       </div>
     </Layout>
