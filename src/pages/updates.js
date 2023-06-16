@@ -13,9 +13,9 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
+import AnimatedBackground from '../components/AnimatedBackground';
 import { Grid, Card, Chip, CardContent } from "@mui/material";
 import updatesJSON from "../../static/json/updates.json";
-import { CardMedia } from "@mui/material";
 import styles from "./updates.module.css";
 
 const UpdateEnum = {
@@ -33,7 +33,7 @@ const generateChip = (type) => {
         <Chip
           className="FH"
           icon={<HandymanIcon />}
-          color="primary"
+          color="info"
           component="a"
           href="../resources/teams/framehull"
           label="Frame and Hull"
@@ -100,131 +100,10 @@ const generateChip = (type) => {
 };
 
 const Update = () => {
-  const updateArray = updatesJSON.september;
+  const updateArray = updatesJSON.september.reverse();
 
   return updateArray.map((contact) => {
     return (
-      <Grid item xs={4} sm={2} md={2}>
-        <Card className="" variant="outlined">
-          <h3>{contact.title}</h3>
-          <CardMedia
-            component="img"
-            className={styles.image}
-            image={require("@site/static/img/updates/" + contact.photo).default}
-            alt="photo"
-          />
-          {generateChip(contact.type)}
-
-          <p>{contact.description}</p>
-          <p>{contact.date}</p>
-        </Card>
-      </Grid>
-    );
-  });
-};
-
-const UpdateO = () => {
-  const updateArray = updatesJSON.october;
-
-  return updateArray.map((contact) => {
-    return (
-      <Grid item xs={4} sm={2} md={2}>
-        <Card className="" variant="outlined">
-          <h3>{contact.title}</h3>
-          <CardMedia
-            component="img"
-            className={styles.image}
-            image={require("@site/static/img/updates/" + contact.photo).default}
-            alt="photo"
-          />
-          {generateChip(contact.type)}
-
-          <p>{contact.description}</p>
-          <p>{contact.date}</p>
-        </Card>
-      </Grid>
-    );
-  });
-};
-
-const UpdateN = () => {
-  const updateArray = updatesJSON.november;
-
-  return updateArray.map((contact) => {
-    return (
-      <Grid item xs={4} sm={2} md={2}>
-        <Card className="" variant="outlined">
-          <h3>{contact.title}</h3>
-          <CardMedia
-            component="img"
-            className={styles.image}
-            image={require("@site/static/img/updates/" + contact.photo).default}
-            alt="photo"
-          />
-          {generateChip(contact.type)}
-
-          <p>{contact.description}</p>
-          <p>{contact.date}</p>
-        </Card>
-      </Grid>
-    );
-  });
-};
-
-// const UpdateD = () => {
-//   const updateArray = updatesJSON.december;
-
-//   return updateArray.map((contact) => {
-//     return (
-//       <Grid item xs={4} sm={2} md={2}>
-//         <Card className="" variant="outlined">
-//           <h3>{contact.title}</h3>
-//           <CardMedia
-//             component="img"
-//             className={styles.image}
-//             image={require("@site/static/img/updates/" + contact.photo).default}
-//             alt="photo"
-//           />
-//           {generateChip(contact.type)}
-
-//           <p>{contact.description}</p>
-//           <p>{contact.date}</p>
-//         </Card>
-//       </Grid>
-//     );
-//   });
-// };
-
-const UpdateF = () => {
-  const updateArray = updatesJSON.february;
-
-  return updateArray.map((contact) => {
-    return (
-      <Grid item xs={4} sm={2} md={2}>
-        <Card className="" variant="outlined">
-          <h3>{contact.title}</h3>
-          <CardMedia
-            component="img"
-            className={styles.image}
-            image={require("@site/static/img/updates/" + contact.photo).default}
-            alt="photo"
-          />
-          {generateChip(contact.type)}
-
-          <p>{contact.description}</p>
-          <p>{contact.date}</p>
-        </Card>
-      </Grid>
-    );
-  });
-};
-
-const UpdateM = () => {
-  const updateArray = updatesJSON.march;
-
-  return updateArray.map((contact) => {
-    return (
-      // <Grid item xs={4} sm={2} md={2}>
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: "auto 0" }}
@@ -242,18 +121,161 @@ const UpdateM = () => {
         </TimelineSeparator>
         <TimelineContent>
           {/* <Card className={styles.card}> */}
-          <Card sx={{ maxWidth: 315}}>
-                <img
-                  src={
-                    require("@site/static/img/updates/" + contact.photo).default
-                  }
-                  loading="lazy"
-                  alt=""
-                  sx={{ maxHeight: 300}}
-                />
-            <CardContent>
-                {contact.description}
-            </CardContent>
+          <Card sx={{ maxWidth: 315 }}>
+            <img
+              src={require("@site/static/img/updates/" + contact.photo).default}
+              loading="lazy"
+              alt="Team Update Image"
+              sx={{ maxHeight: 300 }}
+            />
+            <CardContent>{contact.description}</CardContent>
+          </Card>
+        </TimelineContent>
+      </TimelineItem>
+    );
+  });
+};
+
+const UpdateO = () => {
+  const updateArray = updatesJSON.october.reverse();
+
+  return updateArray.map((contact) => {
+    return (
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: "auto 0" }}
+          // align="right"
+          variant="body2"
+          color="text.primary"
+        >
+          <h3>{contact.title}</h3>
+          {contact.date}
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          {generateChip(contact.type)}
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          {/* <Card className={styles.card}> */}
+          <Card sx={{ maxWidth: 315 }}>
+            <img
+              src={require("@site/static/img/updates/" + contact.photo).default}
+              loading="lazy"
+              alt="Team Update Image"
+              sx={{ maxHeight: 300 }}
+            />
+            <CardContent>{contact.description}</CardContent>
+          </Card>
+        </TimelineContent>
+      </TimelineItem>
+    );
+  });
+};
+
+const UpdateN = () => {
+  const updateArray = updatesJSON.november.reverse();
+
+  return updateArray.map((contact) => {
+    return (
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: "auto 0" }}
+          // align="right"
+          variant="body2"
+          color="text.primary"
+        >
+          <h3>{contact.title}</h3>
+          {contact.date}
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          {generateChip(contact.type)}
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          {/* <Card className={styles.card}> */}
+          <Card sx={{ maxWidth: 315 }}>
+            <img
+              src={require("@site/static/img/updates/" + contact.photo).default}
+              loading="lazy"
+              alt="Team Update Image"
+              sx={{ maxHeight: 300 }}
+            />
+            <CardContent>{contact.description}</CardContent>
+          </Card>
+        </TimelineContent>
+      </TimelineItem>
+    );
+  });
+};
+
+const UpdateF = () => {
+  const updateArray = updatesJSON.february.reverse();
+  return updateArray.map((contact) => {
+    return (
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: "auto 0" }}
+          // align="right"
+          variant="body2"
+          color="text.primary"
+        >
+          <h3>{contact.title}</h3>
+          {contact.date}
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          {generateChip(contact.type)}
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          {/* <Card className={styles.card}> */}
+          <Card sx={{ maxWidth: 315 }}>
+            <img
+              src={require("@site/static/img/updates/" + contact.photo).default}
+              loading="lazy"
+              alt="Team Update Image"
+              sx={{ maxHeight: 300 }}
+            />
+            <CardContent>{contact.description}</CardContent>
+          </Card>
+        </TimelineContent>
+      </TimelineItem>
+    );
+  });
+};
+
+const UpdateM = () => {
+  const updateArray = updatesJSON.march.reverse();
+
+  return updateArray.map((contact) => {
+    return (
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: "auto 0" }}
+          // align="right"
+          variant="body2"
+          color="text.primary"
+        >
+          <h3>{contact.title}</h3>
+          {contact.date}
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          {generateChip(contact.type)}
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          {/* <Card className={styles.card}> */}
+          <Card sx={{ maxWidth: 315 }}>
+            <img
+              src={require("@site/static/img/updates/" + contact.photo).default}
+              loading="lazy"
+              alt="Team Update Image"
+              sx={{ maxHeight: 300 }}
+            />
+            <CardContent>{contact.description}</CardContent>
           </Card>
         </TimelineContent>
       </TimelineItem>
@@ -262,49 +284,75 @@ const UpdateM = () => {
 };
 
 const UpdateA = () => {
-  const updateArray = updatesJSON.april;
+  const updateArray = updatesJSON.april.reverse();
 
   return updateArray.map((contact) => {
     return (
-      <Grid item xs={4} sm={2} md={2}>
-        <Card className="" variant="outlined">
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: "auto 0" }}
+          // align="right"
+          variant="body2"
+          color="text.primary"
+        >
           <h3>{contact.title}</h3>
-          <CardMedia
-            component="img"
-            className={styles.image}
-            image={require("@site/static/img/updates/" + contact.photo).default}
-            alt="photo"
-          />
+          {contact.date}
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
           {generateChip(contact.type)}
-
-          <p>{contact.description}</p>
-          <p>{contact.date}</p>
-        </Card>
-      </Grid>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          {/* <Card className={styles.card}> */}
+          <Card sx={{ maxWidth: 315 }}>
+            <img
+              src={require("@site/static/img/updates/" + contact.photo).default}
+              loading="lazy"
+              alt="Team Update Image"
+              sx={{ maxHeight: 300 }}
+            />
+            <CardContent>{contact.description}</CardContent>
+          </Card>
+        </TimelineContent>
+      </TimelineItem>
     );
   });
 };
 
 const UpdateMay = () => {
-  const updateArray = updatesJSON.may;
+  const updateArray = updatesJSON.may.reverse();
 
   return updateArray.map((contact) => {
     return (
-      <Grid item xs={4} sm={2} md={2}>
-        <Card className="" variant="outlined">
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: "auto 0" }}
+          // align="right"
+          variant="body2"
+          color="text.primary"
+        >
           <h3>{contact.title}</h3>
-          <CardMedia
-            component="img"
-            className={styles.image}
-            image={require("@site/static/img/updates/" + contact.photo).default}
-            alt="photo"
-          />
+          {contact.date}
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
           {generateChip(contact.type)}
-
-          <p>{contact.description}</p>
-          <p>{contact.date}</p>
-        </Card>
-      </Grid>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          {/* <Card className={styles.card}> */}
+          <Card sx={{ maxWidth: 315 }}>
+            <img
+              src={require("@site/static/img/updates/" + contact.photo).default}
+              loading="lazy"
+              alt=""
+              sx={{ maxHeight: 300 }}
+            />
+            <CardContent>{contact.description}</CardContent>
+          </Card>
+        </TimelineContent>
+      </TimelineItem>
     );
   });
 };
@@ -313,45 +361,16 @@ export default function EventsPage() {
   return (
     <Layout>
       <div className={styles.background}>
+      <h1 className={styles.heroTitle}> 2022-2023 Updates  </h1>
         <Timeline position="alternate">
-          <UpdateM></UpdateM>
-
-          <TimelineItem>
-            <TimelineOppositeContent
-              sx={{ m: "auto 0" }}
-              variant="body2"
-              color="text.secondary"
-            >
-              10:00 am
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-              <TimelineConnector />
-              <TimelineDot color="primary"></TimelineDot>
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Typography variant="h6" component="span">
-                Code
-              </Typography>
-              <Typography>Because it&apos;s awesome!</Typography>
-            </TimelineContent>
-          </TimelineItem>
-        </Timeline>
-        <Grid
-          // sx={{ flexGrow: 1 }}
-          className={styles.background}
-          container
-          spacing={1}
-          columns={{ xs: 4, sm: 12, md: 10 }}
-        >
-          <Update></Update>
-          <UpdateO></UpdateO>
-          <UpdateN></UpdateN>
-          <UpdateF></UpdateF>
-          {/* <UpdateM></UpdateM> */}
-          <UpdateA></UpdateA>
           <UpdateMay></UpdateMay>
-        </Grid>
+          <UpdateA></UpdateA>
+          <UpdateM></UpdateM>
+          <UpdateF></UpdateF>
+          <UpdateN></UpdateN>
+          <UpdateO></UpdateO>
+          <Update></Update>
+        </Timeline>
       </div>
     </Layout>
   );

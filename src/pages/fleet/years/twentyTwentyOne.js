@@ -33,8 +33,6 @@ const Blastoise = () => {
 };
 
 export default function twentyTwentyOne() {
-  const { siteConfig } = useDocusaurusContext();
-
   return (
     <Layout>
       <div className={styles.myDIV}>

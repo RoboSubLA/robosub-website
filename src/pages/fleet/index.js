@@ -2,14 +2,11 @@ import React, { useState, useEffect } from "react";
 import Layout from "@theme/Layout";
 import {
   Grid,
-  Box,
   Card,
   CardMedia,
   CardContent,
-  CardActions,
   Typography,
   Chip,
-  Button,
 } from "@mui/material";
 
 import styles from "./styles.module.css";
