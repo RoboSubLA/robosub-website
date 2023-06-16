@@ -13,7 +13,7 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
-import AnimatedBackground from '../components/AnimatedBackground';
+import AnimatedBackground from "../components/AnimatedBackground";
 import { Grid, Card, Chip, CardContent } from "@mui/material";
 import updatesJSON from "../../static/json/updates.json";
 import styles from "./updates.module.css";
@@ -361,7 +361,7 @@ export default function EventsPage() {
   return (
     <Layout>
       <div className={styles.background}>
-      <h1 className={styles.heroTitle}> 2022-2023 Updates  </h1>
+        <h1 className={styles.heroTitle}> 2022-2023 Updates </h1>
         <Timeline position="alternate">
           <UpdateMay></UpdateMay>
           <UpdateA></UpdateA>

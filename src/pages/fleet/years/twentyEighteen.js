@@ -74,10 +74,20 @@ export default function twentyEighteen() {
           sx={{
             borderBottom: 1,
             borderColor: "divider",
+            display: "flex",
             backgroundColor: "hsla(212, 97%, 59%, 0.38)",
+            justifyContent: "center",
+            width: "100%",
           }}
         >
-          <Tabs value={value} onChange={handleChange} centered>
+          <Tabs
+            variant="scrollable"
+            scrollButtons
+            allowScrollButtonsMobile
+            value={value}
+            onChange={handleChange}
+            sx={{ margin: "auto" }}
+          >
             <Tab label="Gyrados Mechanical" />
             <Tab label="Gyrados Electrical" />
             <Tab label="Gyrados Software" />

@@ -72,20 +72,30 @@ export default function twentyNineteen() {
         </table>
       </div>
 
-      <Box sx={{ width: "100%" }}>
+      <Box>
         <Box
           sx={{
             borderBottom: 1,
             borderColor: "divider",
+            display: "flex",
             backgroundColor: "hsla(212, 97%, 59%, 0.38)",
+            justifyContent: "center",
+            width: "100%",
           }}
         >
-          <Tabs value={value} onChange={handleChange} centered>
+          <Tabs
+            variant="scrollable"
+            scrollButtons
+            allowScrollButtonsMobile
+            value={value}
+            onChange={handleChange}
+            sx={{ margin: "auto" }}
+          >
             <Tab label="Lanturn Mechanical" />
             <Tab label="Lanturn Electrical" />
             <Tab label="Lanturn Software" />
             <Tab label="|"></Tab>
-            <Tab label="Donphan Mechanical" />
+            <Tab label=" Donphan Mechanical" />
             <Tab label="Donphan Electrical" />
             <Tab label="Donphan Software" />
           </Tabs>
@@ -110,6 +120,7 @@ export default function twentyNineteen() {
           <img
             className={styles.descIMG}
             src={require("@site/static/img/other/2019lanturn1.png").default}
+            alt="fuck"
           />
           <br></br>One design criteria requires that components such as sensors
           and thrusters be easily added and removed in few steps to minimize
