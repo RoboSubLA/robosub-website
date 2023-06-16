@@ -1,28 +1,31 @@
-.image{
-    /* height: 300px;
+.image {
+  /* height: 300px;
     width: 250px; */
-    margin-top: 10px;
-    margin-bottom: 10px;
-    overflow:hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
 }
 
 .heroTitle {
   font-size: 4rem;
   margin: 0%;
-text-align: center;
-background-color: hsla(45, 97%, 59%, 0.5);
+  text-align: center;
+  background-color: hsla(45, 97%, 59%, 0.5);
 }
 
-.card{
-  width:65%
+.subheading{
+  font-size: 3rem;
+  text-align: center;
+  /* color:black !important; */
+}
+
+.card {
+  width: 65%
 }
 
 .background {
-    background-image: linear-gradient(
-      var(--ifm-color-primary-lightest),
-      var(--ifm-color-primary-darkest)
- 
-    );
-    height: 100%;
-    padding: 2rem;
-  }
+  background-image: linear-gradient(var(--ifm-color-primary-lightest),
+      var(--ifm-color-primary-darkest));
+  height: 100%;
+  padding: 2rem;
+}

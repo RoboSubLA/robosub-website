@@ -98,7 +98,7 @@ export default function TeamPage() {
           <h1
             className={styles.contactTitle}
             style={{
-              backgroundColor: "gray",
+              backgroundColor: "#3b3b3b",
               color: "white",
               fontSize: "4rem;",
             }}
@@ -118,7 +118,7 @@ export default function TeamPage() {
           <h1
             className={styles.contactTitle}
             style={{
-              backgroundColor: "black",
+              backgroundColor: "gray",
               color: "white",
               fontSize: "4rem;",
             }}

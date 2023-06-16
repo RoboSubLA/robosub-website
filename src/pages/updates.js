@@ -12,11 +12,13 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
+import CampaignIcon from "@mui/icons-material/Campaign";
 import Typography from "@mui/material/Typography";
 import AnimatedBackground from "../components/AnimatedBackground";
 import { Grid, Card, Chip, CardContent } from "@mui/material";
 import updatesJSON from "../../static/json/updates.json";
 import styles from "./updates.module.css";
+import { Campaign } from "@mui/icons-material";
 
 const UpdateEnum = {
   FrameHull: "FH",
@@ -100,7 +102,7 @@ const generateChip = (type) => {
 };
 
 const Update = () => {
-  const updateArray = updatesJSON.september.reverse();
+  const updateArray = updatesJSON.september;
 
   return updateArray.map((contact) => {
     return (
@@ -137,7 +139,7 @@ const Update = () => {
 };
 
 const UpdateO = () => {
-  const updateArray = updatesJSON.october.reverse();
+  const updateArray = updatesJSON.october;
 
   return updateArray.map((contact) => {
     return (
@@ -174,8 +176,7 @@ const UpdateO = () => {
 };
 
 const UpdateN = () => {
-  const updateArray = updatesJSON.november.reverse();
-
+  const updateArray = updatesJSON.november;
   return updateArray.map((contact) => {
     return (
       <TimelineItem>
@@ -211,7 +212,8 @@ const UpdateN = () => {
 };
 
 const UpdateF = () => {
-  const updateArray = updatesJSON.february.reverse();
+  const updateArray = updatesJSON.february;
+
   return updateArray.map((contact) => {
     return (
       <TimelineItem>
@@ -247,7 +249,7 @@ const UpdateF = () => {
 };
 
 const UpdateM = () => {
-  const updateArray = updatesJSON.march.reverse();
+  const updateArray = updatesJSON.march;
 
   return updateArray.map((contact) => {
     return (
@@ -284,7 +286,7 @@ const UpdateM = () => {
 };
 
 const UpdateA = () => {
-  const updateArray = updatesJSON.april.reverse();
+  const updateArray = updatesJSON.april;
 
   return updateArray.map((contact) => {
     return (
@@ -321,7 +323,7 @@ const UpdateA = () => {
 };
 
 const UpdateMay = () => {
-  const updateArray = updatesJSON.may.reverse();
+  const updateArray = updatesJSON.may;
 
   return updateArray.map((contact) => {
     return (
@@ -361,15 +363,118 @@ export default function EventsPage() {
   return (
     <Layout>
       <div className={styles.background}>
-        <h1 className={styles.heroTitle}> 2022-2023 Updates </h1>
+        <h1 className={styles.heroTitle}> Lanturn & Wailord Updates </h1>
         <Timeline position="alternate">
+          <h2 className={styles.subheading}> June 2023</h2>
+          <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: "auto 0" }}
+              variant="body2"
+              color="text.primary"
+            ></TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector />
+
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent></TimelineContent>
+          </TimelineItem>
+
+          <h2 className={styles.subheading}> May 2023</h2>
+          <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: "auto 0" }}
+              variant="body2"
+              color="text.primary"
+            >
+              <h3>Spring Semester Ends </h3>
+              May 27, 2023
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector />
+              <TimelineDot>
+                <CampaignIcon />
+              </TimelineDot>
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              ENJOY YOUR SUMMER FOR A BIT, WE'LL BE WORKING THROUGH IT!!!
+            </TimelineContent>
+          </TimelineItem>
+
           <UpdateMay></UpdateMay>
+          <h2 className={styles.subheading}> April 2023</h2>
           <UpdateA></UpdateA>
+          <h2 className={styles.subheading}> March 2023</h2>
           <UpdateM></UpdateM>
+          <h2 className={styles.subheading}> February 2023</h2>
           <UpdateF></UpdateF>
+
+          <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: "auto 0" }}
+              variant="body2"
+              color="text.primary"
+            >
+              <h3>Spring Semester Begins</h3>
+              January 23, 2022
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector />
+              <TimelineDot>
+                <CampaignIcon />
+              </TimelineDot>
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>Welcome Back Eagles!!!</TimelineContent>
+          </TimelineItem>
+
+          <h2 className={styles.subheading}> November 2022</h2>
+          <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: "auto 0" }}
+              variant="body2"
+              color="text.primary"
+            >
+              <h3>Fall Semester Ends</h3>
+              November 11 - December 23, 2023
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector />
+              <TimelineDot>
+                <CampaignIcon />
+              </TimelineDot>
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              ENJOY FALL RECESS, GOOD LUCK ON YOUR FINALS, & WE'LL SEE YOU IN
+              THE SPRING
+            </TimelineContent>
+          </TimelineItem>
           <UpdateN></UpdateN>
+          <h2 className={styles.subheading}> October 2022</h2>
           <UpdateO></UpdateO>
+          <h2 className={styles.subheading}> September 2022</h2>
           <Update></Update>
+
+          <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: "auto 0" }}
+              variant="body2"
+              color="text.primary"
+            >
+              <h3>Fall Semester Begins</h3>
+              August 22, 2022
+            </TimelineOppositeContent>
+            <TimelineSeparator>
+              <TimelineConnector />
+              <TimelineDot>
+                <CampaignIcon />
+              </TimelineDot>
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>Welcome Eagles!!!</TimelineContent>
+          </TimelineItem>
         </Timeline>
       </div>
     </Layout>

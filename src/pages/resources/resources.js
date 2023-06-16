@@ -10,7 +10,6 @@ import {
   CardActions,
   Grid,
 } from "@mui/material";
-import { CenterFocusStrongOutlined } from "@mui/icons-material";
 
 export default function ResourcesPage() {
   function get_started() {
