@@ -7,7 +7,7 @@
     list-style-type: none;
 }
 
-.title{
+.title {
     font-size: 4rem;
     font-family: 'Franklin Gothic Medium';
 }
@@ -17,7 +17,7 @@
     font-family: "Franklin Gothic";
 }
 
-.subheader{
+.subheader {
     font-size: 1rem;
     font-family: "Franklin Gothic";
 }
@@ -72,10 +72,10 @@
     padding-right: 20px;
 }
 
-.buckCon{
-    padding-right:30px;
-    padding-left:30px;
-   padding-bottom:30px;
+.buckCon {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
     background-color: #5d6658;
 }
 

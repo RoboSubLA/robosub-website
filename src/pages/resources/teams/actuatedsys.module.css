@@ -7,9 +7,32 @@
     list-style-type: none;
 }
 
+.title {
+    font-family: 'Franklin Gothic Medium';
+}
+
+.desc {
+    font-size: 1.3rem;
+    font-family: "Franklin Gothic";
+}
+
+.con {
+    background-color: #336699;
+}
+
+.subheader {
+    font-size: 1rem;
+    font-family: "Franklin Gothic";
+}
+
 .img {
     width: auto;
     height: 400px;
+}
+
+.vid {
+    width: 200px;
+    height: auto;
 }
 
 .navBackground {
