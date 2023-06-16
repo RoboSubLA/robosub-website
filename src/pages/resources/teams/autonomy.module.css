@@ -57,7 +57,7 @@
 .myDIV {
     width: auto;
     text-align: center;
-    background-color: rgb(8, 8, 162);
+    background-color: var(--ifm-color-primary-lighter) !important;
     padding-left: 200px;
     padding-right: 20px;
 }

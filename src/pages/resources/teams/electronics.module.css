@@ -16,16 +16,13 @@
 }
 
 .navbar {
-  /* background-color: white; */
-  margin-right: 10px;
-  /* padding */
-  padding: 15px;
-  /* margin-bottom: 20px; */
-  /* width */
-  width: auto;
-  /* moves content to the left */
-  float: left;
-  text-align: center;
+    /* background-color: white; */
+    margin-right: 10px;
+    padding: 15px;
+    /* margin-bottom: 20px; */
+    width: auto;
+    float: left;
+    text-align: center;
 }
 
 .btn {
@@ -76,7 +73,7 @@
 .DPContent {
     /* Content does NOT show */
     display: none;
-  background-color: white;
+    background-color: white;
     /* Adds a space */
     position: relative;
     overflow: auto;
