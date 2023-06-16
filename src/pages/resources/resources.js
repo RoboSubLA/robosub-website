@@ -38,38 +38,38 @@ export default function ResourcesPage() {
       {/* Side Nav Bar */}
       <div className={styles.pageWrapper}>
         <div className={styles.navBackground}>
-        <nav className={styles.navbar}>
-          <ul className={styles.navbar_elements}>
-            <button onClick={get_started} className={styles.btn}>
-              GET STARTED
-            </button>
+          <nav className={styles.navbar}>
+            <ul className={styles.navbar_elements}>
+              <button onClick={get_started} className={styles.btn}>
+                GET STARTED
+              </button>
 
-            <button onClick={teamsFunc} className={styles.btn}>
-              TEAMS
-            </button>
+              <button onClick={teamsFunc} className={styles.btn}>
+                TEAMS
+              </button>
 
-            <div id="dropdown" className={styles.DPContent}>
-              <a href="./teams/framehull">Frame and Hull</a>
-              <a href="./teams/electronics">Electronics</a>
-              <a href="./teams/actuatedsys">Actuated Systems</a>
-              <a href="./teams/controls">Controls</a>
-              <a href="./teams/autonomy">Autonomy</a>
-              <a href="./teams/compvis">Computer Vision</a>
-            </div>
+              <div id="dropdown" className={styles.DPContent}>
+                <a href="./teams/framehull">Frame and Hull</a>
+                <a href="./teams/electronics">Electronics</a>
+                <a href="./teams/actuatedsys">Actuated Systems</a>
+                <a href="./teams/controls">Controls</a>
+                <a href="./teams/autonomy">Autonomy</a>
+                <a href="./teams/compvis">Computer Vision</a>
+              </div>
 
-            <button onClick={arduino} className={styles.btn}>
-              ARDUINO
-            </button>
+              <button onClick={arduino} className={styles.btn}>
+                ARDUINO
+              </button>
 
-            <button onClick={linuxfunc} className={styles.btn}>
-              LINUX
-            </button>
+              <button onClick={linuxfunc} className={styles.btn}>
+                LINUX
+              </button>
 
-            <button onClick={github} className={styles.btn}>
-              GIT & GITHUB
-            </button>
-          </ul>
-        </nav>
+              <button onClick={github} className={styles.btn}>
+                GIT & GITHUB
+              </button>
+            </ul>
+          </nav>
         </div>
 
         {/* Default Div */}
@@ -356,7 +356,7 @@ export default function ResourcesPage() {
                   </a>
                 </CardActions>
               </Card>
-         </Grid>
+            </Grid>
           </p>
         </div>
       </div>
