@@ -9,7 +9,9 @@
 .virtualization {
   overflow: hidden;
   text-align: center;
-  margin:40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
   background-color: darkorange;
 }
 
@@ -38,16 +40,16 @@
 }
 
 .navbar {
-     /* background-color: white; */
-     margin-right: 10px;
-     /* padding */
-     padding: 15px;
-     /* margin-bottom: 20px; */
-     /* width */
-     width: auto;
-     /* moves content to the left */
-     float: left;
-     text-align: center;
+  /* background-color: white; */
+  margin-right: 10px;
+  /* padding */
+  padding: 15px;
+  /* margin-bottom: 20px; */
+  /* width */
+  width: auto;
+  /* moves content to the left */
+  float: left;
+  text-align: center;
 }
 
 .navbar_elements {
@@ -85,7 +87,7 @@
   padding-left: 200px;
   padding-right: 20px;
   justify-content: center;
-background-color:var(--ifm-color-primary-darkest) !important;
+  background-color: var(--ifm-color-primary-darkest) !important;
 }
 
 
