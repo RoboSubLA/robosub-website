@@ -95,7 +95,7 @@ const config = {
             className: 'navItems',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://discord.gg/N6vJGGSH',
             label: 'Discord',
             position: 'right',
             className: 'navItems',
@@ -105,7 +105,7 @@ const config = {
       footer: {
         style: 'light',
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Robosub LA Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Robosub LA at California State University, Los Angeles.`,
       },
       prism: {
         theme: lightCodeTheme,
