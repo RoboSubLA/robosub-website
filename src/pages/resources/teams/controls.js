@@ -29,6 +29,7 @@ export default function Controls() {
     <Layout>
       {/* Side Nav Bar */}
       <div className={styles.pageWrapper}>
+        <div className={styles.navBackground}>
         <nav className={styles.navbar}>
           <ul className={styles.navbar_elements}>
             <button onClick={get_started} className={styles.btn}>
@@ -61,7 +62,8 @@ export default function Controls() {
             </button>
           </ul>
         </nav>
-
+        </div>
+        
         <h1>CONTROLS</h1>
         <p>
           Controls sits between Autonomy and our actual hardware and turns our

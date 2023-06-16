@@ -124,6 +124,8 @@ export default function ResourcesPage() {
                     require("@site/static/img/other/robosubLogo.png").default
                   }
                   width="200"
+                  alt="RoboSub Logo"
+                  title="RoboSub 2023 Handbook"
                 ></img>
               </a>
               <h2 style={{ color: "teal" }}>
@@ -141,9 +143,19 @@ export default function ResourcesPage() {
               and work on an interdisciplinary project to gain experience
               working with a team. Please see the progress tab for a better idea
               of what our members are working on and what tasks and projects are
-              available to new members.
+              available to new members. Click our logo below to access our past
+              technical design reports!<br></br>
+              <a href="https://drive.google.com/drive/folders/1Fvn-nsvH0T94bGatGdOTy14PgV97XC0h?usp=sharing">
+                <img
+                  className="icon"
+                  src={require("@site/static/img/RoboSubLogo.png").default}
+                  width="200"
+                  alt="RoboSubLA Logo"
+                  title="Technical Design Reports"
+                ></img>
+              </a>
             </div>
-
+            <br></br>
             <h2> Team Breakdown - Subteams: </h2>
 
             {/* Teams */}
