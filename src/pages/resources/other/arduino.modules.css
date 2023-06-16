@@ -32,31 +32,31 @@
 }
 
 .navbar{
-    /* background color */
-    background-color: white;
+   /* background-color: white; */
+   margin-right: 10px;
+   /* padding */
+   padding: 15px;
+   margin-bottom: 20px;
+   /* width */
+   width: auto;
+   /* height: 2084px; */
+   /* moves content to the left */
+   float: left;
+   text-align: center;
+   position: fixed;
 
-    /* padding */
-    padding: 15px;
-    
-    /* width */
-    width: auto;
-
-    /* height */
-    height: 920px;
-
-    /* moves content to the left */
-    float: left;
 }
 
 
 .navbar_elements{
-    padding: 0;
+    padding: 0px;
     margin: 0;
     list-style: none;
     text-align: center;
     display: grid;
     grid-auto-flow: row;
     grid-row-gap: 23px;
+    position: fixed;
 }
 
 .nav_ind{
@@ -71,8 +71,14 @@
   }
 
 .btn{
-    font-size: 18px;
+    background-color: rgb(205, 162, 23);
+    border-radius: 30px;
+    border-color: black;
+    position: sticky;
+    padding: 10px;
+    font-size: 20px;
     cursor: pointer;
+    transition-duration: 0.2s;
 
 }
 
@@ -107,3 +113,16 @@
     display: block;
     text-decoration: none;
 }
+.backgroundContainer iframe {
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    width: 30%;
+    height: 50%;
+  }
+  @media screen and (max-width: 1000px) {
+    .backgroundContainer iframe {
+      width: 90%; /* Adjust the width as needed for small screens */
+      height: 80%; /* Adjust the height as needed for small screens */
+    }
+  }

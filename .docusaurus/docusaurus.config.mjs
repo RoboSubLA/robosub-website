@@ -29,7 +29,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/gonzo/src/robosub-website/sidebars.js",
+          "sidebarPath": "/home/pika-pikaaaaachu/robosub-website/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -37,7 +37,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/gonzo/src/robosub-website/src/css/custom.css"
+          "customCss": "/home/pika-pikaaaaachu/robosub-website/src/css/custom.css"
         }
       }
     ]
@@ -65,25 +65,19 @@ export default {
         },
         {
           "to": "/team",
-          "label": "Team",
+          "label": "Crew Deck",
           "position": "right",
           "className": "navItems"
         },
         {
-          "to": "/resources",
+          "to": "/resources/resources",
           "label": "Resources",
           "position": "right",
           "className": "navItems"
         },
         {
-          "to": "/events",
-          "label": "Events",
-          "position": "right",
-          "className": "navItems"
-        },
-        {
-          "to": "/timeline",
-          "label": "Timeline",
+          "to": "/updates",
+          "label": "Updates",
           "position": "right",
           "className": "navItems"
         },
@@ -99,7 +93,7 @@ export default {
     "footer": {
       "style": "light",
       "links": [],
-      "copyright": "Copyright © 2022 Robosub LA Built with Docusaurus."
+      "copyright": "Copyright © 2023 Robosub LA Built with Docusaurus."
     },
     "prism": {
       "theme": {

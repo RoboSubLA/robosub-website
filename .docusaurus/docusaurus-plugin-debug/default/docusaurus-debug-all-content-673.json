@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/gonzo/src/robosub-website/sidebars.js",
-          "contentPath": "/Users/gonzo/src/robosub-website/docs",
-          "contentPathLocalized": "/Users/gonzo/src/robosub-website/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/pika-pikaaaaachu/robosub-website/sidebars.js",
+          "contentPath": "/home/pika-pikaaaaachu/robosub-website/docs",
+          "contentPathLocalized": "/home/pika-pikaaaaachu/robosub-website/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -700,17 +700,6 @@
       },
       {
         "type": "jsx",
-        "permalink": "/resources",
-        "source": "@site/src/pages/resources.js"
-      },
-      {
-        "type": "mdx",
-        "permalink": "/resources",
-        "source": "@site/src/pages/resources.md",
-        "frontMatter": {}
-      },
-      {
-        "type": "jsx",
         "permalink": "/team",
         "source": "@site/src/pages/team.js"
       },
@@ -722,8 +711,29 @@
       },
       {
         "type": "jsx",
+        "permalink": "/updates",
+        "source": "@site/src/pages/updates.js"
+      },
+      {
+        "type": "jsx",
         "permalink": "/fleet/",
         "source": "@site/src/pages/fleet/index.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources/resources",
+        "source": "@site/src/pages/resources/resources.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/resources",
+        "source": "@site/src/pages/resources/resources.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/signup/",
+        "source": "@site/src/pages/signup/index.js"
       },
       {
         "type": "jsx",
@@ -734,6 +744,160 @@
         "type": "jsx",
         "permalink": "/timeline/",
         "source": "@site/src/pages/timeline/index.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/fleet/years/twentyEighteen",
+        "source": "@site/src/pages/fleet/years/twentyEighteen.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/fleet/years/twentyEighteen",
+        "source": "@site/src/pages/fleet/years/twentyEighteen.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/fleet/years/twentyNineteen",
+        "source": "@site/src/pages/fleet/years/twentyNineteen.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/fleet/years/twentyNineteen",
+        "source": "@site/src/pages/fleet/years/twentyNineteen.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/fleet/years/twentyTwentyOne",
+        "source": "@site/src/pages/fleet/years/twentyTwentyOne.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/fleet/years/twentyTwentyOne",
+        "source": "@site/src/pages/fleet/years/twentyTwentyOne.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/fleet/years/twentyTwentyTwo",
+        "source": "@site/src/pages/fleet/years/twentyTwentyTwo.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/fleet/years/twentyTwentyTwo",
+        "source": "@site/src/pages/fleet/years/twentyTwentyTwo.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources/other/arduino",
+        "source": "@site/src/pages/resources/other/arduino.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/other/arduino",
+        "source": "@site/src/pages/resources/other/arduino.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources/other/github",
+        "source": "@site/src/pages/resources/other/github.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/other/github",
+        "source": "@site/src/pages/resources/other/github.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources/other/linux",
+        "source": "@site/src/pages/resources/other/linux.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/other/linux",
+        "source": "@site/src/pages/resources/other/linux.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources/other/ros",
+        "source": "@site/src/pages/resources/other/ros.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/other/ros",
+        "source": "@site/src/pages/resources/other/ros.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources/teams/actuatedsys",
+        "source": "@site/src/pages/resources/teams/actuatedsys.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/teams/actuatedsys",
+        "source": "@site/src/pages/resources/teams/actuatedsys.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources/teams/autonomy",
+        "source": "@site/src/pages/resources/teams/autonomy.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/teams/autonomy",
+        "source": "@site/src/pages/resources/teams/autonomy.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources/teams/compvis",
+        "source": "@site/src/pages/resources/teams/compvis.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/teams/compvis",
+        "source": "@site/src/pages/resources/teams/compvis.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources/teams/controls",
+        "source": "@site/src/pages/resources/teams/controls.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/teams/controls",
+        "source": "@site/src/pages/resources/teams/controls.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources/teams/electronics",
+        "source": "@site/src/pages/resources/teams/electronics.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/teams/electronics",
+        "source": "@site/src/pages/resources/teams/electronics.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/resources/teams/framehull",
+        "source": "@site/src/pages/resources/teams/framehull.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources/teams/framehull",
+        "source": "@site/src/pages/resources/teams/framehull.md",
+        "frontMatter": {}
       }
     ]
   },
