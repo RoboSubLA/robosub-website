@@ -66,7 +66,7 @@ export default function Linux() {
         
 
 <div className={styles.myDIV}>
-        <h1 style={{ textAlign: "center", fontSize:"4rem" }}>LINUX</h1>
+        <h1 style={{ textAlign: "center", fontSize:"4rem", fontFamily: "Franklin Gothic Medium"}}>LINUX</h1>
 
         <h2
           style={{
@@ -75,7 +75,7 @@ export default function Linux() {
             overflow: "hidden",
           }}
         >
-          What is Linux?
+          <i>What is Linux?</i>
         </h2>
         <p style={{ textAlign: "center", overflow: "hidden" }}>
           {" "}
@@ -89,9 +89,9 @@ export default function Linux() {
         </p>
 
         <div className={styles.linuxList}>
-          <p className="linux-h3">
-            The Linux operating system comprises several different pieces:
-          </p>
+          <h2 className="linux-h3">
+            The Linux operating system composes of several different pieces:
+          </h2>
           <li className="linux-list-item">
             <span>Bootloader</span> – The software that manages the boot process
             of your computer. For most users, this will simply be a splash
@@ -144,8 +144,8 @@ export default function Linux() {
             location.
           </li>
         </div>
-        <h2 style={{ textAlign: "center" }}>Installing Linux </h2>
-        <p style={{ textAlign: "center", paddingLeft: "25px" }}>3 Methods:</p>
+        <h1 style={{ textAlign: "center", fontFamily: "Franklin Gothic Medium", borderBottom: "1px solid" }}>Installing Linux </h1>
+        <p style={{ textAlign: "center", fontSize:"2rem" }}>3 Methods:</p>
         <div className={styles.virtualization}>
           <h3>
             {" "}

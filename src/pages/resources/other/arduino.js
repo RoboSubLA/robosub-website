@@ -67,8 +67,8 @@ export default function Arduino() {
 
         <div className={styles.myDIV}>
 
-        <h1 style={{fontSize:"4rem"}}>ARDUINO</h1>
-          <h3 style={{ color: "yellow" }}>Installing Arduino IDE</h3>
+        <h1 style={{fontSize:"4rem", fontFamily: "Franklin Gothic Medium"}}>ARDUINO</h1>
+          <h2 style={{ color: "yellow",fontSize:"2rem", borderBottom:"1px solid" }}>Installing Arduino IDE</h2>
           <p>Instructions to install IDE here:</p>
           <div className={styles.linksCon}>
             <a href="https://www.arduino.cc/en/Guide/Windows">
@@ -77,6 +77,7 @@ export default function Arduino() {
                 src={require("@site/static/img/other/windowsLogo.png").default}
                 width="200"
                 alt="Windows Logo"
+                title="Windows Linux Installation"
               ></img>
             </a>
             <a
@@ -89,6 +90,7 @@ export default function Arduino() {
                 height="90"
                 width="180"
                 alt="Linux Logo"
+                title="Linux Installation"
               ></img>
             </a>
 
@@ -102,6 +104,7 @@ export default function Arduino() {
                 height="120"
                 width="120"
                 alt="Mac OS Logo"
+                title="Mac Linux Installation"
               ></img>
             </a>
       
@@ -109,7 +112,7 @@ export default function Arduino() {
         
 
         <div className={styles.backgroundContainer}>
-          <h2 style={{ color: "black" }}>
+          <h2 style={{ color: "black", fontSize:"2rem" }}>
             <b>Arduino Basics</b>
           </h2>
           <p className="iframe-align">
