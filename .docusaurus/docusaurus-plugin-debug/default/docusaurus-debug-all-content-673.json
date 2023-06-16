@@ -742,11 +742,6 @@
       },
       {
         "type": "jsx",
-        "permalink": "/timeline/",
-        "source": "@site/src/pages/timeline/index.js"
-      },
-      {
-        "type": "jsx",
         "permalink": "/fleet/years/twentyEighteen",
         "source": "@site/src/pages/fleet/years/twentyEighteen.js"
       },

@@ -283,11 +283,6 @@ export default [
     exact: true
   },
   {
-    path: '/timeline/',
-    component: ComponentCreator('/timeline/', '579'),
-    exact: true
-  },
-  {
     path: '/updates',
     component: ComponentCreator('/updates', 'd54'),
     exact: true
