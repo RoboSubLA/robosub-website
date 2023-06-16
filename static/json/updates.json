@@ -356,32 +356,32 @@
     "photo": "fh18.png"
   },
   {
-    "type": "E",
-    "title": "Progress Update",
-    "description": "PCB and regulator board done! Soldering complete, but connecting to board holder is next!",
+    "type": "CV",
+    "title": "Semester Recap",
+    "description": "Prequalification object detection model trained. Porting old repository from ROS1 to ROS2. Determined that we will stick with YOLO (version 7 for better speed & less computing need). Need to create object detection node.",
     "date": "May 3, 2023",
-    "photo": "e10.png"
+    "photo": "cv6.png"
   },
   {
     "type": "C",
     "title": "Semester Recap",
     "description": "Software overview diagram, thruster, controllers, sensor library framework complete! Controls firmware also established. Next is validating sensor libraries & controllers, testing software components, and tuning controllers.",
-    "date": "April 3, 2023",
+    "date": "May 3, 2023",
     "photo": "c9.png"
   }, 
   {
     "type": "A",
-    "title": "Progress Report",
+    "title":"Semester Recap",
     "description": "Decision to stick with behavior tree, prequalification tree set up! Deciding on search approach & logic for competition tree. Need to finish logic for prequalification and test & develop. ",
-    "date": "April 3, 2023",
+    "date": "May 3, 2023",
     "photo": "a7.png"
-  }, 
+  },
   {
-    "type": "CV",
+    "type": "E",
     "title": "Semester Recap",
-    "description": "Prequalification object detection model trained. Porting old repository from ROS1 to ROS2. Determined that we will stick with YOLO (version 7 for better speed & less computing need). Need to create object detection node.",
-    "date": "April 3, 2023",
-    "photo": "cv6.png"
+    "description": "PCB and regulator board done! Soldering complete, but connecting to board holder is next!",
+    "date": "May 3, 2023",
+    "photo": "e10.png"
   }
 ]
 }
