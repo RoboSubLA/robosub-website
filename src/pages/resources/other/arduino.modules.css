@@ -52,9 +52,10 @@
 .backgroundContainer {
     overflow: hidden;
     width: auto;
+    /* height: 80%; */
     padding: 20px;
-    margin-left: 100px;
-    margin-right: 25px;
+    margin-left: 80px;
+    margin-right: 5px;
     padding-bottom: 20px;
     background-color: gray;
     justify-content: center;
@@ -116,3 +117,12 @@
     display: block;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1000px) {
+    .backgroundContainer iframe {
+      transform: scale(1.4);
+      width: 90%; /* Adjust the width as needed for small screens */
+      height: 70%; /* Adjust the height as needed for small screens */
+      /* margin: 15px 15px 0 15px; */
+    }
+  }
