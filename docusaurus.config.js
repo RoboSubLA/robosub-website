@@ -95,12 +95,6 @@ const config = {
             className: 'navItems',
           },
           {
-            to: '/timeline',
-            label: 'Timeline',
-            position: 'right',
-            className: 'navItems',
-          },
-          {
             href: 'https://github.com/facebook/docusaurus',
             label: 'Discord',
             position: 'right',
