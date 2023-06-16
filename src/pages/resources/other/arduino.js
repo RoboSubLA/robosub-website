@@ -29,6 +29,7 @@ export default function Arduino() {
     <Layout>
       {/* Side Nav Bar */}
       <div className={styles.pageWrapper}>
+        <div className={styles.navBackground}>
         <nav className={styles.navbar}>
           <ul className={styles.navbar_elements}>
             <button onClick={get_started} className={styles.btn}>
@@ -62,6 +63,7 @@ export default function Arduino() {
             </button>
           </ul>
         </nav>
+        </div>
 
         <div className={styles.myDIV}>
 
@@ -102,7 +104,7 @@ export default function Arduino() {
                 alt="Mac OS Logo"
               ></img>
             </a>
-          </div>
+      
           <br />
         
 
@@ -133,6 +135,7 @@ export default function Arduino() {
             ></iframe>
           </p>
           <h4>Servo, Potentiometer, and DC Motor</h4>
+        </div>
         </div>
         </div>
       </div>
