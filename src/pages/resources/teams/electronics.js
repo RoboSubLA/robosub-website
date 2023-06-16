@@ -4,7 +4,6 @@ import styles from "./electronics.module.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export default function Electronics() {
-  const { siteConfig } = useDocusaurusContext();
 
   function get_started() {
     location.assign("../resources");

@@ -1,11 +1,8 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./framehull.module.css";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export default function FrameHull() {
-  const { siteConfig } = useDocusaurusContext();
-
   function get_started() {
     location.assign("./../resources");
   }
@@ -65,7 +62,7 @@ export default function FrameHull() {
         </div>
         <div className={styles.myDIV}>
           <h1 className={styles.title}>FRAME AND HULL</h1>
-          <p className="linux-p">
+          <p className={styles.para}>
             {" "}
             The Frame and Hull subteam primarily utilizes SolidWorks for
             building our 3D model of the robotic submarine. To ensure everyone
@@ -76,33 +73,29 @@ export default function FrameHull() {
             are some videos to watch if you are unable to come to our workshops.
           </p>
 
-          <h2 className="tutorials">
-            {" "}
-            <b>
+          <div className={styles.container}>
+            <h2 className={styles.subheading}>
               {" "}
-              <u>Introductory SolidWorks Tutorials</u>
-            </b>
-          </h2>
-          <p
-            className="linux-h3"
-            style={{ textAlign: "left", paddingLeft: "25px" }}
-          ></p>
+              <b>
+                {" "}
+                <u>Introductory SolidWorks Tutorials</u>
+              </b>
+            </h2>
 
-          <p className="linux-h3">SolidWorks for Beginners!</p>
-          <p className="iframe-align">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/qtgmGkEPXs8?start=110"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </p>
+            <p className={styles.desc}>SolidWorks for Beginners!</p>
+            <p className="iframe-align">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/qtgmGkEPXs8?start=110"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </p>
 
-          <p className="iframe-align">
-            <p className="linux-h3">SolidWorks Basics and Parts</p>
+            <p className={styles.desc}>SolidWorks Basics and Parts.</p>
             <p className="iframe-align">
               <iframe
                 width="560"
@@ -113,10 +106,10 @@ export default function FrameHull() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-            </p>
-
-            <p>SolidWorks Engine Assembly and Animation</p>
-            <div className={styles.container}>
+              <br></br> <br></br>
+              <p className={styles.desc}>
+                SolidWorks Engine Assembly and Animation.
+              </p>
               <iframe
                 className={styles.responsFrame}
                 width="560"
@@ -127,8 +120,8 @@ export default function FrameHull() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 // allowfullscreen
               ></iframe>
-            </div>
-          </p>
+            </p>
+          </div>
         </div>
       </div>
     </Layout>

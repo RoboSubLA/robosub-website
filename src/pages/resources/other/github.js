@@ -71,14 +71,12 @@ export default function Github() {
 
           <p
             className="resources-section-p"
-            style={{ fontSize: "19px", padding: "5px", color: "#00FFFF" }}
+            style={{ padding: "5px", color: "#00FFFF" }}
           >
-            <strong>
-              At a high level, GitHub is a website and cloud-based service that
-              helps developers store and manage their code, as well as track and
-              control changes to their code. To understand exactly what GitHub
-              is, you need to know two connected principles:
-            </strong>
+            At a high level, GitHub is a website and cloud-based service that
+            helps developers store and manage their code, as well as track and
+            control changes to their code. To understand exactly what GitHub is,
+            you need to know two connected principles:
           </p>
           <div
             className={styles.principleCon}
@@ -100,15 +98,13 @@ export default function Github() {
               1. Version Control:
             </h3>
             <p className="resources-section-p">
-              <strong>
-                <i>
-                  In software engineering, version control is a class of systems
-                  responsible for managing changes to computer programs,
-                  documents, large web sites, or other collections of
-                  information. Version control is a component of software
-                  configuration management.
-                </i>
-              </strong>
+              <i>
+                In software engineering, version control is a class of systems
+                responsible for managing changes to computer programs,
+                documents, large web sites, or other collections of information.
+                Version control is a component of software configuration
+                management.
+              </i>
             </p>
           </div>
 
@@ -130,15 +126,13 @@ export default function Github() {
             >
               2. Git:{" "}
             </h3>
-            <strong>
-              <i>
-                Git is software for tracking changes in any set of files,
-                usually used for coordinating work among programmers
-                collaboratively developing source code during software
-                development. Its goals include speed, data integrity, and
-                support for distributed, non-linear workflows.
-              </i>
-            </strong>
+            <i>
+              Git is software for tracking changes in any set of files, usually
+              used for coordinating work among programmers collaboratively
+              developing source code during software development. Its goals
+              include speed, data integrity, and support for distributed,
+              non-linear workflows.
+            </i>
           </div>
 
           <h2
