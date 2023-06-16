@@ -9,7 +9,7 @@
 .linksCon {
     justify-content: align;
     align-self: center;
-    width:auto;
+    width: auto;
 }
 
 .icon {
@@ -80,24 +80,23 @@
     width: auto;
     text-align: center;
     background-color: var(--ifm-color-primary-darkest) !important;
-    /* padding-left: 100px;
-    padding-right: 20px; */
+
     padding-left: 200px;
     padding-right: 20px;
-   
+
 }
 
 /* Teams Navbar Button CSS */
 
 .DPContent {
-  /* Content does NOT show */
-  display: none;
-  /* Adds a space */
-  position: relative;
-  background-color: white;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+    /* Content does NOT show */
+    display: none;
+    /* Adds a space */
+    position: relative;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 /*  */

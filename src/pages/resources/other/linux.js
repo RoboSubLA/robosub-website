@@ -29,6 +29,7 @@ export default function Linux() {
     <Layout>
       {/* Side Nav Bar */}
       <div className={styles.pageWrapper}>
+        <div className={styles.navBackground}>
         <nav className={styles.navbar}>
           <ul className={styles.navbar_elements}>
             <button onClick={get_started} className={styles.btn}>
@@ -61,6 +62,8 @@ export default function Linux() {
             </button>
           </ul>
         </nav>
+        </div>
+        
 
 <div className={styles.myDIV}>
         <h1 style={{ textAlign: "center", fontSize:"4rem" }}>LINUX</h1>

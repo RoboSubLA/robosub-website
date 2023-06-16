@@ -73,6 +73,11 @@ export default function ActuatedSys() {
           vision and navigation teams to ensure that the sensors and vision can
           successfully complete the competition tasks.
         </p>
+        <br>
+        </br>
+        <img src={require("@site/static/img/other/as1.png").default} className={styles.img}>
+
+        </img>
         </div>
       </div>
     </Layout>

@@ -29,6 +29,7 @@ export default function Autonomy() {
     <Layout>
       {/* Side Nav Bar */}
       <div className={styles.pageWrapper}>
+      <div className={styles.navBackground}>
         <nav className={styles.navbar}>
           <ul className={styles.navbar_elements}>
             <button onClick={get_started} className={styles.btn}>
@@ -61,8 +62,10 @@ export default function Autonomy() {
             </button>
           </ul>
         </nav>
+</div>
 
-        <h1>AUTONOMY</h1>
+        <div className={styles.myDIV}>
+        <h1 style={{fontSize:"4rem"}}>AUTONOMY</h1>
         <p>
           The Autonomy subteam is responsible for developing the competition
           mission plan and task execution algorithms to ensure efficient and
@@ -121,6 +124,7 @@ export default function Autonomy() {
         <a href="https://docs.ros.org/en/humble/index.html">
           ROS2 Humble Documentation
         </a>
+      </div>
       </div>
     </Layout>
   );

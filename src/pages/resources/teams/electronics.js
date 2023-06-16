@@ -30,42 +30,42 @@ export default function Electronics() {
   return (
     <Layout>
       <div className={styles.pageWrapper}>
-      <div className={styles.navBackground}>
-        <nav className={styles.navbar}>
-          <ul className={styles.navbar_elements}>
-            <button onClick={get_started} className={styles.btn}>
-              GET STARTED
-            </button>
+        <div className={styles.navBackground}>
+          <nav className={styles.navbar}>
+            <ul className={styles.navbar_elements}>
+              <button onClick={get_started} className={styles.btn}>
+                GET STARTED
+              </button>
 
-            <button onClick={teamsFunc} className={styles.btn}>
-              TEAMS
-            </button>
+              <button onClick={teamsFunc} className={styles.btn}>
+                TEAMS
+              </button>
 
-            <div id="dropdown" className={styles.DPContent}>
-              <a href="./framehull">Frame and Hull</a>
-              <a href="./electronics">Electronics</a>
-              <a href="./actuatedsys">Actuated Systems</a>
-              <a href="./controls">Controls</a>
-              <a href="./autonomy">Autonomy</a>
-              <a href="./compvis">Computer Vision</a>
-            </div>
+              <div id="dropdown" className={styles.DPContent}>
+                <a href="./framehull">Frame and Hull</a>
+                <a href="./electronics">Electronics</a>
+                <a href="./actuatedsys">Actuated Systems</a>
+                <a href="./controls">Controls</a>
+                <a href="./autonomy">Autonomy</a>
+                <a href="./compvis">Computer Vision</a>
+              </div>
 
-            <button onClick={arduino} className={styles.btn}>
-              ARDUINO
-            </button>
+              <button onClick={arduino} className={styles.btn}>
+                ARDUINO
+              </button>
 
-            <button onClick={linuxfunc} className={styles.btn}>
-              LINUX
-            </button>
+              <button onClick={linuxfunc} className={styles.btn}>
+                LINUX
+              </button>
 
-            <button onClick={github} className={styles.btn}>
-              GIT & GITHUB
-            </button>
-          </ul>
-        </nav>
+              <button onClick={github} className={styles.btn}>
+                GIT & GITHUB
+              </button>
+            </ul>
+          </nav>
         </div>
         <div className={styles.myDIV}>
-          <h1 style={{fontSize:"4rem"}}>ELECTRONICS</h1>
+          <h1 style={{ fontSize: "4rem" }}>ELECTRONICS</h1>
           <p className="linux-h3">
             {" "}
             The Electronics/Power team is in charge of converting the internal

@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./github.modules.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import { colors } from "@mui/material";
 
 export default function Github() {
   const { siteConfig } = useDocusaurusContext();
@@ -227,8 +226,7 @@ export default function Github() {
         <code className="git-code" style={{backgroundColor:"#00FFFF", border:"none", color:"black"}}>git merge [branch]
         </code>
         </div>
-        <p className="git-cheat-p" style={{fontWeight: "800", fontFamily:"monospace",
-                                            fontSize:"15px", color:"#FFFF00", paddingBottom:"10px"}}>
+        <p className={styles.gitCheat} >
           Merge the specified branch’s history into the current one
         </p>
  </div>
