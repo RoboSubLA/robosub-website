@@ -7,6 +7,27 @@
     list-style-type: none;
 }
 
+.title {
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.con{
+    background: #0d7dd4;
+    box-shadow: 3px 3px gray, -.1em 0 .4em olive;
+margin:30px;
+}
+
+.desc {
+    font-size: 1.3rem;
+    font-family: "Franklin Gothic";
+}
+
+.subheader {
+    font-size: 1rem;
+    font-family: "Franklin Gothic";
+}
+
 .navBackground {
     /* overflow: hidden; */
     /* background-color: white; */

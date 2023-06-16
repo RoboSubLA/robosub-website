@@ -181,7 +181,7 @@ export default function Github() {
             <code
               style={{
                 padding: "5px",
-                color: "green",
+                color: "#33cc33",
                 borderRadius: "25px",
                 margin: "auto",
               }}
@@ -204,7 +204,7 @@ export default function Github() {
             <code
               style={{
                 padding: "5px",
-                color: "green",
+                color: "#33cc33",
                 borderRadius: "25px",
                 margin: "auto",
               }}
@@ -227,7 +227,7 @@ export default function Github() {
           <code
             style={{
               padding: "5px",
-              color: "green",
+              color: "#33cc33",
               borderRadius: "25px",
               margin: "auto",
             }}
@@ -261,7 +261,7 @@ export default function Github() {
             <code
               style={{
                 padding: "5px",
-                color: "green",
+                color: "#33cc33",
                 borderRadius: "25px",
                 margin: "auto",
               }}
@@ -283,7 +283,7 @@ export default function Github() {
             <code
               style={{
                 padding: "5px",
-                color: "green",
+                color: "#33cc33",
                 borderRadius: "25px",
                 margin: "auto",
               }}
@@ -308,7 +308,7 @@ export default function Github() {
             <code
               style={{
                 padding: "5px",
-                color: "green",
+                color: "#33cc33",
                 borderRadius: "25px",
                 margin: "auto",
               }}
@@ -330,7 +330,7 @@ export default function Github() {
             <code
               style={{
                 padding: "5px",
-                color: "green",
+                color: "#33cc33",
                 borderRadius: "25px",
                 margin: "auto",
               }}
@@ -364,7 +364,7 @@ export default function Github() {
             <code
               style={{
                 padding: "5px",
-                color: "green",
+                color: "#33cc33",
                 borderRadius: "25px",
                 margin: "auto",
               }}
@@ -387,7 +387,7 @@ export default function Github() {
             <code
               style={{
                 padding: "5px",
-                color: "green",
+                color: "#33cc33",
                 borderRadius: "25px",
                 margin: "auto",
               }}
@@ -409,7 +409,7 @@ export default function Github() {
             <code
               style={{
                 padding: "5px",
-                color: "green",
+                color: "#33cc33",
                 borderRadius: "25px",
                 margin: "auto",
               }}
@@ -432,7 +432,7 @@ export default function Github() {
             <code
               style={{
                 padding: "5px",
-                color: "green",
+                color: "#33cc33",
                 borderRadius: "25px",
                 margin: "auto",
               }}

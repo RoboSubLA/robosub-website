@@ -80,10 +80,10 @@ export default function Electronics() {
           </p>
 
           <div className={styles.buckCon}>
-            <h2>
+            <h1>
               {" "}
               <u>Buck Convertor Introduction</u>
-            </h2>
+            </h1>
             <div style={{ borderBottom: "1px solid", margin: "10px" }}>
               <span className="accent-color-linux">Buck Converter</span> usually
               labeled as DC/DC Buck Converters, are converters that are able to
@@ -100,7 +100,7 @@ export default function Electronics() {
                 }
               />
             </div>{" "}
-            <p className={styles.subheader}> Buck Converter Tutorial! </p>
+            <p className="linux-h3"> Buck Converter Tutorial! </p>
             <p className="iframe-align">
               <iframe
                 width="560"

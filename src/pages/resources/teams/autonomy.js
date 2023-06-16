@@ -62,12 +62,12 @@ export default function Autonomy() {
 </div>
 
         <div className={styles.myDIV}>
-        <h1 style={{fontSize:"4rem"}}>AUTONOMY</h1>
-        <p>
+        <h1 className={styles.title}>AUTONOMY</h1>
+        <div className={styles.desc}>
           The Autonomy subteam is responsible for developing the competition
           mission plan and task execution algorithms to ensure efficient and
           successful competition runs.
-          <br></br><br></br>
+          <br></br>
           The autonomy software module collects and analyzes data from all other
           software systems. It uses the information to make decisions on what
           tasks to do and how to perform the desired task. It accomplishes this
@@ -78,11 +78,17 @@ export default function Autonomy() {
             This software is written in C++ using the ROS2 and BehaviorTree
             Frameworks.
           </u>
-        </p>
-        <p className="linux-h3">
+          </div>
+
+          <div className={styles.con}>
+          <h1 > <u><b>Behavior Tree Introduction</b></u>  </h1>
+         
+       
+        <p  className={styles.subheader}>
           {" "}
           Introductory Video Series on Behavior Trees{" "}
         </p>
+
         <p className="iframe-align">
           <iframe
             width="560"
@@ -116,11 +122,16 @@ export default function Autonomy() {
             allowfullscreen
           ></iframe>
         </p>
-        <a href="behaviortree.dev">BehaviorTree Library Website</a>
+        <p  className={styles.subheader}>
+          {" "}
+          Installation Links & Documentation{" "}
+        </p>
+        <a href="behaviortree.dev">Behavior Tree Library Website</a>
         <br></br>
         <a href="https://docs.ros.org/en/humble/index.html">
           ROS2 Humble Documentation
         </a>
+      </div>
       </div>
       </div>
     </Layout>

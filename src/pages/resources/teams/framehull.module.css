@@ -21,6 +21,7 @@
     background-image: linear-gradient(#4f9e85, #5a7d3e);
     margin-right: 50px;
     margin-left: 50px;
+    box-shadow: 3px 3px gray, -.1em 0 .4em gray;
 }
 
 .subheading {

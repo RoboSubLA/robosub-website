@@ -70,6 +70,7 @@
     background-color: var(--ifm-color-primary-dark) !important;
     padding-left: 200px;
     padding-right: 20px;
+    
 }
 
 .buckCon {
@@ -77,6 +78,7 @@
     padding-left: 30px;
     padding-bottom: 30px;
     background-color: #5d6658;
+    box-shadow: 3px 3px gray, -.1em 0 .4em gray;
 }
 
 /* Teams Navbar Button CSS */

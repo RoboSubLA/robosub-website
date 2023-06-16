@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./controls.module.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import { getSelectUtilityClasses } from "@mui/material";
 
 export default function Controls() {
   const { siteConfig } = useDocusaurusContext();
@@ -64,13 +65,13 @@ export default function Controls() {
           </nav>
         </div>
         <div className={styles.myDIV}>
-          <h1 style={{ fontSize: "4rem" }}>CONTROLS</h1>
-          <p>
+        <h1 className={styles.title}>CONTROLS</h1>
+          <p className={styles.desc}>
             Controls sits between Autonomy and our actual hardware and turns our
             high-level movement commands into individual thruster and actuator
             commands to actually move the robot around. We work mostly in C++ on
             embedded systems such as our custom controller PCBs, and communicate
-            with the rest of our software over ROS. <br></br>
+            with the rest of our software over ROS.<br></br>
             <br></br>Most of the year is spent updating our software to be
             compatible with new versions of Linux and ROS, and adding any
             features we think could improve our vehicles' performance. When it
@@ -78,6 +79,11 @@ export default function Controls() {
             our various orientation and translation controllers to best
             accomplish commanded movements in the shortest time possible.
           </p>
+          <img
+                src={
+                  require("@site/static/img/updates/c2.png").default
+                }
+              />
         </div>
       </div>
     </Layout>
