@@ -1,387 +1,390 @@
 {
   "september": [
     {
+      "type": "C",
+      "title": "Controls Meeting",
+      "description": "Familiarizing the team with working with Arduinos.",
+      "date": "September 30, 2022",
+      "photo": "c1.jpeg"
+  },
+  {
+      "type": "A",
+      "title": "SMACH Introduction",
+      "description": "SMACH (state machine) is a Python library we utilize to create hierarchical state machine diagrams.",
+      "date": "September 28, 2022",
+      "photo": "a2.png"
+  },
+  {
       "type": "FH",
-      "title": "Frame and Hull First Meeting",
-      "description": "Introduction of SolidWorks Modeling. Determing the key points for the new build - Hull size change, no T-slots, Modular build. Assessing Blastoise's strengths & weaknesses to see what can be improved.",
-      "date": "September 7, 2022",
-      "photo": "fh1.png"
-    },
-    {
-        "type": "CV",
-        "title": "Computer Vision First Meeting",
-        "description": "Getting to know the team! Went over installation process for Ubuntu, OpenCV, and OIDv4 ToolKit (tools required for object detection). Also discussed the subteam scheduling and objectives.",
-        "date": "September 11, 2022",
-        "photo": "cv1.png"
-      },
-    {
+      "title": "Frame and Hull Meeting",
+      "description": "Brainstormed vertical thruster placements and went over 3D printing process. Beginning of SolidWorks competition to develop ideas for mounting horizontal thruster.",
+      "date": "September 28, 2022",
+      "photo": "fh4.png"
+  },
+  {
+      "type": "A",
+      "title": "Autonomy Meeting",
+      "description": "Introducing the basics of state architecture (states, containers, transitions). Also went over some command line commands and the difference between terminals & shells. ",
+      "date": "September 23, 2022",
+      "photo": "a1.png"
+  },
+  {
+      "type": "E",
+      "title": "EAGLECAD & KICAD Workshop",
+      "description": "Reviewing software for electronic design automation and building PCB boards.",
+      "date": "September 23, 2022",
+      "photo": "e2.png"
+  },
+  {
+      "type": "FH",
+      "title": "Frame and Hull Meeting",
+      "description": "Discussed potential design problems and locking mechanisms. Began 3D prototyping with SolidWorks.",
+      "date": "September 21, 2022",
+      "photo": "fh3.png"
+  },
+  {
+      "type": "CV",
+      "title": "First Custom Object Detection Models",
+      "description": "Getting started with YOLOv4 (You Only Look Once algorithm) and Darknet. Training using a pre-labeled dataset to familiarize the team with the process.",
+      "date": "September 19, 2022",
+      "photo": "cv2.png"
+  },
+  {
+      "type": "E",
+      "title": "Electronics First Meeting",
+      "description": "Introductions and getting to know one another! Determined meeting and workshop schedule.",
+      "date": "September 16, 2022",
+      "photo": "e1.png"
+  },
+  {
       "type": "FH",
       "title": "Frame and Hull Brainstorm",
       "description": "Discussed acrylic hull layouts, cable positions, and anchoring cylinders in place. Brainstormed ideas for rotating part/ hold the acrylics cylinders in place.",
       "date": "September 14, 2022",
       "photo": "fh2.png"
-    },
-    {
-        "type": "E",
-        "title": "Electronics First Meeting",
-        "description": "Introductions and getting to know one another! Determined meeting and workshop schedule.",
-        "date": "September 16, 2022",
-        "photo": "e1.png"
-      },
-      {
-        "type": "CV",
-        "title": "First Custom Object Detection Models",
-        "description": "Getting started with YOLOv4 (You Only Look Once algorithm) and Darknet. Training using a pre-labeled dataset to familiarize the team with the process.",
-        "date": "September 19, 2022",
-        "photo": "cv2.png"
-      },
-    {
-        "type": "FH",
-        "title": "Frame and Hull Meeting",
-        "description": "Discussed potential design problems and locking mechanisms. Began 3D prototyping with SolidWorks.",
-        "date": "September 21, 2022",
-        "photo": "fh3.png"
-      },
-      {
-        "type": "E",
-        "title": "EAGLECAD & KICAD Workshop",
-        "description": "Reviewing software for electronic design automation and building PCB boards.",
-        "date": "September 23, 2022",
-        "photo": "e2.png"
-      },
-      {
-        "type": "A",
-        "title": "Autonomy Meeting",
-        "description": "Introducing the basics of state architecture (states, containers, transitions). Also went over some command line commands and the difference between terminals & shells. ",
-        "date": "September 23, 2022",
-        "photo": "a1.png"
-      },
-      {
-        "type": "FH",
-        "title": "Frame and Hull Meeting",
-        "description": "Brainstormed vertical thruster placements and went over 3D printing process. Beginning of SolidWorks competition to develop ideas for mounting horizontal thruster.",
-        "date": "September 28, 2022",
-        "photo": "fh4.png"
-      },
-      {
-        "type": "A",
-        "title": "SMACH Introduction",
-        "description": "SMACH (state machine) is a Python library we utilize to create hierarchial state machine diagrams.",
-        "date": "September 28, 2022"
-        ,  "photo": "a2.png"
-      },
-      {
-        "type": "C",
-        "title": "Controls Meeting",
-        "description": "Familiarizing the team with working with Arduinos.",
-        "date": "September 30, 2022",
-        "photo": "c1.jpeg"
-      }
+  },
+  {
+      "type": "CV",
+      "title": "Computer Vision First Meeting",
+      "description": "Getting to know the team! Went over installation process for Ubuntu, OpenCV, and OIDv4 ToolKit (tools required for object detection). Also discussed the subteam scheduling and objectives.",
+      "date": "September 11, 2022",
+      "photo": "cv1.png"
+  },
+  {
+      "type": "FH",
+      "title": "Frame and Hull First Meeting",
+      "description": "Introduction of SolidWorks Modeling. Determining the key points for the new build - Hull size change, no T-slots, Modular build. Assessing Blastoise's strengths & weaknesses to see what can be improved.",
+      "date": "September 7, 2022",
+      "photo": "fh1.png"
+  },
+  {
+    "type": "FH",
+    "title": "Frame and Hull First Meeting",
+    "description": "Introduction of SolidWorks Modeling. Determining the key points for the new build - Hull size change, no T-slots, Modular build. Assessing Blastoise's strengths & weaknesses to see what can be improved.",
+    "date": "September 7, 2022",
+    "photo": "fh1.png"
+}
+
   ],
   "october": [
     {
+      "type": "C",
+      "title": "Controls First Design Review",
+      "description": "Assigned research & development tasks.",
+      "date": "October 28, 2022",
+      "photo": "c4.png"
+  },
+  {
+      "type": "FH",
+      "title": "Continued Harness Design Session",
+      "description": "Determined harness should be placed between thruster mounts and that u-bolts should be used with carabiners.",
+      "date": "October 26, 2022",
+      "photo": "fh9.png"
+  },
+  {
+      "type": "A",
+      "title": "Learning Package Structure, Catkin, and ROS2!",
+      "description": "Instructional package structure review and catkin underlay. Touched on ROS nodes (rospy & roscpp API) as well as publisher & subscribers needed for effective communication.",
+      "date": "October 21, 2022",
+      "photo": "a3.png"
+  },
+  {
+      "type": "C",
+      "title": "Communication Protocols",
+      "description": "GND, DTR, TxD, CTS, CD and more...",
+      "date": "October 21, 2022",
+      "photo": "c3.png"
+  },
+  {
+      "type": "E",
+      "title": "Buck Convertors Tutorial",
+      "description": "Researching buck convertors and principles. Ran a buck convertor tutorial on KICAD.",
+      "date": "October 21, 2022",
+      "photo": "e4.jpeg"
+  },
+  {
+      "type": "FH",
+      "title": "Legs & Harness Design Session",
+      "description": "Agreed on leg design. Brainstorming harness; 3 points of contact and needs to be able to sustain the bot while being loaded on the crane.",
+      "date": "October 19, 2022",
+      "photo": "fh8.png"
+  },
+  {
+      "type": "CV",
+      "title": "Computer Vision Fundamentals & Live Demo",
+      "description": "Went over more fundamentals - localization (where an object is in frame) & classification (what is the object?). A live demo on building their first custom models using YOLOv4 & Google Colab.",
+      "date": "October 16, 2022",
+      "photo": "cv3.png"
+  },
+  {
+      "type": "C",
+      "title": "What is Control?",
+      "description": "Overview of states, sensors, and strategies. Reviewed the basics of Arduino.",
+      "date": "October 14, 2022",
+      "photo": "c2.png"
+  },
+  {
+      "type": "E",
+      "title": "Resume & LTSpice Workshop",
+      "description": "An impromptu resume workshop to review the team's resumes and revise for improvements. Additionally, went over LTspice to simulate analog electronic circuits.",
+      "date": "October 14, 2022",
+      "photo": "e3.png"
+  },
+  {
+      "type": "FH",
+      "title": "Thruster & Legs Design Session",
+      "description": "Determined thruster mount 45 degree design. Began discussions on leg designs.",
+      "date": "October 12, 2022",
+      "photo": "fh6.png"
+  },
+  {
       "type": "FH",
       "title": "Thruster Brainstorm",
       "description": "Decided on thruster mounts. Vertical & 45 degree mounts.",
       "date": "October 5, 2022",
       "photo": "fh5.png"
-    }, 
-    {
-        "type": "FH",
-        "title": "Thruster & Legs Design Session",
-        "description": "Determined thruster mount 45 degree design. Began discussions on leg designs.",
-        "date": "October 12, 2022",
-        "photo": "fh6.png"
-      },
-      {
-        "type": "E",
-        "title": "Resume & LTSpice Workshop",
-        "description": "An impromptu resume workshop to review the team's resumes and revise for improvements. Additionally, went over LTspice to simulate analog electronic circuits.",
-        "date": "October 14, 2022",
-        "photo": "e3.png"
-      },
-      {
-        "type": "C",
-        "title": "What is Control?",
-        "description": "Overview of states, sensors, and strategies. Reviewed the basics of Arduino.",
-        "date": "October 14, 2022",
-        "photo": "c2.png"
-      },
-      {
-        "type": "CV",
-        "title": "Computer Vision Fundamentals & Live Demo",
-        "description": "Went over more fundamentals - localization (where an object is in frame) & classification (what is the object?). A live demo on building their first custom models using YOLOv4 & Google Colab.",
-        "date": "October 16, 2022",
-        "photo": "cv3.png"
-      },
-      {
-        "type": "FH",
-        "title": "Legs & Harness Design Session",
-        "description": "Agreed on leg design. Brainstorming harness; 3 points of contact and needs to be able to sustain the bot while being loaded on the crane.",
-        "date": "October 19, 2022",
-        "photo": "fh8.png"
-      },
-      {
-        "type": "E",
-        "title": "Buck Convertors Tutorial",
-        "description": "Researching buck convertors and principles. Ran a buck convertor tutorial on KICAD.",
-        "date": "October 21, 2022",
-        "photo": "e4.jpeg"
-      },
-      {
-        "type": "C",
-        "title": "Communication Protocols",
-        "description": "GND, DTR, TxD, CTS, CD and more...",
-        "date": "October 21, 2022",
-        "photo": "c3.png"
-      },
-      {
-        "type": "A",
-        "title": "Learning Package Structure, Catkin, and ROS2!",
-        "description": "Instructional package structure review and catkin underlay. Touched on ROS nodes (rospy & roscpp API) as well as publisher & subscribers needed for effective communication.",
-        "date": "October 21, 2022",
-        "photo": "a3.png"
-      },
-      {
-        "type": "FH",
-        "title": "Continued Harness Design Session",
-        "description": "Determined harness should be placed between thruster mounts and that u-bolts should be used with carabiners.",
-        "date": "October 26, 2022",
-        "photo": "fh9.png"
-      },
-      {
-        "type": "C",
-        "title": "Controls First Design Review",
-        "description": "Assigned research & development tasks.",
-        "date": "October 28, 2022",
-        "photo": "c4.png"
-      }
+  }
 ],
 "november":[
   {
-    "type": "FH",
-    "title": "Torpedos, Sonar, & Hydrophone Placement",
-    "description": "Determined that hydrophone placement will be at the bottom of the frame, behind where the torpedo may be. Brainstormed more design ideas.",
-    "date": "November 2, 2022",
-    "photo": "fh10.png"
-  },
-  {
-    "type": "E",
-    "title": "Board & Chip Research Session",
-    "description": "Each subteam member chose a different board to research (5 options total). Did a lesson plan for LTSpice (how to import chip & testing), as well as analyze the differences in an AP63300 chip and AP2600 chip.",
-    "date": "November 4, 2022",
-    "photo": "e5.jpeg"
-  },
-  {
+    "type": "A",
+    "title": "Software WatchDog",
+    "description": "Members were introduced to Software Watchdog - a watchdog that monitors software threads, analyzes performance data, and notifies the user of anything anamolous.",
+    "date": "November 25, 2022",
+    "photo": "a4.png"
+},
+{
     "type": "FH",
     "title": "Electronics Rack Brainstorming ",
     "description": "Considering design ideas for the electric rack while maintaining that cooling could be an issue for the electronics.",
     "date": "November 16, 2022",
     "photo": "fh11.png"
-  },
-  {
-    "type": "A",
-    "title": "Software WatchDog",
-    "description": "ADD DESCRIPTION",
-    "date": "November 25, 2022",
-    "photo": "a4.png"
-  }
+},
+{
+    "type": "E",
+    "title": "Board & Chip Research Session",
+    "description": "Each subteam member chose a different board to research (5 options total). Did a lesson plan for LTSpice (how to import chip & testing), as well as analyze the differences in an AP63300 chip and AP2600 chip.",
+    "date": "November 4, 2022",
+    "photo": "e5.jpeg"
+},
+{
+    "type": "FH",
+    "title": "Torpedos, Sonar, & Hydrophone Placement",
+    "description": "Determined that hydrophone placement will be at the bottom of the frame, behind where the torpedo may be. Brainstormed more design ideas.",
+    "date": "November 2, 2022",
+    "photo": "fh10.png"
+}
 ], 
 "february": [
   {
-    "type": "",
-    "title": "First Spring General Meeting",
-    "description": "ADD DESCRIPTION",
-    "date": "February 13, 2023",
-    "photo": "a4.png"
-  },
-  {
-    "type": "FH",
-    "title": "Jig Design and Laser Cutting",
-    "description": "Worked on jig design for drilling through plates. Also used school's MakerSpace to attempt woodcutting.",
-    "date": "February 15, 2023",
-    "photo": "fh12.png"
-  },
-  {
-    "type": "CV",
-    "title": "Live Object Detection Demo & Pytorch Introduction",
-    "description": "Reviewing the process for custom object detection models (gathering data, annotating, augmentations, and training). Briefly went over Pytorch usage & use cases.",
-    "date": "February 17, 2023",
-    "photo": "cv4.png"
-  },
-  {
-    "type": "A",
-    "title": "Behavior Tree Nodes Introduction",
-    "description": "Reviewed last semester's brainstorming and last year's submarine's electronics rack (Blastoise) pros and cons.",
-    "date": "February 22, 2023",
-    "photo": "a6.png"
-  },
-  {
-    "type": "FH",
-    "title": "Continued Electriconics Rack",
-    "description": "Reviewed last semester's brainstorming and last year's submarine's electronics rack (Blastoise) pros and cons.",
-    "date": "February 22, 2023",
-    "photo": "fh13.png"
-  },
-  {
+    "type": "E",
+    "title": "Surface-Mount Device & Soldering Workshop",
+    "description": "Practice for surface assembly on the PCB and testing with 13.2 and 16.8 voltage (measuring average voltage, ripple) and loading 3A.",
+    "date": "February 25, 2023",
+    "photo": "e6.png"
+},
+{
     "type": "C",
     "title": "Controls Workspace Setup",
     "description": "Went over installation of Arduino IDE, Visual Studio Code IDE and code formatting.",
     "date": "February 23, 2023",
     "photo": "c5.png"
-  },
-  {
-    "type": "E",
-    "title": "Surface-Mount Device & Soldering Workshop",
-    "description": "Practice for surface assembly on the PCB and testing with 13.2 and 16.8 voltage (measuring average voltage, ripple) and loading 3A. ",
-    "date": "February 25, 2023",
-    "photo": "e6.png"
-  }
+},
+{
+    "type": "FH",
+    "title": "Continued Electriconics Rack",
+    "description": "Reviewed last semester's brainstorming and last year's submarine's electronics rack (Blastoise) pros and cons.",
+    "date": "February 22, 2023",
+    "photo": "fh13.png"
+},
+{
+    "type": "A",
+    "title": "Behavior Tree Nodes Introduction",
+    "description": "Reviewed last semester's brainstorming and last year's submarine's electronics rack (Blastoise) pros and cons.",
+    "date": "February 22, 2023",
+    "photo": "a6.png"
+},
+{
+    "type": "CV",
+    "title": "Live Object Detection Demo & Pytorch Introduction",
+    "description": "Reviewing the process for custom object detection models (gathering data, annotating, augmentations, and training). Briefly went over Pytorch usage & use cases.",
+    "date": "February 17, 2023",
+    "photo": "cv4.png"
+},
+{
+    "type": "FH",
+    "title": "Jig Design and Laser Cutting",
+    "description": "Worked on jig design for drilling through plates. Also used school's MakerSpace to attempt woodcutting.",
+    "date": "February 15, 2023",
+    "photo": "fh12.png"
+}
 ],
 "march": [
-  {
-    "type": "FH",
-    "title": "Tackling the Cooling Issue",
-    "description": "Discussed design ideas for handling cooling within the main hull.",
-    "date": "March 3, 2023",
-    "photo": "fh14.png"
-  },
-  {
-    "type": "E",
-    "title": "Soldering Workshop Part I",
-    "description": "Members began to solder hole boards and parts to create a 'traffic light' style board.",
-    "date": "March 3, 2023",
-    "photo": "e7.png"
-  },
-  {
-    "type": "CV",
-    "title": "Object Detection Model Showcase",
-    "description": "Shared our custom object detection models made from extracted frames from videos. Discussed what went well and what didn't (speed, accuracy).  ",
-    "date": "March 3, 2023",
-    "photo": "cv5.png"
-  },
-  {
-    "type": "FH",
-    "title": "Battery Cable Connectors Discussion",
-    "description": "Created a 3D model for the approach to manage cables and connectors for the submarine's battery.",
-    "date": "March 8, 2023",
-    "photo": "fh15.png"
-  },
-  {
-    "type": "A",
-    "title": "GROOT Behavior Tree",
-    "description": "Made a prequalification gate behavior tree for the navigation of the submarine using Growing Robust Trees (GROOT) algorithm.",
-    "date": "March 8, 2023",
-    "photo": "a5.png"
-  },
-  {
-    "type": "C",
-    "title": "Software Requirements Overview",
-    "description": "Designed high-level overview diagram for required software including Ubuntu & ROS2.",
-    "date": "March 9, 2023",
-    "photo": "c6.png"
-  },
-  {
-    "type": "E",
-    "title": "Soldering Workshop Part II",
-    "description": "Team had the opportunity to begin soldering on PCB boards using surface-mount device components. We also tested the boards for the correct voltages & capacities.",
-    "date": "March 10, 2023",
-    "photo": "e8.jpeg"
-  }
+    {
+        "type": "E",
+        "title": "Soldering Workshop Part II",
+        "description": "Team had the opportunity to begin soldering on PCB boards using surface-mount device components. We also tested the boards for the correct voltages & capacities.",
+        "date": "March 10, 2023",
+        "photo": "e8.jpeg"
+    },
+    {
+        "type": "C",
+        "title": "Software Requirements Overview",
+        "description": "Designed high-level overview diagram for required software including Ubuntu & ROS2.",
+        "date": "March 9, 2023",
+        "photo": "c6.png"
+    },
+    {
+        "type": "A",
+        "title": "GROOT Behavior Tree",
+        "description": "Made a prequalification gate behavior tree for the navigation of the submarine using Growing Robust Trees (GROOT) algorithm.",
+        "date": "March 8, 2023",
+        "photo": "a5.png"
+    },
+    {
+        "type": "FH",
+        "title": "Battery Cable Connectors Discussion",
+        "description": "Created a 3D model for the approach to manage cables and connectors for the submarine's battery.",
+        "date": "March 8, 2023",
+        "photo": "fh15.png"
+    },
+    {
+        "type": "CV",
+        "title": "Object Detection Model Showcase",
+        "description": "Shared our custom object detection models made from extracted frames from videos. Discussed what went well and what didn't (speed, accuracy).",
+        "date": "March 3, 2023",
+        "photo": "cv5.png"
+    },
+    {
+        "type": "E",
+        "title": "Soldering Workshop Part I",
+        "description": "Members began to solder hole boards and parts to create a 'traffic light' style board.",
+        "date": "March 3, 2023",
+        "photo": "e7.png"
+    },
+    {
+        "type": "FH",
+        "title": "Tackling the Cooling Issue",
+        "description": "Discussed design ideas for handling cooling within the main hull.",
+        "date": "March 3, 2023",
+        "photo": "fh14.png"
+    }
+  
 ],
 "april":[
-  {
-    "type": "C",
-    "title": "Spring Break Recap",
-    "description": "Researched ORB-SLAM3 algorithm, various ROS2 drivers. Figuring out robot controllers - handhelds, user interface requirements, and the framework (Python + PyQT).",
-    "date": "April 1, 2023",
-    "photo": "c7.png"
-  },
-  {
-    "type": "CV",
-    "title": "Getting Started with ROS2",
-    "description": "Introduction to working with ROS2 (nodes, file structure and installation)",
-    "date": "April 2, 2023",
-    "photo": "cv5.png"
-  },
-  {
-    "type": "FH",
-    "title": "Spring Break Recap",
-    "description": "All plates and six carbon fiber rods have been manufactured.",
-    "date": "April 3, 2023",
-    "photo": "fh16.png"
-  },
-  {
-    "type": "E",
-    "title": "Progress Report",
-    "description": "Team finished soldering on the PCB board. Now working with KiCAD again while waiting to wire to the vehicle.",
-    "date": "April 3, 2023",
-    "photo": "e9.png"
-  }, 
-  {
-    "type": "A",
-    "title": "Working on Interfaces",
-    "description": "Developing Controls interface and Computer Vision interface.",
-    "date": "April 10, 2023",
-    "photo": "a7.png"
-  }, 
-  {
-    "type": "CV",
-    "title": "ROS2 Publisher & Subscriber Nodes",
-    "description": "Completed publisher and subscriber nodes for interfacing with cameras and extracting each frame from video feed.",
-    "date": "April 14, 2023",
-    "photo": "cv5.png"
-  },
-  {
-    "type": "C",
-    "title": "Control System!",
-    "description": "Kyogre - control system name for both submarines. Will collect data, run filters & controllers, convert output vector to PVM values(machine code) and write values to actuators & thrusters.",
-    "date": "April 20, 2023",
-    "photo": "c8.png"
-  },
-  {
-    "type": "FH",
-    "title": "Progress Update!",
-    "description": "Thruster mounts have been 3D printed and electronic rack has been designed. Next step is assembly and electronic rack manufacturing.", 
-    "date": "April 24, 2023",
-    "photo": "fh17.png"
-  }
+    {
+        "type": "FH",
+        "title": "Progress Update!",
+        "description": "Thruster mounts have been 3D printed and electronic rack has been designed. Next step is assembly and electronic rack manufacturing.",
+        "date": "April 24, 2023",
+        "photo": "fh17.png"
+    },
+    {
+        "type": "C",
+        "title": "Control System!",
+        "description": "Kyogre - control system name for both submarines. Will collect data, run filters & controllers, convert output vector to PVM values(machine code) and write values to actuators & thrusters.",
+        "date": "April 20, 2023",
+        "photo": "c8.png"
+    },
+    {
+        "type": "CV",
+        "title": "ROS2 Publisher & Subscriber Nodes",
+        "description": "Completed publisher and subscriber nodes for interfacing with cameras and extracting each frame from video feed.",
+        "date": "April 14, 2023",
+        "photo": "cv5.png"
+    },
+    {
+        "type": "A",
+        "title": "Working on Interfaces",
+        "description": "Developing Controls interface and Computer Vision interface.",
+        "date": "April 10, 2023",
+        "photo": "a7.png"
+    },
+    {
+        "type": "E",
+        "title": "Progress Report",
+        "description": "Team finished soldering on the PCB board. Now working with KiCAD again while waiting to wire to the vehicle.",
+        "date": "April 3, 2023",
+        "photo": "e9.png"
+    },
+    {
+        "type": "FH",
+        "title": "Spring Break Recap",
+        "description": "All plates and six carbon fiber rods have been manufactured.",
+        "date": "April 3, 2023",
+        "photo": "fh16.png"
+    },
+    {
+        "type": "CV",
+        "title": "Getting Started with ROS2",
+        "description": "Introduction to working with ROS2 (nodes, file structure and installation)",
+        "date": "April 2, 2023",
+        "photo": "cv5.png"
+    },
+    {
+        "type": "C",
+        "title": "Spring Break Recap",
+        "description": "Researched ORB-SLAM3 algorithm, various ROS2 drivers. Figuring out robot controllers - handhelds, user interface requirements, and the framework (Python + PyQT).",
+        "date": "April 1, 2023",
+        "photo": "c7.png"
+    }
 ],
 "may":[
-  {
-    "type": "FH",
-    "title": "Semester Recap",
-    "description": "Machine plates, carbon fiber rods, 3D-printed thruster mounts, locking mechanisms, battery cable connectors CAD, racks for side hull CAD, and electronic rack production all done!! Assembly to come.", 
-    "date": "May 1, 2023",
-    "photo": "fh18.png"
-  },
-  {
-    "type": "CV",
-    "title": "Semester Recap",
-    "description": "Prequalification object detection model trained. Porting old repository from ROS1 to ROS2. Determined that we will stick with YOLO (version 7 for better speed & less computing need). Need to create object detection node.",
-    "date": "May 3, 2023",
-    "photo": "cv6.png"
-  },
-  {
-    "type": "C",
-    "title": "Semester Recap",
-    "description": "Software overview diagram, thruster, controllers, sensor library framework complete! Controls firmware also established. Next is validating sensor libraries & controllers, testing software components, and tuning controllers.",
-    "date": "May 3, 2023",
-    "photo": "c9.png"
-  }, 
-  {
-    "type": "A",
-    "title":"Semester Recap",
-    "description": "Decision to stick with behavior tree, prequalification tree set up! Deciding on search approach & logic for competition tree. Need to finish logic for prequalification and test & develop. ",
-    "date": "May 3, 2023",
-    "photo": "a7.png"
-  },
-  {
-    "type": "E",
-    "title": "Semester Recap",
-    "description": "PCB and regulator board done! Soldering complete, but connecting to board holder is next!",
-    "date": "May 3, 2023",
-    "photo": "e10.png"
-  }
+    {
+        "type": "E",
+        "title": "Semester Recap",
+        "description": "PCB and regulator board done! Soldering complete, but connecting to board holder is next!",
+        "date": "May 3, 2023",
+        "photo": "e10.png"
+    },
+    {
+        "type": "A",
+        "title": "Semester Recap",
+        "description": "Decision to stick with behavior tree, prequalification tree set up! Deciding on search approach & logic for competition tree. Need to finish logic for prequalification and test & develop.",
+        "date": "May 3, 2023",
+        "photo": "a7.png"
+    },
+    {
+        "type": "C",
+        "title": "Semester Recap",
+        "description": "Software overview diagram, thruster, controllers, sensor library framework complete! Controls firmware also established. Next is validating sensor libraries & controllers, testing software components, and tuning controllers.",
+        "date": "May 3, 2023",
+        "photo": "c9.png"
+    },
+    {
+        "type": "CV",
+        "title": "Semester Recap",
+        "description": "Prequalification object detection model trained. Porting old repository from ROS1 to ROS2. Determined that we will stick with YOLO (version 7 for better speed & less computing need). Need to create object detection node.",
+        "date": "May 3, 2023",
+        "photo": "cv6.png"
+    },
+    {
+        "type": "FH",
+        "title": "Semester Recap",
+        "description": "Machine plates, carbon fiber rods, 3D-printed thruster mounts, locking mechanisms, battery cable connectors CAD, racks for side hull CAD, and electronic rack production all done!! Assembly to come.",
+        "date": "May 1, 2023",
+        "photo": "fh18.png"
+    }
+
 ]
 }
