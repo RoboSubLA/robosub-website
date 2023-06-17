@@ -95,8 +95,9 @@ const config = {
             className: 'navItems',
           },
           {
-            href: 'https://discord.gg/N6vJGGSH',
-            label: 'Discord',
+            // href: 'https://discord.gg/N6vJGGSH',
+            to:'/signup',
+            label: 'Sign Up',
             position: 'right',
             className: 'navItems',
           },
