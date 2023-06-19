@@ -47,6 +47,7 @@
 /* Global styling of Navbar */
 .navItems {
   color: var(--ifm-color-text);
+  font-size: 20px;
 }
 
 .navItems:hover {
