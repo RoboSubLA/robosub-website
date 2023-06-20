@@ -65,7 +65,7 @@ export default function Github() {
         </div>
 
         <div className={styles.myDIV}>
-          <h1 style={{ fontSize: "4rem", borderBottom: "1px solid" }}>
+          <h1 style={{ fontSize: "3rem", borderBottom: "1px solid" }}>
             GIT & GITHUB
           </h1>
 

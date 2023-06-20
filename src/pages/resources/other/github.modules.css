@@ -24,18 +24,21 @@
 .navbar {
     /* background-color: white; */
     margin-right: 10px;
+    /* padding */
     padding: 15px;
+    /* margin-bottom: 20px; */
     width: auto;
     float: left;
     text-align: center;
+
 }
 
 .btn {
     background-color: rgb(205, 162, 23);
-    border-radius: 30px;
+    border-radius: 20px;
     border-color: black;
     padding: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     cursor: pointer;
     transition-duration: 0.2s;
 }

@@ -67,7 +67,7 @@ export default function Arduino() {
 
         <div className={styles.myDIV}>
           <h1
-            style={{ fontSize: "4rem", fontFamily: "Franklin Gothic Medium" }}
+            style={{ fontSize: "3rem", fontFamily: "Franklin Gothic Medium" }}
           >
             ARDUINO
           </h1>

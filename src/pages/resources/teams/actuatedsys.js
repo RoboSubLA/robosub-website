@@ -61,7 +61,7 @@ export default function ActuatedSys() {
           </nav>
         </div>
         <div className={styles.myDIV}>
-          <h1 className={styles.title} style={{ fontSize: "4rem" }}>
+          <h1 className={styles.title} style={{ fontSize: "3rem" }}>
             {" "}
             ACTUATED SYSTEMS
           </h1>

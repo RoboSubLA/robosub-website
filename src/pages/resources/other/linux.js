@@ -68,7 +68,7 @@ export default function Linux() {
           <h1
             style={{
               textAlign: "center",
-              fontSize: "4rem",
+              fontSize: "3rem",
               fontFamily: "Franklin Gothic Medium",
             }}
           >

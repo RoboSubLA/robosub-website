@@ -75,7 +75,7 @@ export default function ResourcesPage() {
         {/* Default Div */}
         <div className={styles.myDIV}>
           <p id="current">
-            <h1 style={{ fontSize: "4rem" }}>
+            <h1 style={{ fontSize: "3rem" }}>
               {" "}
               Welcome Members & RoboSub Teams!{" "}
             </h1>
