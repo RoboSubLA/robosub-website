@@ -16,8 +16,8 @@ function HomepageHeader() {
         <Box
           component="img"
           sx={{
-            maxHeight: { xs: 200, md: 350, lg: 350 },
-            maxWidth: { xs: 200, md: 350, lg:350 },
+            maxHeight: { xs: 200, md: 250, lg: 250 },
+            maxWidth: { xs: 200, md: 250, lg:250 },
           }}
           alt="RobosubLa Logo"
           src={require("../../static/img/RoboSubLogo.png").default}
