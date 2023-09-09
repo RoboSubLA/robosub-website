@@ -71,8 +71,8 @@ const config = {
             className: 'navItems',
           },
           {
-            to: '/sponsors', 
-            label: 'Sponsors', 
+            to: '/sponsors',
+            label: 'Sponsors',
             position: 'right',
             className: 'navItems',
           },
@@ -95,8 +95,7 @@ const config = {
             className: 'navItems',
           },
           {
-            // href: 'https://discord.gg/N6vJGGSH',
-            to:'/signup',
+           href:'https://forms.gle/NfJBdZ1S597SExLL7',
             label: 'Sign Up',
             position: 'right',
             className: 'navItems',
