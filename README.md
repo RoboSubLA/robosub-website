@@ -64,6 +64,7 @@ Thanks goes to these wonderful people ([:hugs:](https://allcontributors.org/docs
 <table>
   <tr>
     <td align="center"><a href="https://github.com/gonzo-32"><img src="https://avatars.githubusercontent.com/u/26438045?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gonzo</b></sub></a><br /><a href="https://github.com/RoboSubCSULA/robosub-website/commits?author=gonzo-32" title="Code">💻</a></td>
+    <td> Ashley </td>
 
   </tr>
 </table>
