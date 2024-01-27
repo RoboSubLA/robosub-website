@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/pika-pikaaaaachu/robosub-website/sidebars.js",
-          "contentPath": "/home/pika-pikaaaaachu/robosub-website/docs",
-          "contentPathLocalized": "/home/pika-pikaaaaachu/robosub-website/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "C:\\Users\\dylan\\OneDrive\\Desktop\\robosub-website\\sidebars.js",
+          "contentPath": "C:\\Users\\dylan\\OneDrive\\Desktop\\robosub-website\\docs",
+          "contentPathLocalized": "C:\\Users\\dylan\\OneDrive\\Desktop\\robosub-website\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "intro",

@@ -4,292 +4,292 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '01d'),
+    component: ComponentCreator('/__docusaurus/debug', '9c5'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'f9c'),
+    component: ComponentCreator('/__docusaurus/debug/config', 'd7f'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '95f'),
+    component: ComponentCreator('/__docusaurus/debug/content', '0ea'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'f4b'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '976'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '961'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '374'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '55e'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '0e6'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '1ed'),
+    component: ComponentCreator('/__docusaurus/debug/routes', 'dda'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '877'),
+    component: ComponentCreator('/blog', '6f6'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '220'),
+    component: ComponentCreator('/blog/archive', '1d2'),
     exact: true
   },
   {
     path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '635'),
+    component: ComponentCreator('/blog/first-blog-post', '100'),
     exact: true
   },
   {
     path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '1d5'),
+    component: ComponentCreator('/blog/long-blog-post', '24d'),
     exact: true
   },
   {
     path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '52b'),
+    component: ComponentCreator('/blog/mdx-blog-post', '9da'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '55c'),
+    component: ComponentCreator('/blog/tags', '614'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '63b'),
+    component: ComponentCreator('/blog/tags/docusaurus', '7d0'),
     exact: true
   },
   {
     path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', 'ea3'),
+    component: ComponentCreator('/blog/tags/facebook', 'd97'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'dd3'),
+    component: ComponentCreator('/blog/tags/hello', 'c1a'),
     exact: true
   },
   {
     path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', 'd8b'),
+    component: ComponentCreator('/blog/tags/hola', '4b2'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '4f5'),
+    component: ComponentCreator('/blog/welcome', '8b7'),
     exact: true
   },
   {
     path: '/events',
-    component: ComponentCreator('/events', 'cd4'),
+    component: ComponentCreator('/events', '59d'),
     exact: true
   },
   {
     path: '/events',
-    component: ComponentCreator('/events', 'a32'),
+    component: ComponentCreator('/events', '0b9'),
     exact: true
   },
   {
     path: '/fleet/',
-    component: ComponentCreator('/fleet/', 'c7c'),
+    component: ComponentCreator('/fleet/', '10a'),
     exact: true
   },
   {
     path: '/fleet/years/twentyEighteen',
-    component: ComponentCreator('/fleet/years/twentyEighteen', '45c'),
+    component: ComponentCreator('/fleet/years/twentyEighteen', 'ccc'),
     exact: true
   },
   {
     path: '/fleet/years/twentyEighteen',
-    component: ComponentCreator('/fleet/years/twentyEighteen', '827'),
+    component: ComponentCreator('/fleet/years/twentyEighteen', 'bcf'),
     exact: true
   },
   {
     path: '/fleet/years/twentyNineteen',
-    component: ComponentCreator('/fleet/years/twentyNineteen', '2ef'),
+    component: ComponentCreator('/fleet/years/twentyNineteen', 'bb9'),
     exact: true
   },
   {
     path: '/fleet/years/twentyNineteen',
-    component: ComponentCreator('/fleet/years/twentyNineteen', '8d0'),
+    component: ComponentCreator('/fleet/years/twentyNineteen', 'b40'),
     exact: true
   },
   {
     path: '/fleet/years/twentyTwentyOne',
-    component: ComponentCreator('/fleet/years/twentyTwentyOne', '0a4'),
+    component: ComponentCreator('/fleet/years/twentyTwentyOne', 'd73'),
     exact: true
   },
   {
     path: '/fleet/years/twentyTwentyOne',
-    component: ComponentCreator('/fleet/years/twentyTwentyOne', '91b'),
+    component: ComponentCreator('/fleet/years/twentyTwentyOne', 'ef2'),
     exact: true
   },
   {
     path: '/fleet/years/twentyTwentyTwo',
-    component: ComponentCreator('/fleet/years/twentyTwentyTwo', 'f07'),
+    component: ComponentCreator('/fleet/years/twentyTwentyTwo', 'fe5'),
     exact: true
   },
   {
     path: '/fleet/years/twentyTwentyTwo',
-    component: ComponentCreator('/fleet/years/twentyTwentyTwo', '0e7'),
+    component: ComponentCreator('/fleet/years/twentyTwentyTwo', 'dc7'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '910'),
+    component: ComponentCreator('/markdown-page', 'e08'),
     exact: true
   },
   {
     path: '/resources/other/arduino',
-    component: ComponentCreator('/resources/other/arduino', '63f'),
+    component: ComponentCreator('/resources/other/arduino', '652'),
     exact: true
   },
   {
     path: '/resources/other/arduino',
-    component: ComponentCreator('/resources/other/arduino', '2fb'),
+    component: ComponentCreator('/resources/other/arduino', 'eb0'),
     exact: true
   },
   {
     path: '/resources/other/github',
-    component: ComponentCreator('/resources/other/github', '2c1'),
+    component: ComponentCreator('/resources/other/github', 'b62'),
     exact: true
   },
   {
     path: '/resources/other/github',
-    component: ComponentCreator('/resources/other/github', '5ad'),
+    component: ComponentCreator('/resources/other/github', 'd05'),
     exact: true
   },
   {
     path: '/resources/other/linux',
-    component: ComponentCreator('/resources/other/linux', '39a'),
+    component: ComponentCreator('/resources/other/linux', 'cc9'),
     exact: true
   },
   {
     path: '/resources/other/linux',
-    component: ComponentCreator('/resources/other/linux', '8ee'),
+    component: ComponentCreator('/resources/other/linux', 'e2e'),
     exact: true
   },
   {
     path: '/resources/other/ros',
-    component: ComponentCreator('/resources/other/ros', 'f63'),
+    component: ComponentCreator('/resources/other/ros', '9dc'),
     exact: true
   },
   {
     path: '/resources/other/ros',
-    component: ComponentCreator('/resources/other/ros', '754'),
+    component: ComponentCreator('/resources/other/ros', '551'),
     exact: true
   },
   {
     path: '/resources/resources',
-    component: ComponentCreator('/resources/resources', '0fb'),
+    component: ComponentCreator('/resources/resources', '210'),
     exact: true
   },
   {
     path: '/resources/resources',
-    component: ComponentCreator('/resources/resources', '447'),
+    component: ComponentCreator('/resources/resources', '1ca'),
     exact: true
   },
   {
     path: '/resources/teams/actuatedsys',
-    component: ComponentCreator('/resources/teams/actuatedsys', '42c'),
+    component: ComponentCreator('/resources/teams/actuatedsys', '265'),
     exact: true
   },
   {
     path: '/resources/teams/actuatedsys',
-    component: ComponentCreator('/resources/teams/actuatedsys', 'fea'),
+    component: ComponentCreator('/resources/teams/actuatedsys', '6f4'),
     exact: true
   },
   {
     path: '/resources/teams/autonomy',
-    component: ComponentCreator('/resources/teams/autonomy', '94f'),
+    component: ComponentCreator('/resources/teams/autonomy', '3cf'),
     exact: true
   },
   {
     path: '/resources/teams/autonomy',
-    component: ComponentCreator('/resources/teams/autonomy', '4a3'),
+    component: ComponentCreator('/resources/teams/autonomy', 'fcc'),
     exact: true
   },
   {
     path: '/resources/teams/compvis',
-    component: ComponentCreator('/resources/teams/compvis', '8a1'),
+    component: ComponentCreator('/resources/teams/compvis', '25d'),
     exact: true
   },
   {
     path: '/resources/teams/compvis',
-    component: ComponentCreator('/resources/teams/compvis', 'eb4'),
+    component: ComponentCreator('/resources/teams/compvis', '94f'),
     exact: true
   },
   {
     path: '/resources/teams/controls',
-    component: ComponentCreator('/resources/teams/controls', '111'),
+    component: ComponentCreator('/resources/teams/controls', 'd26'),
     exact: true
   },
   {
     path: '/resources/teams/controls',
-    component: ComponentCreator('/resources/teams/controls', '427'),
+    component: ComponentCreator('/resources/teams/controls', '17b'),
     exact: true
   },
   {
     path: '/resources/teams/electronics',
-    component: ComponentCreator('/resources/teams/electronics', '624'),
+    component: ComponentCreator('/resources/teams/electronics', '081'),
     exact: true
   },
   {
     path: '/resources/teams/electronics',
-    component: ComponentCreator('/resources/teams/electronics', 'ff3'),
+    component: ComponentCreator('/resources/teams/electronics', '404'),
     exact: true
   },
   {
     path: '/resources/teams/framehull',
-    component: ComponentCreator('/resources/teams/framehull', 'fbb'),
+    component: ComponentCreator('/resources/teams/framehull', '290'),
     exact: true
   },
   {
     path: '/resources/teams/framehull',
-    component: ComponentCreator('/resources/teams/framehull', '292'),
+    component: ComponentCreator('/resources/teams/framehull', 'e7f'),
     exact: true
   },
   {
     path: '/signup/',
-    component: ComponentCreator('/signup/', '979'),
+    component: ComponentCreator('/signup/', '12c'),
     exact: true
   },
   {
     path: '/sponsors/',
-    component: ComponentCreator('/sponsors/', '432'),
+    component: ComponentCreator('/sponsors/', 'a53'),
     exact: true
   },
   {
     path: '/team',
-    component: ComponentCreator('/team', '084'),
+    component: ComponentCreator('/team', '8dc'),
     exact: true
   },
   {
     path: '/team',
-    component: ComponentCreator('/team', 'b6f'),
+    component: ComponentCreator('/team', '259'),
     exact: true
   },
   {
     path: '/updates',
-    component: ComponentCreator('/updates', 'd54'),
+    component: ComponentCreator('/updates', '61d'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '766'),
+    component: ComponentCreator('/docs', '72d'),
     routes: [
       {
         path: '/docs/category/tutorial---basics',
@@ -361,7 +361,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'c61'),
+    component: ComponentCreator('/', '847'),
     exact: true
   },
   {

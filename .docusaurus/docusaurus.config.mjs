@@ -29,7 +29,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/pika-pikaaaaachu/robosub-website/sidebars.js",
+          "sidebarPath": "C:\\Users\\dylan\\OneDrive\\Desktop\\robosub-website\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -37,7 +37,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/home/pika-pikaaaaachu/robosub-website/src/css/custom.css"
+          "customCss": "C:\\Users\\dylan\\OneDrive\\Desktop\\robosub-website\\src\\css\\custom.css"
         }
       }
     ]
@@ -82,8 +82,8 @@ export default {
           "className": "navItems"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "Discord",
+          "href": "https://forms.gle/NfJBdZ1S597SExLL7",
+          "label": "Sign Up",
           "position": "right",
           "className": "navItems"
         }
@@ -93,7 +93,7 @@ export default {
     "footer": {
       "style": "light",
       "links": [],
-      "copyright": "Copyright © 2023 Robosub LA Built with Docusaurus."
+      "copyright": "Copyright © 2024 Robosub LA at California State University, Los Angeles."
     },
     "prism": {
       "theme": {
