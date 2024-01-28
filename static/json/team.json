@@ -8,6 +8,13 @@
       "phone": ""
     },
     {
+      "name": "Andrew Ye",
+      "title": "Vice President / Electronics Lead",
+      "crewImg": "andrewY.jpg",
+      "email": "aye7@calstatela.edu",
+      "phone": ""
+    },
+    {
       "name": "Paola Reyes",
       "title": "Frame & Hull Lead",
       "crewImg": "paola.jpg",
@@ -20,13 +27,6 @@
       "title": "Frame & Hull Co-Lead",
       "link": "https://www.linkedin.com/in/gian-owen-asayas-4378111a1/",
       "email": "gasayas2@calstatela.edu"
-    },
-    {
-      "name": "Andrew Ye",
-      "title": "Vice President / Electronics Lead",
-      "crewImg": "andrewY.jpg",
-      "email": "aye7@calstatela.edu",
-      "phone": ""
     },
     {
       "name": "Jimmy Saldivar",
@@ -220,7 +220,7 @@
       "email": "lvarga57@calstatela.edu"
     },
     {
-      "name": "Kevin Chun Celis",
+      "name": "Kevin C. Celis",
       "crewImg": "robosubla_logo_basic.png",
       "title": "Simulation",
       "email": "kcelis5@calstatela.edu"
@@ -232,7 +232,7 @@
       "email": "jchave201@calstatela.edu"
     },
     {
-      "name": "Alexandra Barahona Amador",
+      "name": "Alexandra B. Amador",
       "crewImg": "robosubla_logo_basic.png",
       "title": "Localization",
       "email": "abaraho4@calstatela.edu"
