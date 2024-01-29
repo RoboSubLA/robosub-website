@@ -9,10 +9,17 @@
     },
     {
       "name": "Andrew Ye",
-      "title": "Vice President / Electronics Lead",
+      "title": "Vice President / Electronics Co-Lead",
       "crewImg": "andrewY.jpg",
       "email": "aye7@calstatela.edu",
       "phone": ""
+    },
+     {
+      "name": "Abigail Martinez",
+      "crewImg": "robosubla_logo_basic.png",
+      "title": "Electronics Co-Lead",
+      "link": "https://www.linkedin.com/in/abigail-martinez-343849230/",
+      "email": "amarti105@calstatela.edu"
     },
     {
       "name": "Paola Reyes",
@@ -138,13 +145,6 @@
       "crewImg": "robosubla_logo_basic.png",
       "title": "Computer Vision",
       "email": "skumar34@calstatela.edu"
-    },
-    {
-      "name": "Abigail Martinez",
-      "crewImg": "robosubla_logo_basic.png",
-      "title": "Electronics",
-      "link": "https://www.linkedin.com/in/abigail-martinez-343849230/",
-      "email": "amarti105@calstatela.edu"
     },
     {
       "name": "Jason Ha",
