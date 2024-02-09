@@ -14,10 +14,10 @@
           }
       ],
       "rankings": {
-          "overall": "NaN",
-          "video": "NaN",
-          "website": "NaN",
-          "techReport": "NaN",
+          "overall": "25th",
+          "video": "9th",
+          "website": "21st",
+          "techReport": "30th",
           "moreDetails" :"twentyTwentyTwo"
       }
   },
@@ -36,10 +36,10 @@
             }
         ],
         "rankings": {
-            "overall": "NaN",
-            "video": "NaN",
-            "website": "NaN",
-            "techReport": "NaN",
+            "overall": "25th",
+            "video": "9th",
+            "website": "21st",
+            "techReport": "30th",
             "moreDetails":"twentyTwentyTwo"
         }
     },
@@ -58,7 +58,7 @@
             }
         ],
         "rankings": {
-            "overall": "8st",
+            "overall": "8th",
             "video": "32nd",
             "website": "21st",
             "techReport": "25th",
