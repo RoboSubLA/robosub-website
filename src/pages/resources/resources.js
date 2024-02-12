@@ -13,7 +13,7 @@ import {
 
 export default function ResourcesPage() {
   function get_started() {
-    location.assign("./resources");
+    location.assign("./newresources");
   }
 
   function linuxfunc() {

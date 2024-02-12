@@ -1,141 +1,167 @@
+.cardBadge {
+  width: 10rem;
+}
+
 .pageWrapper {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .textPara {
-    background-color: "#6699CC";
-    text-align: center;
-    padding: 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: "#6699CC";
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .icon {
-    width: 300px;
-    height: 250px;
+  width: 300px;
+  height: 250px;
 }
 
 .navBackground {
-    /* overflow: hidden; */
-    /* background-color: white; */
-    float: left;
-    position: fixed;
-    height: 75%;
+  /* overflow: hidden; */
+  /* background-color: white; */
+  float: left;
+  position: fixed;
+  height: 75%;
 }
 
 .navbar {
-    /* background-color: white; */
-    margin-right: 10px;
-    /* padding */
-    padding: 15px;
-    /* margin-bottom: 20px; */
-    /* width */
-    width: auto;
-    /* moves content to the left */
-    float: left;
-    text-align: center;
-
+  /* background-color: white; */
+  margin-right: 10px;
+  /* padding */
+  padding: 15px;
+  /* margin-bottom: 20px; */
+  /* width */
+  width: auto;
+  /* moves content to the left */
+  float: left;
+  text-align: center;
 }
 
 .btn {
-    background-color: rgb(205, 162, 23);
-    border-radius: 20px;
-    border-color: black;
-    padding: 10px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition-duration: 0.2s;
+  background-color: rgb(205, 162, 23);
+  border-radius: 20px;
+  border-color: black;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition-duration: 0.2s;
 }
 
 .btn:hover {
-    background-color: var(--ifm-color-primary-lighter) !important;
+  background-color: var(--ifm-color-primary-lighter) !important;
 }
 
 .navbar_elements {
-    /* background-color: white; */
-    padding: 0px;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-    display: grid;
-    grid-auto-flow: row;
-    grid-row-gap: 23px;
+  /* background-color: white; */
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 23px;
 }
 
 .nav_ind {
-    border-top: 10px;
+  border-top: 10px;
 }
 
 .myDIV {
-    width: auto;
-    text-align: center;
-    background-color: var(--ifm-color-primary-darkest) !important;
-    padding-left: 200px;
-    padding-right: 20px;
+  width: auto;
+  text-align: center;
+  background-color: var(--ifm-color-primary-darkest) !important;
+  padding-left: 200px;
+  padding-right: 20px;
 }
 
+.myPanel {
+  background-color: "#6699CC";
+  border-radius: 2;
+}
+
+.newMyDIV {
+  width: auto;
+  text-align: center;
+  background-color: var(--ifm-color-primary-darkest) !important;
+}
+
+.badgeLogo {
+  width: 10rem;
+  height: 10rem;
+}
+
+.badgeCard {
+  &:hover {
+    transform: "scale3d(1.05, 1.05, 1)";
+  }
+}
 
 /* Teams Navbar Button CSS */
 
 .DPContent {
-    background-color: white;
-    /* Content does NOT show */
-    display: none;
+  background-color: white;
+  /* Content does NOT show */
+  display: none;
 
-    /* Adds a space */
-    position: relative;
+  /* Adds a space */
+  position: relative;
 
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 /*  */
 .DPContent a {
-    color: black;
-    text-decoration: none;
-    display: block;
-
+  color: black;
+  text-decoration: none;
+  display: block;
 }
 
 .DPContent a:hover {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 /* Show Function Helper */
 .show {
-    display: block;
-    text-decoration: none;
+  display: block;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 700px) {
-    .navbar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .navbar_elements {
-        width: 100%;
-        height: auto;
-        position: relative;
-      }
-
-      .btn{
-        width: 100%;
-        height: auto;
-        position: relative;
-      }
-      
-
-    .navbar a {float: left;}
-    div.content {margin-left: 0;}
+  .navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .navbar_elements {
+    width: 100%;
+    height: auto;
+    position: relative;
   }
 
+  .btn {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .navbar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
 @media screen and (max-width: 375px) {
-    /* .contactTitle {
+  /* .contactTitle {
         font-size: 1rem;
         margin: 0%;
     } */

@@ -1,23 +1,23 @@
-import React from 'react';
-import clsx from 'clsx';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import AnimatedBackground from '../components/AnimatedBackground';
-import { Button, Box } from '@mui/material'
-import styles from './index.module.css';
+import React from "react";
+import clsx from "clsx";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import AnimatedBackground from "../components/AnimatedBackground";
+import { Button, Box } from "@mui/material";
+import styles from "./index.module.css";
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--background', styles.heroBanner)}>
-      <AnimatedBackground/>
+    <header className={clsx("hero hero--background", styles.heroBanner)}>
+      <AnimatedBackground />
       <div className={styles.heroContainer}>
         <Box
           component="img"
           sx={{
             maxHeight: { xs: 200, md: 250, lg: 250 },
-            maxWidth: { xs: 200, md: 250, lg:250 },
+            maxWidth: { xs: 200, md: 250, lg: 250 },
           }}
           alt="RobosubLa Logo"
           src={require("../../static/img/RoboSubLogo.png").default}
@@ -25,9 +25,30 @@ function HomepageHeader() {
         <h1 className={styles.heroTitle}>RoboSub LA</h1>
         <p className={styles.heroSubTitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Button id={styles.heroButton} size='large' variant='outlined' href='https://www.youtube.com/watch?v=vo6-J_rYyo4'>WATCH TRAILER</Button>
-          <Button id={styles.heroButton} size='large' variant='outlined' href='/signup'>SIGN UP</Button>
-          <Button id={styles.heroButton} size='large' variant='outlined' href='/resources/resources'>GET STARTED</Button>
+          <Button
+            id={styles.heroButton}
+            size="large"
+            variant="outlined"
+            href="https://www.youtube.com/watch?v=vo6-J_rYyo4"
+          >
+            WATCH TRAILER
+          </Button>
+          <Button
+            id={styles.heroButton}
+            size="large"
+            variant="outlined"
+            href="/signup"
+          >
+            SIGN UP
+          </Button>
+          <Button
+            id={styles.heroButton}
+            size="large"
+            variant="outlined"
+            href="/resources/resources"
+          >
+            GET STARTED
+          </Button>
         </div>
       </div>
     </header>
@@ -35,11 +56,12 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Description will go into a meta tag in <head />"
+    >
       <HomepageHeader />
       <main>
         <HomepageFeatures />
