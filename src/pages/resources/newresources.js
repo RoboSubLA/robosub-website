@@ -20,29 +20,45 @@ import {
   AccordionSummary,
   AccordionDetails,
 } from "@mui/material";
+
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import { AddBoxSharp } from "@mui/icons-material";
+
+const theme = createTheme({
+  typography: {
+    fontFamily: `"Consolas", "Courier New", "Roboto", sans-serif`,
+    fontSize: 14,
+    fontWeightLight: 300,
+    fontWeightRegular: 400,
+    fontWeightMedium: 500,
+  },
+});
 
 export default function ResourcesPage() {
   return (
-    
-      <Layout>
-        <div className={styles.newMyDIV}>
+    <Layout>
+      <div className={styles.newMyDIV}>
+        <ThemeProvider theme={theme}>
           <Container>
-            <br />
-            <Typography variant="h2" component="h1">
-              Resources for Members & Teams!
+            <Typography variant="h2" component="h1" padding={5}>
+              <b>Resources for Members & Teams!</b>
             </Typography>
-            <br />
+
             <Box
               padding={2}
-              sx={{ backgroundColor: "#6699CC", borderRadius: 3, boxShadow: 4 }}
+              sx={{
+                backgroundImage: "linear-gradient(#6699CC, #6633DD)",
+                borderRadius: 3,
+                boxShadow: 4,
+              }}
             >
               <Typography variant="h3" component="h2">
                 About Robosub
               </Typography>
               <br />
-              <Grid container spacing={2}>
-                <Grid item xs={6}>
+              <Box sx={{ flexDirection: "row" }}>
+                <Grid item xs={6} md={12}>
                   <Typography variant="h4"> The Robosub Competition</Typography>
                   <a href="https://robonation.org/app/uploads/sites/4/2023/04/2023-RoboSub_Team-Handbook_v1.0.pdf">
                     <img
@@ -67,8 +83,8 @@ export default function ResourcesPage() {
                     amongst many others.
                   </Typography>
                 </Grid>
-                <Grid item xs={6}>
-                  <Typography variant="h4">The RoboSubLA Team</Typography>
+                <Grid item xs={6} md={12}>
+                  <Typography variant="h4">RoboSubLA Team</Typography>
                   <br />
                   <Typography variant="body1">
                     Our team is split up into two project teams, the student
@@ -95,7 +111,7 @@ export default function ResourcesPage() {
                     ></img>
                   </a>
                 </Grid>
-              </Grid>
+              </Box>
 
               <br />
               <Accordion>
@@ -144,14 +160,13 @@ export default function ResourcesPage() {
               sx={{
                 display: "flex",
                 flexWrap: "wrap",
-                justifyContent: "space-evenly",
-                p: 2,
+                justifyContent: "center",
+                p: 1,
                 m: 1,
                 maxWidth: "100%",
-                borderRadius: 1,
               }}
             >
-              {card(GithubSVG, "Git & Github", github)}
+              {card(GithubSVG, "Git/Github", github)}
               {card(ArduinoSVG, "Arduino", arduino)}
               {card(LinuxSVG, "Linux", linuxfunc)}
             </Box>
@@ -165,25 +180,27 @@ export default function ResourcesPage() {
               </Typography>
             </Box>
           </Container>
-        </div>
-      </Layout>
-    
+        </ThemeProvider>
+      </div>
+    </Layout>
   );
 }
 
 function card(Component, text, toPage) {
   return (
     <Card
-      elevation={3}
       sx={{
-        maxWidth: "12rem",
-        transition: "transform 0.15s ease-in-out",
-        ":hover": { boxShadow: 20, transform: "scale(1.1)" },
+        m: 2,
+        transition: "transform 0.3s ease-in-out",
+        ":hover": {
+          boxShadow: 20,
+          transform: "scale(1.1)",
+        },
       }}
     >
       <CardActionArea onClick={() => toPage()}>
-        <CardContent padding={2}>
-          <Component className={styles.badgeLogo} />
+        <CardContent padding={2} sx={{ width: "12rem", height: "12rem" }}>
+          <Component width="8rem" height="8rem" />
           <Typography variant="h5">{text}</Typography>
         </CardContent>
       </CardActionArea>

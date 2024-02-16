@@ -88,18 +88,7 @@
 .newMyDIV {
   width: auto;
   text-align: center;
-  background-color: var(--ifm-color-primary-darkest) !important;
-}
-
-.badgeLogo {
-  width: 10rem;
-  height: 10rem;
-}
-
-.badgeCard {
-  &:hover {
-    transform: "scale3d(1.05, 1.05, 1)";
-  }
+  background-image: linear-gradient(var(--ifm-color-primary-darkest), black);
 }
 
 /* Teams Navbar Button CSS */
