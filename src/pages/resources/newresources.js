@@ -5,6 +5,8 @@ import GithubSVG from "../../../static/img/badges/github-mark.svg";
 import ArduinoSVG from "../../../static/img/badges/Arduino_Logo.svg";
 import LinuxSVG from "../../../static/img/badges/Tux.svg";
 
+import AnimatedBackground from "./background";
+
 import {
   Button,
   Paper,
@@ -40,10 +42,32 @@ export default function ResourcesPage() {
     <Layout>
       <div className={styles.newMyDIV}>
         <ThemeProvider theme={theme}>
-          <Container>
-            <Typography variant="h2" component="h1" padding={5}>
-              <b>Resources for Members & Teams!</b>
-            </Typography>
+          <Typography
+            variant="h2"
+            component="h1"
+            sx={{
+              p: 4,
+              backgroundImage:
+                "linear-gradient(#6699CC, rgba(255, 255, 255, 0))",
+            }}
+          >
+            <b>Resources for Members & Teams!</b>
+          </Typography>
+          <Container sx={{ textAlign: "center" }}>
+            <Box
+              sx={{
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "center",
+                p: 1,
+                m: 1,
+                maxWidth: "100%",
+              }}
+            >
+              {logoCard(GithubSVG, "Git/Github", github)}
+              {logoCard(ArduinoSVG, "Arduino", arduino)}
+              {logoCard(LinuxSVG, "Linux", linuxfunc)}
+            </Box>
 
             <Box
               padding={2}
@@ -83,9 +107,10 @@ export default function ResourcesPage() {
                     amongst many others.
                   </Typography>
                 </Grid>
+                <br />
                 <Grid item xs={6} md={12}>
                   <Typography variant="h4">RoboSubLA Team</Typography>
-                  <br />
+
                   <Typography variant="body1">
                     Our team is split up into two project teams, the student
                     organization and the senior design team. The senior design
@@ -155,7 +180,19 @@ export default function ResourcesPage() {
                 </AccordionDetails>
               </Accordion>
             </Box>
-
+            <br />
+            <Box
+              padding={2}
+              sx={{
+                backgroundImage: "linear-gradient(#6633DD, #6699CC)",
+                borderRadius: 3,
+                boxShadow: 4,
+              }}
+            >
+              <Typography variant="h3" component="h2">
+                Team Breakdown - Subteams
+              </Typography>
+            </Box>
             <Box
               sx={{
                 display: "flex",
@@ -166,18 +203,42 @@ export default function ResourcesPage() {
                 maxWidth: "100%",
               }}
             >
-              {card(GithubSVG, "Git/Github", github)}
-              {card(ArduinoSVG, "Arduino", arduino)}
-              {card(LinuxSVG, "Linux", linuxfunc)}
-            </Box>
-
-            <Box
-              padding={2}
-              sx={{ backgroundColor: "#6699CC", borderRadius: 3, boxShadow: 4 }}
-            >
-              <Typography variant="h3" component="h2">
-                Team Breakdown - Subteams:
-              </Typography>
+              {teamCard(
+                "Frame and Hull",
+                "The Frame and Hull subteam is responsible for making the design of the AUV itself. Frame and Hull will be constructing and assembling the frame and hull. This subteam also works with SolidWorks to determine placement of other submarine components and varying approach decisions.",
+                "frameHullTeam.jpeg",
+                framehull
+              )}
+              {teamCard(
+                "Electronics",
+                "The Electronics subteam is responsible primarily on the management of internal current conversion from the battery to all of the other electronic parts in the robotic submarine. The team creates schematics for the functionality of buck converters. Additionally, this subteam will use software including KiCAD and EagleCAD to design and optimize PCB boards.",
+                "electronicsTeam.jpeg",
+                electronics
+              )}
+              {teamCard(
+                "Actuated Systems",
+                "The Actuated Systems subteam is responsible for designing and manufacturing the claw, ball dropper, and torpedo systems. Students focus on kinematics, finite element analysis, and computational fluid dynamics & effectively apply that in the design and manufacturing of the aforementioned submarine components.",
+                "actsys.png",
+                actuatedsys
+              )}
+              {teamCard(
+                "Controls",
+                "The Controls Team is responsible for making the AUV respond to movement instructions. Because the AUV is autonomous, the controls won't be manually operated by any person, but there will usually still be a GUI that either the Controls or Autonomy subteam must make, in order to debug the code and test the controllers. Controls also creates frameworks that will assess the sensors, the thrusters and other software components.",
+                "controlsTeam.png",
+                controls
+              )}
+              {teamCard(
+                "Autonomy",
+                "The Autonomy team is responsible for writing the state machine of the AUV. The state machine determines what the AUV is doing at any time, and it's very important when deciding what to do next. For example, an AUV might have a state that tells it to follow a path. If the AUV has reached the end of a path, then something has to be called by the state machine to tell the AUV to transition to the next state, which might tell the AUV to stop or do another task.",
+                "autTeam.png",
+                autonomy
+              )}
+              {teamCard(
+                "Computer Vision",
+                "The Computer Vision subteam is responsible for providing the AUV ability to locate & recognize objects. The main objective is object detection. YOLO (You Only Look Once) is a deep learning algorithm that CV uses to train custom object detection models for providing computer vision. The CV team is also responsible for interfacing with the submarine's camera for real-time detection using a ROS node.",
+                "cvTeam.png",
+                compvis
+              )}
             </Box>
           </Container>
         </ThemeProvider>
@@ -186,7 +247,7 @@ export default function ResourcesPage() {
   );
 }
 
-function card(Component, text, toPage) {
+function logoCard(Component, text, toPage) {
   return (
     <Card
       sx={{
@@ -203,6 +264,35 @@ function card(Component, text, toPage) {
           <Component width="8rem" height="8rem" />
           <Typography variant="h5">{text}</Typography>
         </CardContent>
+      </CardActionArea>
+    </Card>
+  );
+}
+
+function teamCard(title, text, img, toPage) {
+  return (
+    <Card
+      sx={{
+        m: 2,
+        transition: "transform 0.3s ease-in-out",
+        ":hover": {
+          boxShadow: 20,
+          transform: "scale(1.1)",
+        },
+      }}
+    >
+      <CardActionArea onClick={() => toPage()}>
+        <CardContent padding={2} sx={{ width: "20rem" }}>
+          <Typography variant="h4">{title}</Typography>
+          <Typography variant="body2">{text}</Typography>
+        </CardContent>
+
+        <CardMedia
+          component="img"
+          image={require("@site/static/img/other/" + img).default}
+          alt="Electronics Photo"
+          sx={{ width: "20rem", height: "12rem", objectFit: "crop", bottom: 0 }}
+        />
       </CardActionArea>
     </Card>
   );
@@ -227,4 +317,28 @@ function github() {
 // Teams Navbar Function
 function teamsFunc() {
   document.getElementById("dropdown").classList.toggle(styles.show);
+}
+
+function framehull() {
+  location.assign("./teams/framehull");
+}
+
+function electronics() {
+  location.assign("./teams/electronics");
+}
+
+function actuatedsys() {
+  location.assign("./teams/actuatedsys");
+}
+
+function controls() {
+  location.assign("./teams/controls");
+}
+
+function autonomy() {
+  location.assign("./teams/autonomy");
+}
+
+function compvis() {
+  location.assign("./teams/compvis");
 }

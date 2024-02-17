@@ -5,7 +5,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export default function Electronics() {
   function get_started() {
-    location.assign("../resources");
+    location.assign("../newresources");
   }
 
   function linuxfunc() {

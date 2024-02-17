@@ -4,7 +4,7 @@ import styles from "./framehull.module.css";
 
 export default function FrameHull() {
   function get_started() {
-    location.assign("./../resources");
+    location.assign("./../newresources");
   }
   function linuxfunc() {
     location.assign("../other/linux");

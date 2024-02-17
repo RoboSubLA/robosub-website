@@ -4,7 +4,7 @@ import styles from "./compvis.module.css";
 
 export default function CompVis() {
   function get_started() {
-    location.assign("./../resources");
+    location.assign("./../newresources");
   }
   function linuxfunc() {
     location.assign("../other/linux");
