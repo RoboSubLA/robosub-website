@@ -14,7 +14,7 @@
       "email": "aye7@calstatela.edu",
       "phone": ""
     },
-     {
+    {
       "name": "Abigail Martinez",
       "crewImg": "robosubla_logo_basic.png",
       "title": "Electronics Co-Lead",
@@ -168,7 +168,7 @@
       "crewImg": "jordan.jpg",
       "email": "jdoose@calstatela.edu",
       "phone": ""
-    },  
+    },
     {
       "name": "Dexter Kale",
       "crewImg": "dexter.jpg",
@@ -209,7 +209,7 @@
     },
     {
       "name": "Edward Eckle",
-      "crewImg": "robosubla_logo_basic.png",
+      "crewImg": "edwardE.jpg",
       "title": "Mapping",
       "email": "eeckle@calstatela.edu"
     },
@@ -227,7 +227,7 @@
     },
     {
       "name": "Joshua Chavez",
-      "crewImg": "robosubla_logo_basic.png",
+      "crewImg": "joshuaC.jpg",
       "title": "Localization",
       "email": "jchave201@calstatela.edu"
     },

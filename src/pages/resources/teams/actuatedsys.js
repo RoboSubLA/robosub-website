@@ -4,7 +4,7 @@ import styles from "./actuatedsys.module.css";
 
 export default function ActuatedSys() {
   function get_started() {
-    location.assign("./../resources");
+    location.assign("./../newresources");
   }
   function linuxfunc() {
     location.assign("../other/linux");

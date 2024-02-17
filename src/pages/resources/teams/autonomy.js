@@ -4,7 +4,7 @@ import styles from "./autonomy.module.css";
 
 export default function Autonomy() {
   function get_started() {
-    location.assign("./../resources");
+    location.assign("./../newresources");
   }
   function linuxfunc() {
     location.assign("../other/linux");
